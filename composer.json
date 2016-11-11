@@ -24,18 +24,18 @@
         "drupal/paragraphs": "^8.1",
         "drupal/simplesamlphp_auth": "^8.3",
         "drupal/superfish": "8.1.0-rc4",
-        "umn/umn_default_time": "*"
+        "umn/features": "*"
     },
     "repositories": {
         "default-time":{
             "type": "package",
             "package": {
-                "name": "umn/umn_default_time",
+                "name": "umn/features",
                 "type": "drupal-module-custom",
                 "version": "dev-master",
                 "source":{
                     "type": "git",
-                    "url": "git@github.umn.edu:starr027/composer-test.git",
+                    "url": "git@github.umn.edu:drupalmodules/D8features.git",
                     "reference": "master"
                 }
             }
