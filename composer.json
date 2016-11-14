@@ -24,13 +24,13 @@
         "drupal/paragraphs": "^8.1",
         "drupal/simplesamlphp_auth": "^8.3",
         "drupal/superfish": "8.1.0-rc4",
-        "umn/features": "*"
+        "umn/umn_features": "*"
     },
     "repositories": {
         "default-time":{
             "type": "package",
             "package": {
-                "name": "umn/features",
+                "name": "umn/umn_features",
                 "type": "drupal-module-custom",
                 "version": "dev-master",
                 "source":{
