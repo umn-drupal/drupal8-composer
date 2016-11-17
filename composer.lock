@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c8de1ff3592b3d4f3d6c1bdf739d324",
-    "content-hash": "08982d7e543647482ea63a3d17dbab66",
+    "hash": "83c888a9e8b35d8894b9b4f1a0938375",
+    "content-hash": "088d7d73708b77ad49380ee0c388aa18",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5007,14 +5007,21 @@
         },
         {
             "name": "umn/umn_features",
-            "version": "dev-master",
+            "version": "8.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/D8features.git",
-                "reference": "master"
+                "reference": "21163f467d41db88f7a0adc3d793aecbb9f82a62"
             },
             "type": "drupal-module-custom",
-            "time": "2016-11-10 21:28:12"
+            "authors": [
+                {
+                    "name": "John Starr",
+                    "email": "starr027@umn.edu"
+                }
+            ],
+            "description": "Features to set default values for UMN Sites",
+            "time": "2016-11-16 22:29:00"
         },
         {
             "name": "whitehat101/apr1-md5",

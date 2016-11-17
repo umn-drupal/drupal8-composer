@@ -24,21 +24,12 @@
         "drupal/paragraphs": "^8.1",
         "drupal/simplesamlphp_auth": "^8.3",
         "drupal/superfish": "8.1.0-rc4",
-        "umn/umn_features": "*"
+        "umn/umn_features": "8.1.2"
     },
     "repositories": {
         "default-time":{
-            "type": "package",
-            "package": {
-                "name": "umn/umn_features",
-                "type": "drupal-module-custom",
-                "version": "dev-master",
-                "source":{
                     "type": "git",
-                    "url": "git@github.umn.edu:drupalmodules/D8features.git",
-                    "reference": "master"
-                }
-            }
+                    "url": "git@github.umn.edu:drupalmodules/D8features.git"
         },
         "drupal": {
             "type": "composer",
