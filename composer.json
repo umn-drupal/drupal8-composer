@@ -25,7 +25,8 @@
         "drupal/simplesamlphp_auth": "^8.3",
         "drupal/superfish": "8.1.0-rc4",
         "umn/umn_features": "8.1.2",
-        "umn/d8-configurations": "master"
+        "umn/d8-configurations": "master",
+        "drupal/google_analytics": "8.x"
     },
     "repositories": {
         "default-time":{
