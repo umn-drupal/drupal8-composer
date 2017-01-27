@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/radix_layouts": {
+      "Fix layouts yaml syntax": "https://www.drupal.org/files/issues/updating_config_causes_issues-2831835-2.patch"
+    }
+  }
+}
