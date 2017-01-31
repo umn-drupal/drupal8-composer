@@ -32,7 +32,10 @@
     "drupal/devel": "8.x",
     "drupal/cog": "^8.1",
     "drupal/radix_layouts": "^8.3",
-    "drupal/back_to_top": "8.*"
+    "drupal/back_to_top": "8.*",
+    "drupal/restui": "8.*",
+    "drupal/admin_toolbar": "8.*",
+    "drupal/views_taxonomy_term_name_depth": "8.2"
   },
   "repositories": {
     "umn-features":{
