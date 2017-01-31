@@ -34,8 +34,7 @@
     "drupal/radix_layouts": "^8.3",
     "drupal/back_to_top": "8.*",
     "drupal/restui": "8.*",
-    "drupal/admin_toolbar": "8.*",
-    "drupal/views_taxonomy_term_name_depth": "8.2"
+    "drupal/admin_toolbar": "8.*"
   },
   "repositories": {
     "umn-features":{
