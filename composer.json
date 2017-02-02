@@ -34,7 +34,8 @@
     "drupal/radix_layouts": "^8.3",
     "drupal/back_to_top": "8.*",
     "drupal/restui": "8.*",
-    "drupal/admin_toolbar": "8.*"
+    "drupal/admin_toolbar": "8.*",
+    "acquia/acquia-sdk-php": "^0.10.8"
   },
   "repositories": {
     "umn-features":{
