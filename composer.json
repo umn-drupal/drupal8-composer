@@ -6,26 +6,22 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "behat/behat": "^3.1",
-    "drupal/drupal-extension": "^3.1",
-    "behat/mink": "~1.6",
+    "drupal/drupal-extension": "^3.2",
+    "behat/mink": "~1.7",
     "behat/mink-goutte-driver": "~1.2",
     "jcalderonzumba/gastonjs": "~1.0.2",
-    "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+    "drupal/coder": "8.*",
     "mikey179/vfsStream": "~1.2",
     "phpunit/phpunit": "~4.8",
-    "symfony/css-selector": "2.7.*"
+    "symfony/css-selector": "~2.8",
+    "behat/behat": "^3.0",
+    "se/selenium-server-standalone": "^2.53"
   },
   "require": {
     "composer/installers": "^1.0",
-    "drupal-composer/drupal-scaffold": "^1.2",
-    "cweagans/composer-patches": "1.5.0",
-    "umn/umn_features": "8.1.2",
-    "umn/d8_configurations": "master",
-    "umn/cog_umn": "master",
-    "umn/umn_search": "master",
-    "acquia/acquia-sdk-php": "^0.10.8",
-    "drupal/lightning": "^2.3",
+    "drupal-composer/drupal-scaffold": "^2.0.0",
+    "cweagans/composer-patches": "^1.6.0",
+    "acquia/lightning": "~2.0.0",
     "drupal/paragraphs": "^1.0",
     "drupal/simplesamlphp_auth": "^3.0@alpha",
     "drupal/rules": "^3.0@alpha",
@@ -34,20 +30,29 @@
     "drupal/radix_layouts": "^3.0",
     "drupal/back_to_top": "^1.0@beta",
     "drupal/restui": "^1.13",
-    "drupal/admin_toolbar": "^1.18"
+    "drupal/admin_toolbar": "^1.18",
+    "drupal/fontyourface": "^3.0",
+    "drupal/address": "^1.0@RC",
+    "drupal/linkit": "^4.2",
+    "drupal/robotstxt": "^1.0",
+    "drupal/simple_gmap": "^1.2",
+    "umn/umn_features": "8.1.2",
+    "umn/d8_configurations": "^8.1",
+    "umn/cog_umn": "dev-master",
+    "umn/umn_search": "dev-master"
   },
   "repositories": {
-    "umn-features":{
+    "drupal-packagist": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "umn-features": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/d8-features.git"
     },
-    "umn-configs":{
+    "umn-configs": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/d8-configurations.git"
-    },
-    "drupal": {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
     },
     "cog-umn": {
       "type": "git",
@@ -79,7 +84,7 @@
   "extra": {
     "installer-paths": {
       "docroot/core": [
-        "drupal/core"
+        "type:drupal-core"
       ],
       "docroot/modules/contrib/{$name}": [
         "type:drupal-module"
