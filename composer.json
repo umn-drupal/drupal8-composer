@@ -41,7 +41,8 @@
     "umn/d8_configurations": "dev-master",
     "umn/cog_umn": "dev-master",
     "umn/umn_search": "dev-master",
-    "symfony/intl": "^3.2"
+    "symfony/intl": "^3.2",
+    "drupal/ckeditor_a11ychecker": "^1.0"
   },
   "repositories": {
     "drupal-packagist": {
