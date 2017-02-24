@@ -1,5 +1,5 @@
 {
-  "name": "acquia/lightning-project",
+  "name": "umn/d8-composer",
   "description": "Project template for Drupal 8 sites built with the Lightning distribution.",
   "type": "project",
   "license": "GPL-2.0+",
