@@ -65,7 +65,7 @@
     },
     "bootstrap-umn": {
       "type": "git",
-      "url": "git@github.umn.edu:drupalthemes/bootstrap-umm.gits"
+      "url": "git@github.umn.edu:drupalthemes/bootstrap-umm.git"
     },
     "umn-search": {
       "type": "git",
