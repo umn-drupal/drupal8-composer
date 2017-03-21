@@ -45,7 +45,8 @@
     "symfony/intl": "^3.2",
     "drupal/ckeditor_a11ychecker": "^1.0",
     "drupal/mathjax": "^2.6",
-    "drupal/redirect": "^1.0@alpha"
+    "drupal/redirect": "^1.0@alpha",
+    "drupal/imagick": "^1.0"
   },
   "repositories": {
     "drupal-packagist": {
