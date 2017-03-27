@@ -19,6 +19,7 @@
   },
   "require": {
     "composer/installers": "^1.0",
+    "drupal/console": "^1.0",
     "drupal-composer/drupal-scaffold": "^2.0.0",
     "cweagans/composer-patches": "^1.6.0",
     "acquia/acquia-sdk-php": "^0.10.8",
@@ -46,7 +47,8 @@
     "symfony/intl": "^3.2",
     "drupal/ckeditor_a11ychecker": "^1.0",
     "drupal/mathjax": "^2.6",
-    "drupal/redirect": "^1.0@alpha"
+    "drupal/redirect": "^1.0@alpha",
+    "drupal/imagick": "^1.0"
   },
   "repositories": {
     "drupal-packagist": {
@@ -60,6 +62,10 @@
     "umn-configs": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/d8-configurations.git"
+    },
+    "lightning_umn": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git"
     },
     "cog-umn": {
       "type": "git",
@@ -105,6 +111,9 @@
       ],
       "docroot/profiles/contrib/{$name}": [
         "type:drupal-profile"
+      ],
+      "docroot/profiles/custom/{$name}": [
+        "type:drupal-profile-custom"
       ],
       "docroot/themes/contrib/{$name}": [
         "type:drupal-theme"
