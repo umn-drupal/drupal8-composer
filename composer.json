@@ -42,6 +42,7 @@
     "umn/cog_umn": "dev-master",
     "umn/bootstrap_umn": "dev-master",
     "umn/umn_search": "dev-master",
+    "umn/lightning_umn": "master",
     "symfony/intl": "^3.2",
     "drupal/ckeditor_a11ychecker": "^1.0",
     "drupal/mathjax": "^2.6",
