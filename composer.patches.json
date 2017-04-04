@@ -1,3 +1,7 @@
 {
-  "patches": { }
+    "patches": {
+        "drupal/workbench_moderation": {
+            "rearrange moderation state field": "https://www.drupal.org/files/issues/workbench_moderation-ability-to-rearrange-field-in-form-2833892-4.patch"
+        }
+    }
 }
