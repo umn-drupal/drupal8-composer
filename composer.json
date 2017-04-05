@@ -47,7 +47,8 @@
     "symfony/intl": "^3.2",
     "drupal/mathjax": "^2.6",
     "drupal/redirect": "^1.0@alpha",
-    "drupal/imagick": "^1.0"
+    "drupal/imagick": "^1.0",
+    "drupal/nice_menus": "^1.0@beta"
   },
   "repositories": {
     "drupal-packagist": {
