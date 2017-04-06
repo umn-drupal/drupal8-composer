@@ -48,7 +48,8 @@
     "drupal/mathjax": "^2.6",
     "drupal/redirect": "^1.0@alpha",
     "drupal/imagick": "^1.0",
-    "drupal/nice_menus": "^1.0@beta"
+    "drupal/nice_menus": "^1.0@beta",
+    "drupal/fast_404": "^1.0@alpha"
   },
   "repositories": {
     "drupal-packagist": {
