@@ -2,6 +2,9 @@
     "patches": {
         "drupal/workbench_moderation": {
             "rearrange moderation state field": "https://www.drupal.org/files/issues/workbench_moderation-ability-to-rearrange-field-in-form-2833892-4.patch"
+        },
+        "drupal/nice_menus": {
+            "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
         }
     }
 }
