@@ -49,7 +49,15 @@
     "drupal/redirect": "^1.0@alpha",
     "drupal/imagick": "^1.0",
     "drupal/nice_menus": "^1.0@beta",
-    "drupal/fast_404": "^1.0@alpha"
+    "drupal/fast_404": "^1.0@alpha",
+    "drupal/slick": "^1.0@RC",
+    "drupal/slick_media": "^1.0@RC",
+    "drupal/slick_views": "^1.0@RC",
+    "drupal/slick_paragraphs": "^1.0@RC",
+    "kenwheeler/slick": "^1.6",
+    "drupal/slick_video": "^1.0@RC",
+    "drupal/slick_extras": "^1.0@beta",
+    "dinbror/blazy": "1.8.2"
   },
   "repositories": {
     "drupal-packagist": {
@@ -79,6 +87,19 @@
     "umn-search": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/umn-search.git"
+    },
+    "blazy": {
+      "type": "package",
+      "package": {
+        "name": "dinbror/blazy",
+        "type": "drupal-library",
+        "version": "1.8.2",
+        "source": {
+          "url": "https://github.com/dinbror/blazy.git",
+          "type": "git",
+          "reference": "1.8.2"
+        }
+      }
     }
   },
   "scripts": {
@@ -103,6 +124,9 @@
     "installer-paths": {
       "docroot/core": [
         "type:drupal-core"
+      ],
+      "docroot/libraries/{$name}": [
+        "type:drupal-library"
       ],
       "docroot/modules/contrib/{$name}": [
         "type:drupal-module"
