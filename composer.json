@@ -57,7 +57,8 @@
     "kenwheeler/slick": "^1.6",
     "drupal/slick_video": "^1.0@RC",
     "drupal/slick_extras": "^1.0@beta",
-    "dinbror/blazy": "1.8.2"
+    "dinbror/blazy": "1.8.2",
+    "kporras07/composer-symlinks": "^0.1.0@dev"
   },
   "repositories": {
     "drupal-packagist": {
@@ -105,11 +106,13 @@
   "scripts": {
     "post-install-cmd": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-      "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+      "Acquia\\Lightning\\ScriptHandler::deployLibraries",
+      "Kporras07\\ComposerSymlinks\\ScriptHandler::createSymlinks"
     ],
     "post-update-cmd": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-      "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+      "Acquia\\Lightning\\ScriptHandler::deployLibraries",
+      "Kporras07\\ComposerSymlinks\\ScriptHandler::createSymlinks"
     ]
   },
   "config": {
@@ -151,6 +154,9 @@
       ]
     },
     "patches-file": "composer.patches.json",
-    "enable-patching": true
+    "enable-patching": true,
+    "symlinks": {
+      "vendor/kenwheeler/slick/slick": "docroot/libraries/slick"
+    }
   }
 }
