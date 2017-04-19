@@ -58,6 +58,7 @@
     "drupal/slick_video": "^1.0@RC",
     "drupal/slick_extras": "^1.0@beta",
     "dinbror/blazy": "1.8.2",
+    "gdsmith/easing": "1.4.1",
     "kporras07/composer-symlinks": "^0.1.0@dev"
   },
   "repositories": {
@@ -99,6 +100,19 @@
           "url": "https://github.com/dinbror/blazy.git",
           "type": "git",
           "reference": "1.8.2"
+        }
+      }
+    },
+    "jquery.easing": {
+      "type": "package",
+      "package": {
+        "name": "gdsmith/easing",
+        "type": "drupal-library",
+        "version": "1.4.1",
+        "source": {
+          "url": "https://github.com/gdsmith/jquery.easing.git",
+          "type": "git",
+          "reference": "1.4.1"
         }
       }
     }
