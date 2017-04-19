@@ -156,7 +156,7 @@
     "patches-file": "composer.patches.json",
     "enable-patching": true,
     "symlinks": {
-      "vendor/kenwheeler/slick/slick": "docroot/libraries/slick"
+      "vendor/kenwheeler/slick": "docroot/libraries/slick"
     }
   }
 }
