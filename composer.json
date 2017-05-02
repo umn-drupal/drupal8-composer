@@ -60,7 +60,9 @@
     "dinbror/blazy": "1.8.2",
     "gdsmith/easing": "1.4.1",
     "kporras07/composer-symlinks": "^0.1.0@dev",
-    "drupal/field_group": "^1.0@RC"
+    "drupal/field_group": "^1.0@RC",
+    "drupal/block_class": "^1.0@alpha",
+    "drupal/webform": "^5.0@beta"
   },
   "repositories": {
     "drupal-packagist": {
