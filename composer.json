@@ -70,7 +70,8 @@
     "drupal/lightning_media_soundcloud": "^1.0",
     "drupal/lightning_media_tumblr": "^1.0",
     "drupal/lightning_media_spotify": "^1.0",
-    "drupal/lightning_media_pinterest": "^1.0"
+    "drupal/lightning_media_pinterest": "^1.0",
+    "drupal/workbench_access": "^1.0@alpha"
   },
   "repositories": {
     "drupal-packagist": {
