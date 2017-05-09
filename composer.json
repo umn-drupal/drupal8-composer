@@ -62,7 +62,15 @@
     "kporras07/composer-symlinks": "^0.1.0@dev",
     "drupal/field_group": "^1.0@RC",
     "drupal/block_class": "^1.0@alpha",
-    "drupal/webform": "^5.0@beta"
+    "drupal/webform": "^5.0@beta",
+    "drupal/lightning_media_facebook": "^1.0",
+    "drupal/lightning_media_imgur": "^1.0",
+    "drupal/lightning_media_flickr": "^1.0",
+    "drupal/lightning_media_d500px": "^1.0",
+    "drupal/lightning_media_soundcloud": "^1.0",
+    "drupal/lightning_media_tumblr": "^1.0",
+    "drupal/lightning_media_spotify": "^1.0",
+    "drupal/lightning_media_pinterest": "^1.0"
   },
   "repositories": {
     "drupal-packagist": {
