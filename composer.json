@@ -73,7 +73,8 @@
     "drupal/lightning_media_pinterest": "^1.0",
     "drupal/workbench_access": "^1.0@alpha",
     "drupal/honeypot": "^1.24",
-    "drupal/diff": "^1.0@RC"
+    "drupal/diff": "^1.0@RC",
+    "drupal/iframe": "^1.7"
   },
   "repositories": {
     "drupal-packagist": {
