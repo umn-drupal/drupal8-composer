@@ -76,7 +76,8 @@
     "drupal/honeypot": "^1.24",
     "drupal/diff": "^1.0@RC",
     "drupal/migrate_plus": "^4.0",
-    "drupal/migrate_tools": "^4.0"
+    "drupal/migrate_tools": "^4.0",
+    "drupal/iframe": "^1.7"
   },
   "repositories": {
     "drupal-packagist": {
