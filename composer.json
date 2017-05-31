@@ -44,6 +44,7 @@
     "umn/cog_umn": "dev-master",
     "umn/bootstrap_umn": "dev-master",
     "umn/umn_search": "dev-master",
+    "umn/crmform": "dev-d8",
     "symfony/intl": "^3.2",
     "drupal/mathjax": "^2.6",
     "drupal/redirect": "^1.0@alpha",
@@ -105,6 +106,10 @@
     "umn-search": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/umn-search.git"
+    },
+    "crmform": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalmodules/crmform"
     },
     "blazy": {
       "type": "package",
