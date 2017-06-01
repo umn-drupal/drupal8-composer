@@ -189,6 +189,10 @@
         "type:drupal-drush"
       ]
     },
+    "drupal-scaffold": {
+      "source": "http://cgit.drupalcode.org/drupal/plain/{path}?h={version}",
+      "excludes": [ ".htaccess", "robots.txt" ]
+    },
     "patches-file": "composer.patches.json",
     "enable-patching": true,
     "symlinks": {
