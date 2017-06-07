@@ -22,7 +22,6 @@
   },
   "require": {
     "composer/installers": "^1.0",
-    "drupal/core": "8.3.2",
     "drupal-composer/drupal-scaffold": "^2.0.0",
     "cweagans/composer-patches": "^1.6.0",
     "acquia/acquia-sdk-php": "^0.10.8",
