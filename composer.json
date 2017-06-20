@@ -193,7 +193,7 @@
     },
     "drupal-scaffold": {
       "source": "http://cgit.drupalcode.org/drupal/plain/{path}?h={version}",
-      "excludes": [ ".htaccess", "robots.txt" ]
+      "excludes": [ "robots.txt" ]
     },
     "patches-file": "composer.patches.json",
     "enable-patching": true,
