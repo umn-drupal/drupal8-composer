@@ -6,9 +6,6 @@
         "drupal/nice_menus": {
             "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
         },
-        "drupal/radix_layouts": {
-            "layout discovery": "https://www.drupal.org/files/issues/2875034-radix-layouts-drupal-8-3-1-panels-4-compatibility-3.0.patch"
-        },
 		"drupal/metatag": {
 			"metatag manager recoverable fatal error": "https://www.drupal.org/files/issues/metatag-n2882954-28.patch"
 		}
