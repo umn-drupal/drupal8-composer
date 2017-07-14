@@ -9489,7 +9489,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/cog-umn.git",
-                "reference": "30debb39119645759bce77ef92f9b7b907b59d2b"
+                "reference": "3c346c163f8d7e5d0100b4c920f79a71e95448c9"
             },
             "require": {
                 "drupal/cog": "^1.3"
@@ -9502,7 +9502,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2017-06-21 18:35:11"
+            "time": "2017-07-14 18:13:49"
         },
         {
             "name": "umn/crmform",
