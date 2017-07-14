@@ -2806,7 +2806,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entityqueue-8.x-1.0-alpha6.zip",
-                "reference": null,
+                "reference": "8.x-1.0-alpha6",
                 "shasum": "2f7c639020a4c688b419ca90e35ffe0d08b34639"
             },
             "require": {
@@ -9510,7 +9510,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/crmform",
-                "reference": "cae60ad6575a1b710580048e79a2478d27596204"
+                "reference": "554abee100d3e368f3a0c5121d6c4b0f36d59db2"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -9520,7 +9520,7 @@
                 }
             ],
             "description": "Drupal 8 module for rendering/posting CRM forms in Drupal sites",
-            "time": "2017-06-16 15:48:01"
+            "time": "2017-07-13 21:28:19"
         },
         {
             "name": "umn/d8_configurations",
