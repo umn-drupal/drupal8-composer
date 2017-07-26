@@ -75,16 +75,16 @@
         },
         {
             "name": "acquia/lightning",
-            "version": "2.1.5",
+            "version": "2.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/lightning.git",
-                "reference": "7ef99d22ee8d34272227ebb23caecd516bd59d10"
+                "reference": "bf0bf27fdc38577fc6c6e78f052c229d211916be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/lightning/zipball/7ef99d22ee8d34272227ebb23caecd516bd59d10",
-                "reference": "7ef99d22ee8d34272227ebb23caecd516bd59d10",
+                "url": "https://api.github.com/repos/acquia/lightning/zipball/bf0bf27fdc38577fc6c6e78f052c229d211916be",
+                "reference": "bf0bf27fdc38577fc6c6e78f052c229d211916be",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "GPL-2.0+"
             ],
             "description": "The best of Drupal, curated by Acquia",
-            "time": "2017-06-21T19:37:53+00:00"
+            "time": "2017-07-05T19:11:52+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -1903,16 +1903,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.3.4",
+            "version": "8.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "f34eee7255142ab5416107972ef13d011f11e163"
+                "reference": "7adfc8c43615258e242868a393e82971a67be51a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/f34eee7255142ab5416107972ef13d011f11e163",
-                "reference": "f34eee7255142ab5416107972ef13d011f11e163",
+                "url": "https://api.github.com/repos/drupal/core/zipball/7adfc8c43615258e242868a393e82971a67be51a",
+                "reference": "7adfc8c43615258e242868a393e82971a67be51a",
                 "shasum": ""
             },
             "require": {
@@ -2094,7 +2094,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-06-21T18:13:27+00:00"
+            "time": "2017-07-05T17:03:07+00:00"
         },
         {
             "name": "drupal/ctools",
