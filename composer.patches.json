@@ -8,6 +8,9 @@
         },
 		"drupal/metatag": {
 			"metatag manager recoverable fatal error": "https://www.drupal.org/files/issues/metatag-n2882954-28.patch"
-		}
+		},
+        "drupal/entity_embed": {
+            "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch"
+        }
     }
 }
