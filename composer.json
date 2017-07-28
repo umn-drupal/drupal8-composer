@@ -37,7 +37,7 @@
     "drupal/admin_toolbar": "^1.18",
     "drupal/fontyourface": "^3.0",
     "drupal/address": "^1.0@RC",
-    "drupal/linkit": "^4.2",
+    "drupal/linkit": "^5.0",
     "drupal/robotstxt": "^1.0",
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
@@ -85,7 +85,8 @@
     "drupal/config_inspector": "^1.0@beta",
     "drupal/select_or_other": "^1.0@alpha",
     "drupal/auto_entitylabel": "^2.0@beta",
-    "drupal/entityqueue": "^1.0@alpha"
+    "drupal/entityqueue": "^1.0@alpha",
+    "drupal/editor_advanced_link": "^1.4"
   },
   "repositories": {
     "drupal-packagist": {
