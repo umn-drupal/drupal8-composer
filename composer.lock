@@ -2420,7 +2420,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/editor_advanced_link-8.x-1.4.zip",
-                "reference": null,
+                "reference": "8.x-1.4",
                 "shasum": "52cf139a313d5fa6a461a25a1ba36ae987bc403d"
             },
             "require": {
@@ -2746,6 +2746,7 @@
                     "datestamp": "1476698339"
                 },
                 "patches_applied": {
+                    "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch",
                     "2832504 - Send the CKEditor instance ID to the embed.preview route": "https://www.drupal.org/files/issues/2832504-2.patch"
                 }
             },
@@ -9594,7 +9595,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/dors_migrate.git",
-                "reference": "d5d20ed02e12c1a21596aa2aaba5b6bc89f126a6"
+                "reference": "fe1f2140a3d41ad2334b6dafeea6ff710c899177"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -9604,7 +9605,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2017-06-13 16:01:16"
+            "time": "2017-07-28 14:03:22"
         },
         {
             "name": "umn/lightning_umn",
