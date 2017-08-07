@@ -1276,7 +1276,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/acquia_purge-8.x-1.0-beta2.zip",
-                "reference": null,
+                "reference": "8.x-1.0-beta2",
                 "shasum": "686e297009269ec5eb67ec9cd10072d008175df0"
             },
             "require": {
@@ -9844,7 +9844,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "3fd5a75f386e0ecdc828ed4b27bca39198403d5d"
+                "reference": "841b39a7edeae72a48c38c840df214cbca4f78d1"
             },
             "type": "configurations",
             "authors": [
@@ -9854,7 +9854,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-06-13 19:15:58"
+            "time": "2017-08-07 18:50:12"
         },
         {
             "name": "umn/dors_migrate",
