@@ -9915,7 +9915,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/umn-search.git",
-                "reference": "6c129c4dc1696c3012c81b8a2b32f2d6e041ee57"
+                "reference": "a61c80c0e60a4c638d2dacf5768abf3d9777742c"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -9925,7 +9925,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2017-08-07 18:59:50"
+            "time": "2017-08-08 14:59:41"
         },
         {
             "name": "whitehat101/apr1-md5",
