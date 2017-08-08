@@ -9826,7 +9826,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/crmform",
-                "reference": "554abee100d3e368f3a0c5121d6c4b0f36d59db2"
+                "reference": "bbade3619ca73eab253257a251b6dc08879aa3f9"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -9836,7 +9836,7 @@
                 }
             ],
             "description": "Drupal 8 module for rendering/posting CRM forms in Drupal sites",
-            "time": "2017-07-13 21:28:19"
+            "time": "2017-08-08 19:17:20"
         },
         {
             "name": "umn/d8_configurations",
