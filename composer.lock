@@ -7303,7 +7303,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1503022147",
+                    "datestamp": "1503109444",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10778,7 +10778,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/cog-umn.git",
-                "reference": "146c90e51a82f840ecb058374a0b97019462454d"
+                "reference": "c7c0db87c71dd4459fa7ecef3a671ec9f7e401cf"
             },
             "require": {
                 "drupal/cog": "^1.3"
@@ -10791,7 +10791,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2017-07-14 18:37:24"
+            "time": "2017-08-18 18:46:41"
         },
         {
             "name": "umn/crmform",
@@ -10817,7 +10817,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "554e2fa4ee2d3d099ccb7b672eebc00579a74246"
+                "reference": "7ec841d8e89b2791b1c4b124d8277b4669fc73b2"
             },
             "type": "configurations",
             "authors": [
@@ -10827,7 +10827,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-08-08 16:40:09"
+            "time": "2017-08-24 20:10:53"
         },
         {
             "name": "umn/dors_migrate",
