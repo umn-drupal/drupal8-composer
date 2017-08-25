@@ -87,7 +87,8 @@
     "drupal/auto_entitylabel": "^2.0@beta",
     "drupal/entityqueue": "^1.0@alpha",
     "drupal/editor_advanced_link": "^1.4",
-    "drupal/acquia_purge": "^1.0@beta"
+    "drupal/acquia_purge": "^1.0@beta",
+    "drupal/menu_block": "^1.4"
   },
   "repositories": {
     "drupal-packagist": {

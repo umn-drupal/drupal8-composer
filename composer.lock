@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef4bb8a21d7be65dd04f23ba5a5a718f",
+    "content-hash": "0ef38c9b67f104fd0f064e046ee7845d",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -4979,7 +4979,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/media_entity_tumblr"
             },
-            "time": "2016-09-16 15:28:45"
+            "time": "2016-09-16T15:28:45+00:00"
         },
         {
             "name": "drupal/media_entity_twitter",
@@ -5036,6 +5036,72 @@
             "homepage": "https://www.drupal.org/project/media_entity_twitter",
             "support": {
                 "source": "http://cgit.drupalcode.org/media_entity_twitter"
+            }
+        },
+        {
+            "name": "drupal/menu_block",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/menu_block",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_block-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "fd8d559452a9e1e07de6fefd9955df6feadc943a"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1473063239",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "patches_applied": {
+                    "menu block limit to active parent": "https://www.drupal.org/files/issues/custom_active_trail_hide_children_2-2811337.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "kim.pepper",
+                    "homepage": "https://www.drupal.org/user/370574"
+                },
+                {
+                    "name": "rrrob",
+                    "homepage": "https://www.drupal.org/user/273533"
+                }
+            ],
+            "description": "Provides configurable blocks of menu links.",
+            "homepage": "https://www.drupal.org/project/menu_block",
+            "support": {
+                "source": "http://cgit.drupalcode.org/menu_block"
             }
         },
         {
@@ -8456,7 +8522,7 @@
                 "script",
                 "symlink"
             ],
-            "time": "2017-07-12 16:55:24"
+            "time": "2017-07-12T16:55:24+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -10770,7 +10836,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2017-06-14 15:35:40"
+            "time": "2017-06-14T15:35:40+00:00"
         },
         {
             "name": "umn/cog_umn",
@@ -10791,7 +10857,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2017-08-18 18:46:41"
+            "time": "2017-08-18T18:46:41+00:00"
         },
         {
             "name": "umn/crmform",
@@ -10809,7 +10875,7 @@
                 }
             ],
             "description": "Drupal 8 module for rendering/posting CRM forms in Drupal sites",
-            "time": "2017-08-08 19:17:20"
+            "time": "2017-08-08T19:17:20+00:00"
         },
         {
             "name": "umn/d8_configurations",
@@ -10827,7 +10893,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-08-24 20:10:53"
+            "time": "2017-08-24T20:10:53+00:00"
         },
         {
             "name": "umn/dors_migrate",
@@ -10845,7 +10911,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2017-07-28 14:03:22"
+            "time": "2017-07-28T14:03:22+00:00"
         },
         {
             "name": "umn/lightning_umn",
@@ -10862,7 +10928,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2017-06-13 21:04:33"
+            "time": "2017-06-13T21:04:33+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -10898,7 +10964,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2017-08-08 14:59:41"
+            "time": "2017-08-08T14:59:41+00:00"
         },
         {
             "name": "whitehat101/apr1-md5",

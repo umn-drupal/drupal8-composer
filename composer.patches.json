@@ -11,6 +11,9 @@
 		},
         "drupal/entity_embed": {
             "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch"
+        },
+        "drupal/menu_block": {
+            "menu block limit to active parent": "https://www.drupal.org/files/issues/custom_active_trail_hide_children_2-2811337.patch"
         }
     }
 }
