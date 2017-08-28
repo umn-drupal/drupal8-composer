@@ -10817,7 +10817,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "7ec841d8e89b2791b1c4b124d8277b4669fc73b2"
+                "reference": "972a581a03b681343f65ad639810b782622228ec"
             },
             "type": "configurations",
             "authors": [
@@ -10827,7 +10827,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-08-24 20:10:53"
+            "time": "2017-08-25T19:19:46+00:00"
         },
         {
             "name": "umn/dors_migrate",
@@ -12769,6 +12769,9 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "8.0.x-dev"
+                },
+                "patches_applied": {
+                    "2697 - Don't add profile dependencies to required_by array of modules": "https://www.drupal.org/files/issues/2902643-2--drush-8.x.patch"
                 }
             },
             "autoload": {
