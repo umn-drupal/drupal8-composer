@@ -3113,7 +3113,9 @@
             "homepage": "https://www.drupal.org/project/entityqueue",
             "support": {
                 "source": "http://cgit.drupalcode.org/entityqueue"
-            }
+
+            },
+            "time": "2017-08-18 23:35:37"
         },
         {
             "name": "drupal/externalauth",
@@ -10817,7 +10819,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "972a581a03b681343f65ad639810b782622228ec"
+                "reference": "f0821b92fa658d4fe55f3b55a12236167bec96fd"
             },
             "type": "configurations",
             "authors": [
