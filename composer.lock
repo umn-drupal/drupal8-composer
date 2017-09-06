@@ -3108,7 +3108,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/entityqueue"
             },
-            "time": "2017-08-18T23:35:37+00:00"
+            "time": "2017-08-18 23:35:37"
         },
         {
             "name": "drupal/externalauth",
@@ -10878,7 +10878,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "059407073321e19b800f9cd94583e2293bc06c06"
+                "reference": "f0821b92fa658d4fe55f3b55a12236167bec96fd"
             },
             "type": "configurations",
             "authors": [
@@ -10888,7 +10888,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-09-05 13:51:28"
+            "time": "2017-09-06 13:18:57"
         },
         {
             "name": "umn/dors_migrate",
