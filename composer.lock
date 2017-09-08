@@ -1368,7 +1368,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1501070042",
+                    "datestamp": "1504537744",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -3113,9 +3113,7 @@
             "homepage": "https://www.drupal.org/project/entityqueue",
             "support": {
                 "source": "http://cgit.drupalcode.org/entityqueue"
-
-            },
-            "time": "2017-08-18T23:35:37+00:00"
+            }
         },
         {
             "name": "drupal/externalauth",
@@ -10819,7 +10817,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "ef1551fbdcf0473e78f48d9cb0853e85ecff6c4f"
+                "reference": "5703f19cb20bd96aafc63b36a16990603f59f796"
             },
             "type": "configurations",
             "authors": [
@@ -10829,7 +10827,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-09-08T12:20:57+00:00"
+            "time": "2017-09-08T15:10:09+00:00"
         },
         {
             "name": "umn/dors_migrate",
