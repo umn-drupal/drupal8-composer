@@ -3115,7 +3115,7 @@
                 "source": "http://cgit.drupalcode.org/entityqueue"
 
             },
-            "time": "2017-08-18 23:35:37"
+            "time": "2017-08-18T23:35:37+00:00"
         },
         {
             "name": "drupal/externalauth",
@@ -4981,7 +4981,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/media_entity_tumblr"
             },
-            "time": "2016-09-16 15:28:45"
+            "time": "2016-09-16T15:28:45+00:00"
         },
         {
             "name": "drupal/media_entity_twitter",
@@ -8458,7 +8458,7 @@
                 "script",
                 "symlink"
             ],
-            "time": "2017-07-12 16:55:24"
+            "time": "2017-07-12T16:55:24+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -10772,7 +10772,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2017-06-14 15:35:40"
+            "time": "2017-06-14T15:35:40+00:00"
         },
         {
             "name": "umn/cog_umn",
@@ -10793,7 +10793,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2017-08-18 18:46:41"
+            "time": "2017-08-18T18:46:41+00:00"
         },
         {
             "name": "umn/crmform",
@@ -10811,7 +10811,7 @@
                 }
             ],
             "description": "Drupal 8 module for rendering/posting CRM forms in Drupal sites",
-            "time": "2017-08-08 19:17:20"
+            "time": "2017-08-08T19:17:20+00:00"
         },
         {
             "name": "umn/d8_configurations",
@@ -10819,7 +10819,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "f0821b92fa658d4fe55f3b55a12236167bec96fd"
+                "reference": "ef1551fbdcf0473e78f48d9cb0853e85ecff6c4f"
             },
             "type": "configurations",
             "authors": [
@@ -10829,7 +10829,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-08-25T19:19:46+00:00"
+            "time": "2017-09-08T12:20:57+00:00"
         },
         {
             "name": "umn/dors_migrate",
@@ -10847,7 +10847,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2017-07-28 14:03:22"
+            "time": "2017-07-28T14:03:22+00:00"
         },
         {
             "name": "umn/lightning_umn",
@@ -10864,7 +10864,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2017-06-13 21:04:33"
+            "time": "2017-06-13T21:04:33+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -10900,7 +10900,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2017-08-08 14:59:41"
+            "time": "2017-08-08T14:59:41+00:00"
         },
         {
             "name": "whitehat101/apr1-md5",
