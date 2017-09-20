@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef4bb8a21d7be65dd04f23ba5a5a718f",
+    "content-hash": "8aefc3bb6fb598529a6944ca93c9f0d3",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -1341,17 +1341,17 @@
         },
         {
             "name": "drupal/acquia_purge",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/acquia_purge",
-                "reference": "8.x-1.0-beta2"
+                "reference": "8.x-1.0-beta3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acquia_purge-8.x-1.0-beta2.zip",
-                "reference": "8.x-1.0-beta2",
-                "shasum": "686e297009269ec5eb67ec9cd10072d008175df0"
+                "url": "https://ftp.drupal.org/files/projects/acquia_purge-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "989ec4a2168eb62340b65d1313fe4245ad781a2f"
             },
             "require": {
                 "drupal/core": "*",
@@ -1367,7 +1367,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta2",
+                    "version": "8.x-1.0-beta3",
                     "datestamp": "1504537744",
                     "security-coverage": {
                         "status": "not-covered",
@@ -3062,17 +3062,11 @@
         },
         {
             "name": "drupal/entityqueue",
-            "version": "1.0.0-alpha6",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/entityqueue",
-                "reference": "8.x-1.0-alpha6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entityqueue-8.x-1.0-alpha6.zip",
-                "reference": "8.x-1.0-alpha6",
-                "shasum": "2f7c639020a4c688b419ca90e35ffe0d08b34639"
+                "reference": "7b262d5434b4530cd4ada5c348dae180de7c52d9"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -3083,11 +3077,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha6",
-                    "datestamp": "1481985783",
+                    "version": "8.x-1.0-alpha6+8-dev",
+                    "datestamp": "1502361244",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -3113,7 +3107,8 @@
             "homepage": "https://www.drupal.org/project/entityqueue",
             "support": {
                 "source": "http://cgit.drupalcode.org/entityqueue"
-            }
+            },
+            "time": "2017-08-18T23:35:37+00:00"
         },
         {
             "name": "drupal/externalauth",
@@ -4170,17 +4165,17 @@
         },
         {
             "name": "drupal/linkit",
-            "version": "5.0.0-beta5",
+            "version": "5.0.0-beta6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/linkit",
-                "reference": "8.x-5.0-beta5"
+                "reference": "8.x-5.0-beta6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/linkit-8.x-5.0-beta5.zip",
-                "reference": "8.x-5.0-beta5",
-                "shasum": "8dcbd9c8c162e9801a699ef5717ab291b65bae8e"
+                "url": "https://ftp.drupal.org/files/projects/linkit-8.x-5.0-beta6.zip",
+                "reference": "8.x-5.0-beta6",
+                "shasum": "ae237702c341b0ee77560fbf4dcb08a77e2da434"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -4194,7 +4189,7 @@
                     "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.0-beta5",
+                    "version": "8.x-5.0-beta6",
                     "datestamp": "1505341745",
                     "security-coverage": {
                         "status": "not-covered",
@@ -5040,6 +5035,72 @@
             "homepage": "https://www.drupal.org/project/media_entity_twitter",
             "support": {
                 "source": "http://cgit.drupalcode.org/media_entity_twitter"
+            }
+        },
+        {
+            "name": "drupal/menu_block",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/menu_block",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_block-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "fd8d559452a9e1e07de6fefd9955df6feadc943a"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1473063239",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "patches_applied": {
+                    "menu block limit to active parent": "https://www.drupal.org/files/issues/custom_active_trail_hide_children_2-2811337.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "kim.pepper",
+                    "homepage": "https://www.drupal.org/user/370574"
+                },
+                {
+                    "name": "rrrob",
+                    "homepage": "https://www.drupal.org/user/273533"
+                }
+            ],
+            "description": "Provides configurable blocks of menu links.",
+            "homepage": "https://www.drupal.org/project/menu_block",
+            "support": {
+                "source": "http://cgit.drupalcode.org/menu_block"
             }
         },
         {
@@ -15237,7 +15298,7 @@
         "drupal/config_inspector": 10,
         "drupal/select_or_other": 15,
         "drupal/auto_entitylabel": 10,
-        "drupal/entityqueue": 15,
+        "drupal/entityqueue": 20,
         "drupal/acquia_purge": 10
     },
     "prefer-stable": true,
