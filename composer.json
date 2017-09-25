@@ -88,7 +88,8 @@
     "drupal/entityqueue": "dev-1.x",
     "drupal/editor_advanced_link": "^1.4",
     "drupal/acquia_purge": "^1.0@beta",
-    "drupal/menu_block": "^1.4"
+    "drupal/menu_block": "^1.4",
+    "drupal/stage_file_proxy": "^1.0@alpha"
   },
   "repositories": {
     "drupal-packagist": {
