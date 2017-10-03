@@ -14,6 +14,9 @@
         },
         "drupal/menu_block": {
             "menu block limit to active parent": "https://www.drupal.org/files/issues/custom_active_trail_hide_children_2-2811337.patch"
+        },
+        "drupal/auto_entitylabel": {
+            "Some characters replaced with HTML entities in tokenised labels": "https://www.drupal.org/files/issues/auto_entitylabel-html-entities-2850962-13.patch"
         }
     }
 }
