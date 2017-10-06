@@ -11084,7 +11084,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "84943d02d5421a6c4b5567f6530bcc7a18d4eeeb"
+                "reference": "6f743d66dc02694ef5847d2d3ac367e3d653ee73"
             },
             "type": "configurations",
             "authors": [
@@ -11094,7 +11094,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-10-02T17:48:46+00:00"
+            "time": "2017-10-06T13:57:34+00:00"
         },
         {
             "name": "umn/dors_migrate",
