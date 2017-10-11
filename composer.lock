@@ -1569,7 +1569,7 @@
                 "source": "http://cgit.drupalcode.org/auto_entitylabel",
                 "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
             },
-            "time": "2017-08-02T16:08:09+00:00"
+            "time": "2017-08-02 16:08:09"
         },
         {
             "name": "drupal/back_to_top",
@@ -1858,7 +1858,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.8",
-                    "datestamp": "1505510943",
+                    "datestamp": "1497039842",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1983,7 +1983,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.3",
-                    "datestamp": "1505755744",
+                    "datestamp": "1484770683",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3062,7 +3062,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/entityqueue",
-                "reference": "7b262d5434b4530cd4ada5c348dae180de7c52d9"
+                "reference": "937f1f0f5ce1a6c5fe78dd0ee70ff4875949d488"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -3073,8 +3073,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha6+8-dev",
-                    "datestamp": "1502361244",
+                    "version": "8.x-1.0-alpha6+9-dev",
+                    "datestamp": "1503099544",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -3087,24 +3087,28 @@
             ],
             "authors": [
                 {
-                    "name": "amateescu",
-                    "homepage": "https://www.drupal.org/user/729614"
+                    "name": "Andrei Mateescu",
+                    "homepage": "https://www.drupal.org/u/amateescu",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "jojonaloha",
-                    "homepage": "https://www.drupal.org/user/1579186"
+                    "name": "Jonathan Jordan",
+                    "homepage": "https://www.drupal.org/u/jojonaloha",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "tim.plunkett",
                     "homepage": "https://www.drupal.org/user/241634"
                 }
             ],
-            "description": "Allows users to collect entities in arbitrarily ordered lists.",
+            "description": "The Entityqueue module allows users to create queues of any entity type.",
             "homepage": "https://www.drupal.org/project/entityqueue",
             "support": {
-                "source": "http://cgit.drupalcode.org/entityqueue"
+                "source": "http://cgit.drupalcode.org/entityqueue",
+                "issues": "https://www.drupal.org/project/issues/entityqueue",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2017-08-18T23:35:37+00:00"
+            "time": "2017-10-10 22:17:17"
         },
         {
             "name": "drupal/externalauth",
@@ -4780,7 +4784,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta1",
-                    "datestamp": "1505519343",
+                    "datestamp": "1492466343",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4974,7 +4978,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/media_entity_tumblr"
             },
-            "time": "2016-09-16T15:28:45+00:00"
+            "time": "2016-09-16 15:28:45"
         },
         {
             "name": "drupal/media_entity_twitter",
@@ -5326,6 +5330,10 @@
                 "GPL-2.0+"
             ],
             "authors": [
+                {
+                    "name": "heddn",
+                    "homepage": "https://www.drupal.org/user/1463982"
+                },
                 {
                     "name": "mikeryan",
                     "homepage": "https://www.drupal.org/user/4420"
@@ -5805,7 +5813,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.1",
-                    "datestamp": "1505802544",
+                    "datestamp": "1487331784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6777,17 +6785,17 @@
         },
         {
             "name": "drupal/simple_gmap",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/simple_gmap",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_gmap-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "c14c6f8eb6f546370424a3ee962448c513ec9712"
+                "url": "https://ftp.drupal.org/files/projects/simple_gmap-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "364d59f318052ab8094b25e52b43f7f7deda9259"
             },
             "require": {
                 "drupal/core": "*"
@@ -6798,7 +6806,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.3",
+                    "version": "8.x-1.4",
                     "datestamp": "1504630143",
                     "security-coverage": {
                         "status": "covered",
@@ -8723,7 +8731,7 @@
                 "script",
                 "symlink"
             ],
-            "time": "2017-07-12T16:55:24+00:00"
+            "time": "2017-07-12 16:55:24"
         },
         {
             "name": "lcobucci/jwt",
@@ -11037,7 +11045,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2017-09-13T15:38:46+00:00"
+            "time": "2017-09-13 15:38:46"
         },
         {
             "name": "umn/cog_umn",
@@ -11058,7 +11066,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2017-09-25T16:33:20+00:00"
+            "time": "2017-09-25 16:33:20"
         },
         {
             "name": "umn/crmform",
@@ -11076,7 +11084,7 @@
                 }
             ],
             "description": "Drupal 8 module for rendering/posting CRM forms in Drupal sites",
-            "time": "2017-08-08T19:17:20+00:00"
+            "time": "2017-08-08 19:17:20"
         },
         {
             "name": "umn/d8_configurations",
@@ -11094,7 +11102,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-10-06T13:57:34+00:00"
+            "time": "2017-10-06 13:57:34"
         },
         {
             "name": "umn/dors_migrate",
@@ -11112,7 +11120,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2017-07-28T14:03:22+00:00"
+            "time": "2017-07-28 14:03:22"
         },
         {
             "name": "umn/lightning_umn",
@@ -11129,7 +11137,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2017-06-13T21:04:33+00:00"
+            "time": "2017-06-13 21:04:33"
         },
         {
             "name": "umn/umn_features",
@@ -11165,7 +11173,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2017-08-08T14:59:41+00:00"
+            "time": "2017-08-08 14:59:41"
         },
         {
             "name": "whitehat101/apr1-md5",
