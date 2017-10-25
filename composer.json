@@ -41,7 +41,7 @@
     "drupal/robotstxt": "^1.0",
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
-    "umn/d8_configurations": "dev-master",
+    "umn/d8_configurations": "dev-oittst",
     "umn/lightning_umn": "dev-master",
     "umn/cog_umn": "dev-master",
     "umn/bootstrap_umn": "dev-master",
