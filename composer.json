@@ -91,7 +91,10 @@
     "drupal/menu_block": "^1.4",
     "drupal/stage_file_proxy": "^1.0@alpha",
     "drupal/shield": "^1.1",
-    "drupal/memcache": "^2.0@alpha"
+    "drupal/memcache": "^2.0@alpha",
+    "drupal/colorbox": "^1.4",
+    "onlyextart/colorbox": "dev-master",
+    "drupal/domain_301_redirect": "1.x-dev"
   },
   "repositories": {
     "drupal-packagist": {
