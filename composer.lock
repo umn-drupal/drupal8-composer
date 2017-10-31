@@ -5612,7 +5612,7 @@
                     }
                 },
                 "patches_applied": {
-                    "menu block limit to active parent": "https://www.drupal.org/files/issues/custom_active_trail_hide_children_2-2811337.patch"
+                    "menu block limit to active parent": "https://www.drupal.org/files/issues/2_level_menu_block_not-2811337-51_0.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5678,13 +5678,12 @@
                 },
                 "drupal": {
                     "version": "8.x-1.3",
-                    "datestamp": "1506715150",
+                    "datestamp": "1507021979",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": []
+                }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -11344,7 +11343,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "fcc928d15bedbc4066bfa069c23684df4bc364e2"
+                "reference": "21ed414e663694112f2f5e019d9dc0043a5f902b"
             },
             "type": "configurations",
             "authors": [
@@ -11354,7 +11353,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-10-25T15:49:23+00:00"
+            "time": "2017-10-31T19:43:36+00:00"
         },
         {
             "name": "umn/dors_migrate",
