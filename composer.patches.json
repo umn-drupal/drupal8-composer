@@ -6,14 +6,11 @@
         "drupal/nice_menus": {
             "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
         },
-		"drupal/metatag": {
-			"metatag manager recoverable fatal error": "https://www.drupal.org/files/issues/metatag-n2882954-28.patch"
-		},
         "drupal/entity_embed": {
             "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch"
         },
         "drupal/menu_block": {
-            "menu block limit to active parent": "https://www.drupal.org/files/issues/custom_active_trail_hide_children_2-2811337.patch"
+            "menu block limit to active parent": "https://www.drupal.org/files/issues/2_level_menu_block_not-2811337-51_0.patch"
         }
     }
 }
