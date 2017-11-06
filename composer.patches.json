@@ -11,6 +11,9 @@
         },
         "drupal/menu_block": {
             "menu block limit to active parent": "https://www.drupal.org/files/issues/2_level_menu_block_not-2811337-51_0.patch"
+        },
+        "drupal/slick_media": {
+            "slick media / entity media dependency": "https://www.drupal.org/files/issues/slick_media_port_to_the-2905335-2.patch"
         }
     }
 }
