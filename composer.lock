@@ -7515,6 +7515,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "slick media / entity media dependency": "https://www.drupal.org/files/issues/slick_media_port_to_the-2905335-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -11343,7 +11346,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "8f5a5bcdade5900280156bb9ccb35ed9cba5d23a"
+                "reference": "2e725e6047109842c6f5291a6882b5ceb9c33a2b"
             },
             "type": "configurations",
             "authors": [
@@ -11353,7 +11356,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-11-02T13:14:29+00:00"
+            "time": "2017-11-07T13:47:35+00:00"
         },
         {
             "name": "umn/dors_migrate",
