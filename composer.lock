@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3854ad21f0274220f6fc012462821dac",
+    "content-hash": "ad6589d054471120a4cb2f3f0658a6dc",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -7974,6 +7974,53 @@
             "homepage": "https://www.drupal.org/project/video_embed_field",
             "support": {
                 "source": "http://cgit.drupalcode.org/video_embed_field"
+            }
+        },
+        {
+            "name": "drupal/views_field_formatter",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/views_field_formatter",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_field_formatter-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "cf93365c2294da640d65adf48a476dcfe1928778"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1489010883",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Pol",
+                    "homepage": "https://www.drupal.org/user/47194"
+                }
+            ],
+            "description": "Use the result of a view to display a field.",
+            "homepage": "https://www.drupal.org/project/views_field_formatter",
+            "support": {
+                "source": "http://cgit.drupalcode.org/views_field_formatter"
             }
         },
         {
