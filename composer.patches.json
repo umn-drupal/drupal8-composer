@@ -14,6 +14,9 @@
         },
         "drupal/slick_media": {
             "slick media / entity media dependency": "https://www.drupal.org/files/issues/slick_media_port_to_the-2905335-2.patch"
+        },
+        "drupal/media": {
+            "Media name appearing above media": "https://www.drupal.org/files/issues/core-media-add-name-to-display-2912298-25.patch"
         }
     }
 }
