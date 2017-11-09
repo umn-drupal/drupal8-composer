@@ -17,6 +17,9 @@
         },
         "drupal/media_entity": {
             "Fix issue with media_entity and drush": "https://www.drupal.org/files/issues/media_entity-drush_updatedb-2919754-6-D8.patch"
+        },
+        "drupal/core": {
+            "Media name appearing above media": "https://www.drupal.org/files/issues/core-media-add-name-to-display-2912298-25.patch"
         }
     }
 }
