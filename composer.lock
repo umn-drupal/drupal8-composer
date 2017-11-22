@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "08fb913e2e22361ef13b91bc3c3eee9c",
+    "content-hash": "9b88ab378aabd3f3b15beb5e66a1e2d7",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -2420,6 +2420,7 @@
             "type": "drupal-core",
             "extra": {
                 "patches_applied": {
+                    "Media name appearing above media": "https://www.drupal.org/files/issues/core-media-add-name-to-display-2912298-25.patch",
                     "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/1356276-408--8.4.x.patch",
                     "2880374 - Experimental modules should not have warnings after being installed": "https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch",
                     "2880445 - Config sync should not throw a warning when not being writable": "https://www.drupal.org/files/issues/2880445-remove-config-write-warning-2.patch",
@@ -4760,7 +4761,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1480363983",
+                    "datestamp": "1510737185",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -11747,11 +11748,11 @@
         },
         {
             "name": "umn/dors_migrate",
-            "version": "dev-master",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/dors_migrate.git",
-                "reference": "fe1f2140a3d41ad2334b6dafeea6ff710c899177"
+                "reference": "124cf90b8dfb5e9a2d6394cb15395f1a80593371"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -11761,7 +11762,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2017-07-28T14:03:22+00:00"
+            "time": "2017-11-22T16:00:46+00:00"
         },
         {
             "name": "umn/lightning_umn",
@@ -13194,7 +13195,7 @@
             "version": "8.2.12",
             "source": {
                 "type": "git",
-                "url": "https://github.com/klausi/coder.git",
+                "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
             },
             "dist": {
