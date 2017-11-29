@@ -22,7 +22,7 @@
             "Media name appearing above media": "https://www.drupal.org/files/issues/core-media-add-name-to-display-2912298-25.patch"
         },
         "drupal/linkit": {
-            "Direct Link to File in Media Entity Document": "https://www.drupal.org/files/issues/linkit-direct_link_to_file_entity-2926655-3.patch"
+            "Direct Link to File in Media Entity Document": "https://www.drupal.org/files/issues/linkit-direct_link_to_file_entity-2926655-6.patch"
         }
     }
 }
