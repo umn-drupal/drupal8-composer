@@ -96,7 +96,8 @@
     "onlyextart/colorbox": "dev-master",
     "drupal/domain_301_redirect": "1.x-dev",
     "drupal/views_field_formatter": "^1.5",
-    "drutiny/plugin-drupal-8": "2.x-dev"
+    "drutiny/plugin-drupal-8": "2.x-dev",
+    "drupal/migrate_source_csv": "^2.0"
   },
   "repositories": {
     "drupal-packagist": {
