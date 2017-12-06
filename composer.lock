@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "db8e050a270b3ebb9f2f181e227ae8c0",
+    "content-hash": "564671228ed16139b226cf19d1a0ecf1",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -11752,11 +11752,11 @@
         },
         {
             "name": "umn/cog_umn",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/cog-umn.git",
-                "reference": "e194febb764d500bb04648ad2618718b0c7a3377"
+                "reference": "d698cf057ebfcf5ab93416e7ecd005dfc31efed9"
             },
             "require": {
                 "drupal/cog": "^1.3"
@@ -11769,7 +11769,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2017-09-25T16:33:20+00:00"
+            "time": "2017-12-06T20:50:15+00:00"
         },
         {
             "name": "umn/crmform",
