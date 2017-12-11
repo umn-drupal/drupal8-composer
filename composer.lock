@@ -11813,7 +11813,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/dors_migrate.git",
-                "reference": "124cf90b8dfb5e9a2d6394cb15395f1a80593371"
+                "reference": "c8c3889d057bebee38bc70c188e8bc1e8b52358c"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -11823,7 +11823,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2017-11-22T16:00:46+00:00"
+            "time": "2017-12-11T17:43:35+00:00"
         },
         {
             "name": "umn/lightning_umn",
