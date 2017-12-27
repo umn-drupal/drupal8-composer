@@ -290,7 +290,7 @@
             "version": "v2.3.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fengyuanchen/cropper.git",
+                "url": "git@github.com:fengyuanchen/cropper.git",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "dist": {
@@ -11795,7 +11795,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "2e725e6047109842c6f5291a6882b5ceb9c33a2b"
+                "reference": "c9d6dae32e0c706f1abfa750b168a7505be20737"
             },
             "type": "configurations",
             "authors": [
@@ -11805,7 +11805,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2017-11-07T13:47:35+00:00"
+            "time": "2017-12-27T14:19:09+00:00"
         },
         {
             "name": "umn/dors_migrate",
