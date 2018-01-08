@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bac7651602057079bf59a48b3139342",
+    "content-hash": "962afd9bdcb2ba3bdd2eb5f2f6d249fd",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -75,27 +75,27 @@
         },
         {
             "name": "acquia/lightning",
-            "version": "2.2.4",
+            "version": "2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/lightning.git",
-                "reference": "da581c8eb076df90cef4cdb2b6b7da5d88fe85aa"
+                "reference": "2787e1ed1dfaba58462d2e8280db5e06fe9d195e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/lightning/zipball/da581c8eb076df90cef4cdb2b6b7da5d88fe85aa",
-                "reference": "da581c8eb076df90cef4cdb2b6b7da5d88fe85aa",
+                "url": "https://api.github.com/repos/acquia/lightning/zipball/2787e1ed1dfaba58462d2e8280db5e06fe9d195e",
+                "reference": "2787e1ed1dfaba58462d2e8280db5e06fe9d195e",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/cropper": "^2.3",
                 "bower-asset/dropzone": "^5.1",
-                "cweagans/composer-patches": "^1.5.0",
+                "cweagans/composer-patches": "^1.6.4",
                 "drupal-composer/drupal-scaffold": "^2.0.0",
                 "drupal/acquia_connector": "^1.1",
-                "drupal/config_update": "^1.1",
+                "drupal/config_update": "^1.5.0",
                 "drupal/contact_storage": "^1.0",
-                "drupal/core": "~8.4.1",
+                "drupal/core": "~8.4.3",
                 "drupal/crop": "2.0.0-beta1",
                 "drupal/ctools": "^3.0",
                 "drupal/diff": "^1.0",
@@ -135,7 +135,7 @@
                 "composer/composer": "^1.4",
                 "consolidation/robo": "1.1.4",
                 "drupal/coder": "~8.2.0",
-                "drupal/console": "1.0.1",
+                "drupal/console": "^1.0.0",
                 "drupal/devel": "^1.0",
                 "drupal/drupal-extension": "~3.3.0",
                 "drupal/media_entity_generic": "1.x-dev",
@@ -180,12 +180,11 @@
                         "2749503 - Add basic support for Quick Edit": "https://www.drupal.org/files/issues/workbench_moderation-quickedit-support-2749503-6.patch"
                     },
                     "drupal/core": {
-                        "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/1356276-408--8.4.x.patch",
+                        "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/1356276-408--8.4.3.patch",
                         "2880374 - Experimental modules should not have warnings after being installed": "https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch",
                         "2880445 - Config sync should not throw a warning when not being writable": "https://www.drupal.org/files/issues/2880445-remove-config-write-warning-2.patch",
                         "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                         "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
-                        "2912298 - Make media name available on manage display": "https://www.drupal.org/files/issues/core-media-add-name-to-display-2912298-25.patch",
                         "2883813 - Move File/Image media type into Standard once Media is stable": "https://www.drupal.org/files/issues/2883813-27.patch",
                         "2877383 - Add action support to Media module": "https://www.drupal.org/files/issues/2877383-23.patch",
                         "2862041 - Provide useful Views filters for Content Moderation State fields": "https://www.drupal.org/files/issues/2862041-229.patch",
@@ -236,7 +235,7 @@
                 "GPL-2.0+"
             ],
             "description": "The best of Drupal, curated by Acquia",
-            "time": "2017-12-06T15:05:57+00:00"
+            "time": "2017-12-07T19:16:39+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -759,16 +758,16 @@
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.6.2",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e"
+                "reference": "462e65061606dc6149349535d4322241515d1b16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/014e968ca2ce4342476b3f2f6779b274fff8ae9e",
-                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/462e65061606dc6149349535d4322241515d1b16",
+                "reference": "462e65061606dc6149349535d4322241515d1b16",
                 "shasum": ""
             },
             "require": {
@@ -799,7 +798,7 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "time": "2017-08-30T16:41:23+00:00"
+            "time": "2017-12-07T16:16:31+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -7335,11 +7334,14 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1506893943",
+                    "datestamp": "1511480585",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "2925369 - TokenAuthUser does not fulfill RevisionableInterface, causes fatals": "https://www.drupal.org/files/issues/2925369-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
