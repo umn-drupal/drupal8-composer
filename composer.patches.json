@@ -1,7 +1,8 @@
 {
     "patches": {
         "drupal/workbench_moderation": {
-            "rearrange moderation state field": "https://www.drupal.org/files/issues/workbench_moderation-ability-to-rearrange-field-in-form-2833892-4.patch"
+            "rearrange moderation state field": "https://www.drupal.org/files/issues/workbench_moderation-ability-to-rearrange-field-in-form-2833892-4.patch",
+            "Delete moderation_state fields when uninstalling workbench_moderation": "https://www.drupal.org/files/issues/workbench_moderation-fix_uninstall-2627012-34.patch"
         },
         "drupal/nice_menus": {
             "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
