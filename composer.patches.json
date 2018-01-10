@@ -16,12 +16,6 @@
         "drupal/slick_media": {
             "slick media / entity media dependency": "https://www.drupal.org/files/issues/slick_media_port_to_the-2905335-2.patch"
         },
-        "drupal/media_entity": {
-            "Fix issue with media_entity and drush": "https://www.drupal.org/files/issues/media_entity-drush_updatedb-2919754-6-D8.patch"
-        },
-        "drupal/core": {
-            "Media name appearing above media": "https://www.drupal.org/files/issues/core-media-add-name-to-display-2912298-25.patch"
-        },
         "drupal/linkit": {
             "Direct Link to File in Media Entity Document": "https://www.drupal.org/files/issues/linkit-direct_link_to_file_entity-2926655-6.patch"
         }
