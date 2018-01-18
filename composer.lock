@@ -6754,7 +6754,8 @@
                     "2878684 - Use String.match to correlate regions when switching Layouts in Panels IPE": "https://www.drupal.org/files/issues/panels-ipe-2878684-3.patch",
                     "2825034 - Form error messages do not appear in IPE": "https://www.drupal.org/files/issues/panels-ipe-propogate-errors-2825034-5.patch",
                     "2908897 - CategoryView leaves AJAX request marked active": "https://www.drupal.org/files/issues/2908897-2.patch",
-                    "2913353 - IPE attaches behaviors a bit too quickly": "https://www.drupal.org/files/issues/2913353-2.patch"
+                    "2913353 - IPE attaches behaviors a bit too quickly": "https://www.drupal.org/files/issues/2913353-2.patch",
+                    "2825028 - AJAX error creating and placing blocks with date fields in IPE": "https://www.drupal.org/files/issues/panels-ipe-date-field-2825028-10.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -12589,7 +12590,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "2cdb21aa3ece83791848ee7c1b533180260e90a2"
+                "reference": "67526fe5793cd069a6ba690fb3f4a2ee94caa3c5"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -12598,7 +12599,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2018-01-17T18:51:49+00:00"
+            "time": "2018-01-18T16:36:30+00:00"
         },
         {
             "name": "umn/umn_features",
