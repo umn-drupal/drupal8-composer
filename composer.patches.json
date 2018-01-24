@@ -1,5 +1,8 @@
 {
     "patches": {
+        "drupal/core": {
+            "Update CKEditor": "https://www.drupal.org/files/issues/update_ckeditor_library_to_4.8.0-2926932-4.patch"
+        },
         "drupal/workbench_moderation": {
             "rearrange moderation state field": "https://www.drupal.org/files/issues/workbench_moderation-ability-to-rearrange-field-in-form-2833892-4.patch",
             "Delete moderation_state fields when uninstalling workbench_moderation": "https://www.drupal.org/files/issues/workbench_moderation-fix_uninstall-2627012-34.patch"
