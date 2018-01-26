@@ -97,7 +97,12 @@
     "drupal/domain_301_redirect": "1.x-dev",
     "drupal/views_field_formatter": "^1.5",
     "drutiny/plugin-drupal-8": "2.x-dev",
-    "drupal/migrate_source_csv": "^2.0"
+    "drupal/superfish": "^1.1",
+    "bower-asset/hammerjs": "^2.0",
+    "drupal/responsive_menu": "^2.5",
+    "bower-asset/jquery.mmenu": "^6.1",
+    "drupal/migrate_source_csv": "^2.0",
+    "dtadege/superfish": "dev-master"
   },
   "repositories": {
     "drupal-packagist": {
@@ -139,6 +144,10 @@
     "dors_migrate": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/dors_migrate.git"
+    },
+    "umn-superfish": {
+      "type": "git",
+      "url": "git@github.umn.edu:dtadege/superfish.git"
     },
     "blazy": {
       "type": "package",
