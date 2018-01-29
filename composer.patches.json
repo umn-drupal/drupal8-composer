@@ -14,7 +14,7 @@
             "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch"
         },
         "drupal/menu_block": {
-            "menu block limit to active parent": "https://www.drupal.org/files/issues/menu_block-2_level_menu_block_not_limited_to_active_parent-2811337-58.patch"
+            "menu block limit to active parent": "https://www.drupal.org/files/issues/menu_block-2_level_menu_block_not_limited_to_active_parent-2811337-57.patch"
         },
         "drupal/slick_media": {
             "slick media / entity media dependency": "https://www.drupal.org/files/issues/slick_media_port_to_the-2905335-2.patch"
