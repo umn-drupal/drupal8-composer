@@ -6187,7 +6187,7 @@
                     }
                 },
                 "patches_applied": {
-                    "menu block limit to active parent": "https://www.drupal.org/files/issues/2_level_menu_block_not-2811337-51_0.patch"
+                    "menu block limit to active parent": "https://www.drupal.org/files/issues/menu_block-2_level_menu_block_not_limited_to_active_parent-2811337-58.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
