@@ -21,6 +21,9 @@
         },
         "drupal/linkit": {
             "Direct Link to File in Media Entity Document": "https://www.drupal.org/files/issues/linkit-direct_link_to_file_entity-2926655-6.patch"
+        },
+        "drupal/entity_print": {
+            "Force SSL Error": "https://www.drupal.org/files/issues/2878181-13.patch"
         }
     }
 }
