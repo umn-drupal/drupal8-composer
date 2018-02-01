@@ -102,7 +102,8 @@
     "drupal/responsive_menu": "^2.5",
     "bower-asset/jquery.mmenu": "^6.1",
     "drupal/migrate_source_csv": "^2.0",
-    "dtadege/superfish": "dev-master"
+    "dtadege/superfish": "dev-master",
+    "drupal/entity_print": "2.x"
   },
   "repositories": {
     "drupal-packagist": {
