@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ac7bfe302eb7dc4c4fc9c445d6177ab",
+    "content-hash": "e82417590737f186b5333ca9e1a825a7",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -13187,11 +13187,11 @@
         },
         {
             "name": "umn/d8_configurations",
-            "version": "dev-dev",
+            "version": "dev-oittst",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "e297d78831239d00a5980f15a101f16af23be707"
+                "reference": "5d18d9fde0f813a126e39eba2500e3a3877e704b"
             },
             "type": "configurations",
             "authors": [
@@ -13201,7 +13201,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2018-03-06T18:58:23+00:00"
+            "time": "2018-03-07T14:26:01+00:00"
         },
         {
             "name": "umn/dors_migrate",
@@ -17749,7 +17749,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/simplesamlphp_auth": 20,
         "drupal/rules": 15,
         "drupal/devel": 5,
         "drupal/back_to_top": 10,
