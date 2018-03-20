@@ -8297,17 +8297,17 @@
         },
         {
             "name": "drupal/simplesamlphp_auth",
-            "version": "3.0.0-rc6",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/simplesamlphp_auth",
-                "reference": "8.x-3.0-rc6"
+                "reference": "8.x-3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simplesamlphp_auth-8.x-3.0-rc6.zip",
-                "reference": "8.x-3.0-rc6",
-                "shasum": "ae6c820dae2f84f7c6f36fd0a22cf0d1ee6afb61"
+                "url": "https://ftp.drupal.org/files/projects/simplesamlphp_auth-8.x-3.0.zip",
+                "reference": "8.x-3.0",
+                "shasum": "2ee230173df2128edb5d72953222d229dabf27e7"
             },
             "require": {
                 "drupal/core": "*",
@@ -8320,11 +8320,11 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-rc6",
+                    "version": "8.x-3.0",
                     "datestamp": "1521252787",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
