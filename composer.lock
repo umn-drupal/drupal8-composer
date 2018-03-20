@@ -8321,7 +8321,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-rc6",
-                    "datestamp": "1518795180",
+                    "datestamp": "1521252787",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -13424,7 +13424,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "6fdf194c8f76be17f12770a4b8b3ab4e878c5a08"
+                "reference": "34cad9c6094d39fdd945351514c9c15fa48bcf96"
             },
             "type": "configurations",
             "authors": [
@@ -13434,7 +13434,7 @@
                 }
             ],
             "description": "UMN Configurations for d8 platform",
-            "time": "2018-03-07T17:11:54+00:00"
+            "time": "2018-03-19T19:52:40+00:00"
         },
         {
             "name": "umn/dors_migrate",
