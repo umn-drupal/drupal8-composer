@@ -41,7 +41,7 @@
     "drupal/robotstxt": "^1.0",
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
-    "umn/d8_configurations": "dev-oittst",
+    "umn/d8_configurations": "dev-dev",
     "umn/lightning_umn": "dev-master",
     "umn/cog_umn": "dev-develop",
     "umn/bootstrap_umn": "dev-master",
@@ -230,7 +230,10 @@
     },
     "drupal-scaffold": {
       "source": "http://cgit.drupalcode.org/drupal/plain/{path}?h={version}",
-      "excludes": [ "robots.txt" ]
+      "excludes": [
+        "robots.txt",
+        "sites/default/default.services.yml",
+        "sites/default/default.settings.php"]
     },
     "patches-file": "composer.patches.json",
     "enable-patching": true,
