@@ -41,7 +41,6 @@
     "drupal/robotstxt": "^1.0",
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
-    "umn/d8_configurations": "dev-dev",
     "umn/lightning_umn": "dev-master",
     "umn/cog_umn": "dev-develop",
     "umn/bootstrap_umn": "dev-master",
@@ -119,10 +118,6 @@
     "umn-features": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/d8-features.git"
-    },
-    "umn-configs": {
-      "type": "git",
-      "url": "git@github.umn.edu:drupalmodules/d8-configurations.git"
     },
     "lightning_umn": {
       "type": "git",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25e386edbfb62db270b928b132bb9472",
+    "content-hash": "51c7bf6939036056b558b6bd63d799ea",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -1714,16 +1714,16 @@
             ],
             "authors": [
                 {
+                    "name": "Alsén",
+                    "homepage": "https://www.drupal.org/user/1726528"
+                },
+                {
                     "name": "Nitesh Sethia",
                     "homepage": "https://www.drupal.org/user/2474982"
                 },
                 {
                     "name": "acke",
                     "homepage": "https://www.drupal.org/user/765764"
-                },
-                {
-                    "name": "sockiplatsmurf",
-                    "homepage": "https://www.drupal.org/user/1726528"
                 },
                 {
                     "name": "sumitmadan",
@@ -3181,7 +3181,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta1",
-                    "datestamp": "1505895844",
+                    "datestamp": "1520873280",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -3647,7 +3647,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0",
-                    "datestamp": "1490096883",
+                    "datestamp": "1521730685",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3715,6 +3715,10 @@
             ],
             "authors": [
                 {
+                    "name": "adammalone",
+                    "homepage": "https://www.drupal.org/user/1295980"
+                },
+                {
                     "name": "naveenvalecha",
                     "homepage": "https://www.drupal.org/user/2665733"
                 },
@@ -3725,10 +3729,6 @@
                 {
                     "name": "soyarma",
                     "homepage": "https://www.drupal.org/user/286273"
-                },
-                {
-                    "name": "typhonius",
-                    "homepage": "https://www.drupal.org/user/1295980"
                 }
             ],
             "homepage": "https://www.drupal.org/project/fast_404",
@@ -4070,7 +4070,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.7",
-                    "datestamp": "1487115783",
+                    "datestamp": "1523914984",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5390,7 +5390,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-beta6",
-                    "datestamp": "1505341745",
+                    "datestamp": "1520552585",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -6054,6 +6054,10 @@
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jcisio",
+                    "homepage": "https://www.drupal.org/user/210762"
                 }
             ],
             "description": "Media entity soundcloud provider.",
@@ -6515,7 +6519,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0",
-                    "datestamp": "1479750843",
+                    "datestamp": "1521470284",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6816,7 +6820,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.0",
-                    "datestamp": "1493427125",
+                    "datestamp": "1523670784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6882,7 +6886,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.0",
-                    "datestamp": "1493427125",
+                    "datestamp": "1523670784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7035,7 +7039,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.2",
-                    "datestamp": "1500497642",
+                    "datestamp": "1523670784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8516,6 +8520,10 @@
             ],
             "authors": [
                 {
+                    "name": "chr.fritsch",
+                    "homepage": "https://www.drupal.org/user/2103716"
+                },
+                {
                     "name": "gausarts",
                     "homepage": "https://www.drupal.org/user/159062"
                 }
@@ -8891,7 +8899,7 @@
                     "datestamp": "1475245822",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -8940,7 +8948,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x",
-                    "datestamp": "1512694688",
+                    "datestamp": "1523338084",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -8986,7 +8994,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-alpha2",
-                    "datestamp": "1512694688",
+                    "datestamp": "1523338084",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -10657,7 +10665,7 @@
                 {
                     "name": "Luís Otávio Cobucci Oblonczyk",
                     "email": "lcobucci@gmail.com",
-                    "role": "Developer"
+                    "role": "developer"
                 }
             ],
             "description": "A simple library to work with JSON Web Token and JSON Web Signature",
@@ -13422,24 +13430,6 @@
             "time": "2017-08-08T19:17:20+00:00"
         },
         {
-            "name": "umn/d8_configurations",
-            "version": "dev-dev",
-            "source": {
-                "type": "git",
-                "url": "git@github.umn.edu:drupalmodules/d8-configurations.git",
-                "reference": "158666545d3746556deddfdaf00d7452d9dc0095"
-            },
-            "type": "configurations",
-            "authors": [
-                {
-                    "name": "John Starr",
-                    "email": "starr027@umn.edu"
-                }
-            ],
-            "description": "UMN Configurations for d8 platform",
-            "time": "2018-04-20T13:44:14+00:00"
-        },
-        {
             "name": "umn/dors_migrate",
             "version": "dev-dev",
             "source": {
@@ -14890,12 +14880,6 @@
                 "type": "git",
                 "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
@@ -17989,7 +17973,6 @@
         "drupal/devel": 5,
         "drupal/back_to_top": 10,
         "drupal/address": 5,
-        "umn/d8_configurations": 20,
         "umn/lightning_umn": 20,
         "umn/cog_umn": 20,
         "umn/bootstrap_umn": 20,
