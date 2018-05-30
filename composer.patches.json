@@ -1,26 +1,19 @@
 {
     "patches": {
-        "drupal/workbench_moderation": {
-            "rearrange moderation state field": "https://www.drupal.org/files/issues/workbench_moderation-ability-to-rearrange-field-in-form-2833892-4.patch",
-            "Delete moderation_state fields when uninstalling workbench_moderation": "https://www.drupal.org/files/issues/workbench_moderation-fix_uninstall-2627012-34.patch"
-        },
         "drupal/nice_menus": {
             "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
         },
         "drupal/entity_embed": {
             "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch"
         },
-        "drupal/menu_block": {
-            "menu block limit to active parent": "https://www.drupal.org/files/issues/menu_block-2_level_menu_block_not_limited_to_active_parent-2811337-57.patch"
-        },
-        "drupal/slick_media": {
-            "slick media / entity media dependency": "https://www.drupal.org/files/issues/slick_media_port_to_the-2905335-2.patch"
-        },
-        "drupal/linkit": {
-            "Direct Link to File in Media Entity Document": "https://www.drupal.org/files/issues/linkit-direct_link_to_file_entity-2926655-6.patch"
-        },
         "drupal/entity_print": {
             "Force SSL Error": "https://www.drupal.org/files/issues/2878181-13.patch"
-        }
+        },
+        "drupal/lightning_core": {
+            "Update error": "https://www.drupal.org/files/issues/2018-05-11/2972217-2.patch"
+        },
+		"drupal/menu_block": {
+			"Follow active parent": "https://www.drupal.org/files/issues/2018-05-04/menu_block-follow-2756675-46.patch"
+		}
     }
 }
