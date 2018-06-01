@@ -105,7 +105,10 @@
     "drupal/permissions_by_term": "^1.52",
     "drupal/page_manager": "^4.0@beta",
     "drupal/search_api_solr": "^1.2",
-    "drupal/gdpr": "^1.0@alpha"
+    "drupal/easy_breadcrumb": "^1.8",
+    "drupal/semanticviews": "^2.2",
+    "drupal/field_defaults": "^1.0@RC",
+    "drupal/checklistapi": "^1.7"
   },
   "repositories": {
     "drupal-packagist": {
