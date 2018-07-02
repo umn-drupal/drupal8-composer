@@ -2488,16 +2488,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.5.3",
+            "version": "8.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "b012f0ae51504880e920f2c6efdbdf03b6fe2129"
+                "reference": "6b4dc1cf3347761f63152a31786b4680b8ac7781"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/b012f0ae51504880e920f2c6efdbdf03b6fe2129",
-                "reference": "b012f0ae51504880e920f2c6efdbdf03b6fe2129",
+                "url": "https://api.github.com/repos/drupal/core/zipball/6b4dc1cf3347761f63152a31786b4680b8ac7781",
+                "reference": "6b4dc1cf3347761f63152a31786b4680b8ac7781",
                 "shasum": ""
             },
             "require": {
@@ -2702,7 +2702,6 @@
                     "2880374 - Experimental modules should not have warnings after being installed": "https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2815221-87.patch",
                     "2877383 - Add action support to Media module": "https://www.drupal.org/files/issues/2877383-56.patch",
                     "2670730 - Provide a delete action for each content entity type": "https://www.drupal.org/files/issues/2670730-81-89-8.5.0-rc1.patch"
                 }
@@ -2728,7 +2727,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2018-04-25T15:39:01+00:00"
+            "time": "2018-06-06T21:02:51+00:00"
         },
         {
             "name": "drupal/crop",
