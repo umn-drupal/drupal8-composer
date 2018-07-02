@@ -1,5 +1,8 @@
 {
     "patches": {
+        "drupal/core": {
+            "Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2018-06-07/2815221-103-8.5.x.patch"
+        },
         "drupal/nice_menus": {
             "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
         },
