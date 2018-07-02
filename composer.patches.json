@@ -1,8 +1,5 @@
 {
     "patches": {
-        "drupal/core": {
-            "Logo & favicon theme settings validation": "https://www.drupal.org/files/issues/2018-04-04/theme-settings-form-validation-2954884-15.patch"
-        },
         "drupal/nice_menus": {
             "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
         },
