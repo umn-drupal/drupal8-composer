@@ -109,7 +109,8 @@
     "drupal/semanticviews": "^2.2",
     "drupal/field_defaults": "^1.0@RC",
     "drupal/checklistapi": "^1.7",
-    "drupal/siteimprove": "^1.0"
+    "drupal/siteimprove": "^1.0",
+    "drupal/gdpr": "^1.0@alpha"
   },
   "repositories": {
     "drupal-packagist": {
