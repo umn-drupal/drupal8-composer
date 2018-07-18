@@ -111,7 +111,7 @@
     "drupal/checklistapi": "^1.7",
     "drupal/siteimprove": "^1.0",
     "drupal/gdpr": "^1.0@alpha",
-    "drupal/tablefield": "dev-2.x"
+    "drupal/tablefield": "2.x-dev"
   },
   "repositories": {
     "drupal-packagist": {
