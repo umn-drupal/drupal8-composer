@@ -112,7 +112,7 @@
     "drupal/siteimprove": "^1.0",
     "drupal/gdpr": "^1.0@alpha",
     "drupal/tablefield": "2.x-dev",
-    "drupal/permissions_filter": "^1.0"
+    "drupal/fpa": "2.x-dev"
   },
   "repositories": {
     "drupal-packagist": {
