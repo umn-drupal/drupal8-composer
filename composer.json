@@ -112,7 +112,8 @@
     "drupal/siteimprove": "^1.0",
     "drupal/gdpr": "^1.0@alpha",
     "drupal/tablefield": "2.x-dev",
-    "drupal/fpa": "2.x-dev"
+    "drupal/fpa": "2.x-dev",
+    "drupal/core": "8.5.6"
   },
   "repositories": {
     "drupal-packagist": {
