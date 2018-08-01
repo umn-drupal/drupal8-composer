@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "0f09a3694d4da3fafdf8c721f4a74507",
@@ -2192,7 +2192,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha1",
-                    "datestamp": "1531440821",
+                    "datestamp": "1475623439",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -2279,7 +2279,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.11",
-                    "datestamp": "1532095085",
+                    "datestamp": "1520793438",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4765,7 +4765,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.2",
-                    "datestamp": "1531469021",
+                    "datestamp": "1506372845",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5455,7 +5455,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1532100485",
+                    "datestamp": "1524769680",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8759,7 +8759,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha3",
-                    "datestamp": "1521869040",
+                    "datestamp": "1521868984",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -8796,10 +8796,6 @@
                     "homepage": "https://www.drupal.org/user/1608382"
                 },
                 {
-                    "name": "e0ipso",
-                    "homepage": "https://www.drupal.org/user/550110"
-                },
-                {
                     "name": "febbraro",
                     "homepage": "https://www.drupal.org/user/43670"
                 },
@@ -8808,12 +8804,12 @@
                     "homepage": "https://www.drupal.org/user/208732"
                 },
                 {
-                    "name": "mpotter",
-                    "homepage": "https://www.drupal.org/user/616192"
+                    "name": "pcho",
+                    "homepage": "https://www.drupal.org/user/1619590"
                 },
                 {
-                    "name": "richgerdes",
-                    "homepage": "https://www.drupal.org/user/3437973"
+                    "name": "srjosh",
+                    "homepage": "https://www.drupal.org/user/165878"
                 },
                 {
                     "name": "tekante",
@@ -8846,7 +8842,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha3",
-                    "datestamp": "1521869040",
+                    "datestamp": "1521868984",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -8867,10 +8863,6 @@
                     "homepage": "https://www.drupal.org/user/1608382"
                 },
                 {
-                    "name": "e0ipso",
-                    "homepage": "https://www.drupal.org/user/550110"
-                },
-                {
                     "name": "febbraro",
                     "homepage": "https://www.drupal.org/user/43670"
                 },
@@ -8879,12 +8871,12 @@
                     "homepage": "https://www.drupal.org/user/208732"
                 },
                 {
-                    "name": "mpotter",
-                    "homepage": "https://www.drupal.org/user/616192"
+                    "name": "pcho",
+                    "homepage": "https://www.drupal.org/user/1619590"
                 },
                 {
-                    "name": "richgerdes",
-                    "homepage": "https://www.drupal.org/user/3437973"
+                    "name": "srjosh",
+                    "homepage": "https://www.drupal.org/user/165878"
                 },
                 {
                     "name": "tekante",
@@ -8925,7 +8917,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.8",
-                    "datestamp": "1531985581",
+                    "datestamp": "1523872384",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -15344,7 +15336,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "67526fe5793cd069a6ba690fb3f4a2ee94caa3c5"
+                "reference": "7c2ac6e9e578e1bbdb110dbbb3f83de6a5f400b1"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -15353,7 +15345,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2018-01-18T16:36:30+00:00"
+            "time": "2018-08-01T20:40:16+00:00"
         },
         {
             "name": "umn/umn_features",
