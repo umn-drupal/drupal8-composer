@@ -5492,7 +5492,10 @@
                         "2825034 - Form error messages do not appear in IPE": "https://www.drupal.org/files/issues/panels-ipe-propogate-errors-2825034-5.patch"
                     }
                 },
-                "enable-patching": true
+                "enable-patching": true,
+                "patches_applied": {
+                    "2989369 - The Landing Page content type on new installs is not opted into the editorial workflow": "https://www.drupal.org/files/issues/2018-07-30/2989369-feat-dep-Ensure-lightning_workflow-dep-02.patch"
+                }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "scripts": {
@@ -15385,7 +15388,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "7c2ac6e9e578e1bbdb110dbbb3f83de6a5f400b1"
+                "reference": "fb14d473a4d58463615c171fbb275068050b0cd9"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -15394,7 +15397,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2018-08-01T20:40:16+00:00"
+            "time": "2018-08-03T15:29:26+00:00"
         },
         {
             "name": "umn/umn_features",
