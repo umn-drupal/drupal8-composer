@@ -8455,6 +8455,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
