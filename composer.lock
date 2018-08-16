@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bfc16c3278be32ca2c77aba5717b1c7",
+    "content-hash": "5fac961c57d88d6b5cac6264790004c1",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -1797,7 +1797,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -2032,13 +2032,9 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
-                {
-                    "name": "Alsén",
-                    "homepage": "https://www.drupal.org/user/1726528"
-                },
                 {
                     "name": "Nitesh Sethia",
                     "homepage": "https://www.drupal.org/user/2474982"
@@ -2046,6 +2042,10 @@
                 {
                     "name": "acke",
                     "homepage": "https://www.drupal.org/user/765764"
+                },
+                {
+                    "name": "sockiplatsmurf",
+                    "homepage": "https://www.drupal.org/user/1726528"
                 },
                 {
                     "name": "sumitmadan",
@@ -2209,7 +2209,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -2287,7 +2287,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.11",
-                    "datestamp": "1520793438",
+                    "datestamp": "1520792884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2543,7 +2543,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -3312,7 +3312,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
-                    "datestamp": "1530178424",
+                    "datestamp": "1484566683",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -3400,7 +3400,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -3618,7 +3618,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -4238,7 +4238,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha2",
-                    "datestamp": "1528333384",
+                    "datestamp": "1462171443",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -4247,17 +4247,9 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
-                {
-                    "name": "adammalone",
-                    "homepage": "https://www.drupal.org/user/1295980"
-                },
-                {
-                    "name": "bonus",
-                    "homepage": "https://www.drupal.org/user/360002"
-                },
                 {
                     "name": "naveenvalecha",
                     "homepage": "https://www.drupal.org/user/2665733"
@@ -4269,6 +4261,10 @@
                 {
                     "name": "soyarma",
                     "homepage": "https://www.drupal.org/user/286273"
+                },
+                {
+                    "name": "typhonius",
+                    "homepage": "https://www.drupal.org/user/1295980"
                 }
             ],
             "homepage": "https://www.drupal.org/project/fast_404",
@@ -6266,7 +6262,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -6757,10 +6753,6 @@
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "jcisio",
-                    "homepage": "https://www.drupal.org/user/210762"
                 }
             ],
             "description": "Media entity soundcloud provider.",
@@ -8155,7 +8147,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.58",
-                    "datestamp": "1533299880",
+                    "datestamp": "1534316881",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8224,7 +8216,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -8269,7 +8261,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -8314,7 +8306,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -8359,7 +8351,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -8404,7 +8396,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -8613,7 +8605,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -8663,7 +8655,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.1",
-                    "datestamp": "1529154524",
+                    "datestamp": "1491149284",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8696,6 +8688,53 @@
             }
         },
         {
+            "name": "drupal/roleassign",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/roleassign",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/roleassign-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "e2c4cb24dd1bce59f4edcb3488377d2b12769136"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1454394539",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "salvis",
+                    "homepage": "https://www.drupal.org/user/82964"
+                }
+            ],
+            "description": "Allows site administrators to further delegate the task of managing user's roles.",
+            "homepage": "https://www.drupal.org/project/roleassign",
+            "support": {
+                "source": "http://cgit.drupalcode.org/roleassign"
+            }
+        },
+        {
             "name": "drupal/rules",
             "version": "3.0.0-alpha3",
             "source": {
@@ -8720,7 +8759,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-alpha3",
-                    "datestamp": "1526654284",
+                    "datestamp": "1495743783",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -9058,7 +9097,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1529312013",
+                    "datestamp": "1523090287",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9321,7 +9360,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -9658,7 +9697,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -9760,7 +9799,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -9809,7 +9848,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -9857,7 +9896,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -10155,7 +10194,7 @@
                     "datestamp": "1475245822",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -15399,7 +15438,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "9318274538609c40c580bbb81ae164e9a9277e99"
+                "reference": "9baef32a3786c5ac09d906ab456b41440a74d621"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -15408,7 +15447,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2018-08-03T16:04:55+00:00"
+            "time": "2018-08-16T15:42:53+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -16494,7 +16533,8 @@
         "drupal/field_defaults": 5,
         "drupal/gdpr": 15,
         "drupal/tablefield": 20,
-        "drupal/fpa": 20
+        "drupal/fpa": 20,
+        "drupal/roleassign": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
