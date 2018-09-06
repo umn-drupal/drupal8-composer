@@ -117,7 +117,8 @@
     "drupal/roleassign": "^1.0@alpha",
     "symfony/cache": "^3.4.0",
     "drutiny/drutiny": "^2.3.0",
-    "drutiny/http": "^2.4"
+    "drutiny/http": "^2.4",
+    "drutiny/acquia": "^2.4"
   },
   "repositories": {
     "drupal-packagist": {
