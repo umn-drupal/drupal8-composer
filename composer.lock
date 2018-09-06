@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fac961c57d88d6b5cac6264790004c1",
+    "content-hash": "c2df653141a5e46a5219e90c41c16099",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -10721,26 +10721,29 @@
         },
         {
             "name": "drutiny/drutiny",
-            "version": "2.1.6",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drutiny/drutiny.git",
-                "reference": "42657df1c2c94e70972ab2c237cf58641d05dbb6"
+                "reference": "3c822c4f72a90614593478c2d71b4ceba35641ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drutiny/drutiny/zipball/42657df1c2c94e70972ab2c237cf58641d05dbb6",
-                "reference": "42657df1c2c94e70972ab2c237cf58641d05dbb6",
+                "url": "https://api.github.com/repos/drutiny/drutiny/zipball/3c822c4f72a90614593478c2d71b4ceba35641ed",
+                "reference": "3c822c4f72a90614593478c2d71b4ceba35641ed",
                 "shasum": ""
             },
             "require": {
                 "caseyamcl/toc": "~1.0",
                 "composer/semver": "^1.4.2",
-                "doctrine/annotations": "^1.2",
+                "doctrine/annotations": "^v1.2",
+                "drutiny/http": "^2.4",
                 "erusev/parsedown": "^1.6.3",
                 "fiasco/symfony-console-style-markdown": "~1.0",
                 "mustache/mustache": "^2.11",
                 "paragonie/random_compat": "^2.0",
+                "romaricdrigon/metayaml": "^1.1",
+                "symfony/cache": "^3.4",
                 "symfony/class-loader": "^3.1",
                 "symfony/console": "^3.4",
                 "symfony/expression-language": "^3.4",
@@ -10752,6 +10755,7 @@
             },
             "require-dev": {
                 "drupal/coder": "^8.2.0",
+                "drutiny/content": "master-dev",
                 "phpunit/phpunit": "^5.0",
                 "squizlabs/php_codesniffer": "2.*"
             },
@@ -10787,7 +10791,7 @@
                 "report",
                 "ssh"
             ],
-            "time": "2018-05-07T21:44:08+00:00"
+            "time": "2018-08-29T20:49:49+00:00"
         },
         {
             "name": "drutiny/http",
@@ -10824,17 +10828,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drutiny/plugin-drupal-8.git",
-                "reference": "e0d413903b7390d9603dcdb635ca2542a915d86b"
+                "reference": "0319b2f30657d9d6eeb77916ba146209f4044edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drutiny/plugin-drupal-8/zipball/e0d413903b7390d9603dcdb635ca2542a915d86b",
-                "reference": "e0d413903b7390d9603dcdb635ca2542a915d86b",
+                "url": "https://api.github.com/repos/drutiny/plugin-drupal-8/zipball/0319b2f30657d9d6eeb77916ba146209f4044edb",
+                "reference": "0319b2f30657d9d6eeb77916ba146209f4044edb",
                 "shasum": ""
             },
             "require": {
-                "drutiny/drutiny": "2.1.*@dev || 2.2.*@dev",
-                "drutiny/http": "2.x-dev",
+                "drutiny/drutiny": "2.3.*@dev",
                 "symfony/yaml": "^3.2"
             },
             "require-dev": {
@@ -10871,7 +10874,7 @@
                 "report",
                 "ssh"
             ],
-            "time": "2018-07-08T20:48:47+00:00"
+            "time": "2018-08-09T23:02:35+00:00"
         },
         {
             "name": "dtadege/superfish",
@@ -13279,6 +13282,48 @@
             "time": "2017-08-31T09:27:07+00:00"
         },
         {
+            "name": "romaricdrigon/metayaml",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romaricdrigon/MetaYaml.git",
+                "reference": "03b0af567981a8a060606989c395974baf385bd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romaricdrigon/MetaYaml/zipball/03b0af567981a8a060606989c395974baf385bd1",
+                "reference": "03b0af567981a8a060606989c395974baf385bd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/yaml": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "atoum/atoum": "~1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "RomaricDrigon\\MetaYaml": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Using [Yaml|Xml|json] schemas files to validate [Yaml|Xml|json] ",
+            "homepage": "http://github.com/romaricdrigon/MetaYaml",
+            "keywords": [
+                "json",
+                "schema",
+                "validation",
+                "xml",
+                "yaml"
+            ],
+            "time": "2016-02-29T10:28:30+00:00"
+        },
+        {
             "name": "sabberworm/php-css-parser",
             "version": "6.0.1",
             "source": {
@@ -13668,26 +13713,27 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v4.0.9",
+            "version": "v3.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "ff96ef34437ccc2c0737677c1bf14904a2b9482d"
+                "reference": "caba4f9cfc77cef48ac88497ce8204368424d92c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/ff96ef34437ccc2c0737677c1bf14904a2b9482d",
-                "reference": "ff96ef34437ccc2c0737677c1bf14904a2b9482d",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/caba4f9cfc77cef48ac88497ce8204368424d92c",
+                "reference": "caba4f9cfc77cef48ac88497ce8204368424d92c",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": "^5.5.9|>=7.0.8",
                 "psr/cache": "~1.0",
                 "psr/log": "~1.0",
-                "psr/simple-cache": "^1.0"
+                "psr/simple-cache": "^1.0",
+                "symfony/polyfill-apcu": "~1.1"
             },
             "conflict": {
-                "symfony/var-dumper": "<3.4"
+                "symfony/var-dumper": "<3.3"
             },
             "provide": {
                 "psr/cache-implementation": "1.0",
@@ -13702,7 +13748,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -13733,7 +13779,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2018-04-30T01:05:59+00:00"
+            "time": "2018-08-24T09:47:29+00:00"
         },
         {
             "name": "symfony/class-loader",
@@ -14415,6 +14461,62 @@
                 "localization"
             ],
             "time": "2018-03-28T18:23:39+00:00"
+        },
+        {
+            "name": "symfony/polyfill-apcu",
+            "version": "v1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-apcu.git",
+                "reference": "19e1b73bf255265ad0b568f81766ae2a3266d8d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/19e1b73bf255265ad0b568f81766ae2a3266d8d2",
+                "reference": "19e1b73bf255265ad0b568f81766ae2a3266d8d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Apcu\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting apcu_* functions to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "apcu",
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

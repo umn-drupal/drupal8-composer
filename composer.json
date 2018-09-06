@@ -114,7 +114,9 @@
     "drupal/tablefield": "2.x-dev",
     "drupal/fpa": "2.x-dev",
     "drupal/menu_admin_per_menu": "^1.0",
-    "drupal/roleassign": "^1.0@alpha"
+    "drupal/roleassign": "^1.0@alpha",
+    "symfony/cache": "^3.4.0",
+    "drutiny/drutiny": "^2.3.0"
   },
   "repositories": {
     "drupal-packagist": {
