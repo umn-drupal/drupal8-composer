@@ -112,7 +112,8 @@
     "drutiny/http": "^2.4",
     "drutiny/acquia": "^2.4",
     "symfony/debug": "^3.4.0",
-    "drupal/console": "^1.8"
+    "drupal/console": "^1.8",
+    "drupal/module_filter": "^3.1"
   },
   "repositories": {
     "drupal-packagist": {
