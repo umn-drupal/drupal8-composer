@@ -8672,6 +8672,9 @@
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

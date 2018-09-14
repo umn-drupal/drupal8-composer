@@ -14,6 +14,9 @@
         },
         "drupal/radix_layouts": {
             "Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
+        },
+        "drupal/rules": {
+            "ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
         }
     }
 }
