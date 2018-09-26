@@ -6,17 +6,17 @@
         "drupal/entity_embed": {
             "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch"
         },
-        "drupal/entity_print": {
-            "Force SSL Error": "https://www.drupal.org/files/issues/2878181-13.patch"
-        },
         "drupal/menu_block": {
             "Follow active parent": "https://www.drupal.org/files/issues/2018-05-04/menu_block-follow-2756675-46.patch"
         },
         "drupal/tablefield": {
-            "Upload / import CSV feature": "https://www.drupal.org/files/issues/2018-04-20/csv_import_fix_with_small_validation-2922803-8.patch"
+            "Upload / import CSV feature": "https://www.drupal.org/files/issues/2018-08-17/fix-windows-extension-check-no-bom-2922803-19.patch"
         },
         "drupal/radix_layouts": {
             "Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
+        },
+        "drupal/rules": {
+            "ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
         }
     }
 }
