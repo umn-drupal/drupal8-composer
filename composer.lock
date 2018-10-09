@@ -3513,6 +3513,7 @@
                     "merge-extra": false
                 },
                 "patches_applied": {
+                    "Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
                     "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2018-07-09/2815221-105.patch",
@@ -16237,7 +16238,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "fb010eea5ee42136910b7cc233e01b74f6f0b2e3"
+                "reference": "28e4c0e4aaca2742af1578953b610e254cfe8ecc"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -16246,7 +16247,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2018-09-12T15:37:29+00:00"
+            "time": "2018-10-09T15:02:53+00:00"
         },
         {
             "name": "umn/umn_features",
