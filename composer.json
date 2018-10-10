@@ -35,7 +35,7 @@
     "umn/bootstrap_umn": "dev-master",
     "umn/umn_search": "dev-master",
     "umn/crmform": "dev-d8",
-    "umn/dors_migrate": "dev-dev",
+    "umn/dors_migrate": "v2.1.2",
     "symfony/intl": "^3.2",
     "drupal/mathjax": "^2.6",
     "drupal/redirect": "^1.0@alpha",
@@ -114,7 +114,8 @@
     "symfony/debug": "^3.4.0",
     "drupal/console": "^1.8",
     "drupal/module_filter": "^3.1",
-    "drupal/layout_builder_restrictions": "^1.1"
+    "drupal/layout_builder_restrictions": "^1.1",
+    "drupal/twig_tweak": "^2.1"
   },
   "repositories": {
     "drupal-packagist": {

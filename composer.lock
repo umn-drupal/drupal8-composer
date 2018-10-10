@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e00abcb0cf38fae4ed288b0e1db27a76",
+    "content-hash": "12817cb13f49b31520094a24761ae4fc",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -3513,6 +3513,7 @@
                     "merge-extra": false
                 },
                 "patches_applied": {
+                    "Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
                     "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2018-07-09/2815221-105.patch",
@@ -10091,6 +10092,61 @@
             }
         },
         {
+            "name": "drupal/twig_tweak",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/twig_tweak",
+                "reference": "8.x-2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twig_tweak-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "ce1534d3270d916b55902c686057c0b5038d6b1d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "better dump() function for debugging Twig variables"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1531889025",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Chi",
+                    "homepage": "https://www.drupal.org/user/556138"
+                }
+            ],
+            "description": "A Twig extension with some useful functions and filters for Drupal development.",
+            "homepage": "https://www.drupal.org/project/twig_tweak",
+            "keywords": [
+                "Drupal",
+                "Twig"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/twig_tweak",
+                "issues": "https://www.drupal.org/project/issues/twig_tweak"
+            }
+        },
+        {
             "name": "drupal/typed_data",
             "version": "1.0.0-alpha1",
             "source": {
@@ -16160,11 +16216,11 @@
         },
         {
             "name": "umn/dors_migrate",
-            "version": "dev-dev",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/dors_migrate.git",
-                "reference": "aaa46afee66ad2d6a1907d7681ad492a394d47ce"
+                "reference": "cdc606d1cfb389354979541983e7f287631e159a"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16174,7 +16230,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2018-04-16T15:25:06+00:00"
+            "time": "2018-09-28T18:00:20+00:00"
         },
         {
             "name": "umn/lightning_umn",
@@ -16182,7 +16238,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "fb010eea5ee42136910b7cc233e01b74f6f0b2e3"
+                "reference": "28e4c0e4aaca2742af1578953b610e254cfe8ecc"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -16191,7 +16247,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2018-09-12T15:37:29+00:00"
+            "time": "2018-10-09T15:02:53+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -16971,7 +17027,6 @@
         "umn/bootstrap_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
-        "umn/dors_migrate": 20,
         "drupal/redirect": 15,
         "drupal/nice_menus": 10,
         "drupal/fast_404": 15,
