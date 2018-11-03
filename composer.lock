@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "63fa358093c70c0999aa3c750e07ee1f",
@@ -16658,7 +16658,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/crmform",
-                "reference": "bbade3619ca73eab253257a251b6dc08879aa3f9"
+                "reference": "3f4cedd61918da306cb0bb6b33ba08ae3900d700"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16668,7 +16668,7 @@
                 }
             ],
             "description": "Drupal 8 module for rendering/posting CRM forms in Drupal sites",
-            "time": "2017-08-08T19:17:20+00:00"
+            "time": "2018-11-03T04:26:19+00:00"
         },
         {
             "name": "umn/dors_migrate",
