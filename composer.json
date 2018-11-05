@@ -119,7 +119,8 @@
     "drupal/anchor_link": "^1.6",
     "drupal/fakeobjects": "^1.0",
     "drupal/captcha": "1.0-beta1",
-    "drupal/recaptcha": "2.3"
+    "drupal/recaptcha": "2.3",
+    "drupal/group": "^1.0@RC"
   },
   "repositories": {
     "drupal-packagist": {
