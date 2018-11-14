@@ -16781,7 +16781,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/umn-search.git",
-                "reference": "a966c6ddcb9886847ef72ab4a2f0f5ea64de2186"
+                "reference": "8911b466fe3f27e677d0f3eba6d200f1a4d1e9be"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16791,7 +16791,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2018-11-13T22:14:59+00:00"
+            "time": "2018-11-14T16:04:58+00:00"
         },
         {
             "name": "vardot/blazy",
