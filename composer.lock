@@ -379,7 +379,7 @@
             "version": "3.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
             },
             "dist": {
@@ -16673,7 +16673,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/bootstrap-umn.git",
-                "reference": "3c88939a05324fecd1b530426f430c8d2367ff38"
+                "reference": "c7dd86e7303e269c33703288cdfa4eba795b7b93"
             },
             "require": {
                 "drupal/bootstrap": "^3.11"
@@ -16685,7 +16685,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2018-04-20T01:23:54+00:00"
+            "time": "2018-11-15T14:07:31+00:00"
         },
         {
             "name": "umn/cog_umn",
