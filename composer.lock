@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22904259bf6ed1d1b74c17e1512e0482",
+    "content-hash": "c36db50260efde48ee28f938a4f2d538",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -16803,7 +16803,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/umn-search.git",
-                "reference": "8bbb82649357cd8d610a8a6f53024463aa70d7b5"
+                "reference": "cf31f77589cbb1ffe9222961442676d27ba039c8"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16813,7 +16813,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2018-11-14T16:35:35+00:00"
+            "time": "2018-11-20T16:08:42+00:00"
         },
         {
             "name": "vardot/blazy",
