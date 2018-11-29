@@ -21,6 +21,9 @@
         },
         "drupal/core": {
             "Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch"
+        },
+        "drupal/core": {
+            "Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch"
         }
     }
 }
