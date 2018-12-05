@@ -2697,7 +2697,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.13",
-                    "datestamp": "1542006180",
+                    "datestamp": "1543447542",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3681,7 +3681,7 @@
                     "merge-extra": false
                 },
                 "patches_applied": {
-                    "Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
+                    "Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
                     "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2018-10-17/2815221-reroll-8.6.1.patch",
@@ -4697,8 +4697,16 @@
                     "homepage": "https://www.drupal.org/user/3260690"
                 },
                 {
+                    "name": "Wim Leers",
+                    "homepage": "https://www.drupal.org/user/99777"
+                },
+                {
                     "name": "cs_shadow",
                     "homepage": "https://www.drupal.org/user/2828287"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
                 },
                 {
                     "name": "slashrsm",
@@ -10482,7 +10490,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/tablefield",
-                "reference": "f3f639712d7d23f50fc896e787edb737b7beb296"
+                "reference": "634fd2a8995847d319617bebab8c015d7ee3618b"
             },
             "require": {
                 "drupal/core": "*"
@@ -10493,16 +10501,14 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha1+10-dev",
-                    "datestamp": "1535122380",
+                    "version": "8.x-2.0-alpha1+12-dev",
+                    "datestamp": "1543754281",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 },
-                "patches_applied": {
-                    "Upload / import CSV feature": "https://www.drupal.org/files/issues/2018-08-17/fix-windows-extension-check-no-bom-2922803-19.patch"
-                }
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -10539,7 +10545,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/tablefield"
             },
-            "time": "2018-09-15T17:05:30+00:00"
+            "time": "2018-12-02T12:54:24+00:00"
         },
         {
             "name": "drupal/token",
@@ -16795,7 +16801,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/umn-search.git",
-                "reference": "d22c80cded70c3d8e43a5a883e924101d40acb6d"
+                "reference": "071b3c08874123f4b5bbecbc1f0829039993d1db"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16805,7 +16811,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2018-11-27T20:17:40+00:00"
+            "time": "2018-12-05T21:08:57+00:00"
         },
         {
             "name": "vardot/blazy",
