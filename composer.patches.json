@@ -10,9 +10,6 @@
         "drupal/menu_block": {
             "Follow active parent": "https://www.drupal.org/files/issues/2018-05-04/menu_block-follow-2756675-46.patch"
         },
-        "drupal/tablefield": {
-            "Upload / import CSV feature": "https://www.drupal.org/files/issues/2018-08-17/fix-windows-extension-check-no-bom-2922803-19.patch"
-        },
         "drupal/radix_layouts": {
             "Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
         },
@@ -20,9 +17,7 @@
             "ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
         },
         "drupal/core": {
-            "Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch"
-        },
-        "drupal/core": {
+            "Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
             "Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch"
         }
     }
