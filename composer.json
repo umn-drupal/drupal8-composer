@@ -31,7 +31,7 @@
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
     "umn/lightning_umn": "dev-master",
-    "umn/cog_umn": "dev-develop",
+    "umn/cog_umn": "dev-dist#final",
     "umn/bootstrap_umn": "dev-master",
     "umn/umn_search": "dev-master",
     "umn/crmform": "dev-d8",

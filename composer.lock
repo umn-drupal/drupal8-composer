@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c36db50260efde48ee28f938a4f2d538",
+    "content-hash": "6d0829eb9ee51b29097b3b74f7f36683",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -2225,7 +2225,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.24",
-                    "datestamp": "1542915180",
+                    "datestamp": "1527523080",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2471,7 +2471,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-alpha4",
-                    "datestamp": "1540513084",
+                    "datestamp": "1525044484",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -2483,10 +2483,6 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
-                {
-                    "name": "chr.fritsch",
-                    "homepage": "https://www.drupal.org/user/2103716"
-                },
                 {
                     "name": "jkopel",
                     "homepage": "https://www.drupal.org/user/66207"
@@ -4454,7 +4450,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
-                    "datestamp": "1539272769",
+                    "datestamp": "1539272580",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -4697,16 +4693,8 @@
                     "homepage": "https://www.drupal.org/user/3260690"
                 },
                 {
-                    "name": "Wim Leers",
-                    "homepage": "https://www.drupal.org/user/99777"
-                },
-                {
                     "name": "cs_shadow",
                     "homepage": "https://www.drupal.org/user/2828287"
-                },
-                {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
                 },
                 {
                     "name": "slashrsm",
@@ -5278,7 +5266,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.8",
-                    "datestamp": "1541188681",
+                    "datestamp": "1539366180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5635,10 +5623,6 @@
                 {
                     "name": "kristiaanvandeneynde",
                     "homepage": "https://www.drupal.org/user/1345130"
-                },
-                {
-                    "name": "ronaldtebrake",
-                    "homepage": "https://www.drupal.org/user/2314038"
                 }
             ],
             "description": "This module allows you to group users, content and other entities",
@@ -5863,12 +5847,20 @@
             ],
             "authors": [
                 {
+                    "name": "Karel Bemelmans",
+                    "homepage": "https://www.drupal.org/user/1205344"
+                },
+                {
                     "name": "aspilicious",
                     "homepage": "https://www.drupal.org/user/172527"
                 },
                 {
                     "name": "bceyssens",
                     "homepage": "https://www.drupal.org/user/2743951"
+                },
+                {
+                    "name": "kristofvanroy",
+                    "homepage": "https://www.drupal.org/user/382101"
                 },
                 {
                     "name": "stijndm",
@@ -5976,7 +5968,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.23",
-                    "datestamp": "1542081972",
+                    "datestamp": "1532084496",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6279,7 +6271,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.2",
-                    "datestamp": "1541623381",
+                    "datestamp": "1539817084",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6874,7 +6866,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-alpha1",
-                    "datestamp": "1537264380",
+                    "datestamp": "1506671645",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -7000,7 +6992,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-rc2",
-                    "datestamp": "1540546681",
+                    "datestamp": "1538479681",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -7514,7 +7506,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha1",
-                    "datestamp": "1541456281",
+                    "datestamp": "1537899180",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -8474,6 +8466,14 @@
                 {
                     "name": "SaschaHannes",
                     "homepage": "https://www.drupal.org/user/3536189"
+                },
+                {
+                    "name": "dakku",
+                    "homepage": "https://www.drupal.org/user/97634"
+                },
+                {
+                    "name": "rackberg",
+                    "homepage": "https://www.drupal.org/user/2806873"
                 }
             ],
             "description": "Restricts access to nodes by taxonomy terms in relation to users and their roles.",
@@ -8964,7 +8964,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.15",
-                    "datestamp": "1541330284",
+                    "datestamp": "1496919842",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9415,7 +9415,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.10",
-                    "datestamp": "1542564480",
+                    "datestamp": "1537175280",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9797,7 +9797,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.10",
-                    "datestamp": "1542151980",
+                    "datestamp": "1536851884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9839,7 +9839,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.10",
-                    "datestamp": "1542151980",
+                    "datestamp": "1536851884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -11044,7 +11044,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-rc22",
-                    "datestamp": "1540052580",
+                    "datestamp": "1538482685",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -16704,11 +16704,11 @@
         },
         {
             "name": "umn/cog_umn",
-            "version": "dev-develop",
+            "version": "dev-dist",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/cog-umn.git",
-                "reference": "accc9736df529d4eba63d1d5027a1586abeee00d"
+                "reference": "058abf373207200f022360875e6779ccf63741c0"
             },
             "require": {
                 "drupal/cog": "^1.3"
@@ -16721,7 +16721,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2018-11-14T20:44:41+00:00"
+            "time": "2018-12-07T16:18:38+00:00"
         },
         {
             "name": "umn/crmform",
