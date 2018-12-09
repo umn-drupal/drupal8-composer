@@ -10490,7 +10490,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/tablefield",
-                "reference": "634fd2a8995847d319617bebab8c015d7ee3618b"
+                "reference": "07aecd9e51ad5762e0b18ae020fab4df0eb0f489"
             },
             "require": {
                 "drupal/core": "*"
@@ -10501,14 +10501,13 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha1+12-dev",
-                    "datestamp": "1543754281",
+                    "version": "8.x-2.0-alpha1+16-dev",
+                    "datestamp": "1544301480",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": []
+                }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -16801,7 +16800,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/umn-search.git",
-                "reference": "071b3c08874123f4b5bbecbc1f0829039993d1db"
+                "reference": "f554d80170e9e3ab73ff2b802b9fafeb980443e3"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16811,7 +16810,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2018-12-05T21:08:57+00:00"
+            "time": "2018-12-09T02:44:09+00:00"
         },
         {
             "name": "vardot/blazy",
