@@ -10604,7 +10604,8 @@
             "homepage": "https://www.drupal.org/project/tablefield",
             "support": {
                 "source": "http://cgit.drupalcode.org/tablefield"
-            }
+            },
+            "time": "2018-12-08T20:56:10+00:00"
         },
         {
             "name": "drupal/token",
@@ -16825,7 +16826,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "554edaa3145ecae4816c51b7f7fc42dc61f63106"
+                "reference": "189a6bae013d7464a6b1a995da09f29ca3ea40ba"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16835,7 +16836,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2018-12-07T16:46:49+00:00"
+            "time": "2018-12-18T18:36:30+00:00"
         },
         {
             "name": "umn/lightning_umn",
