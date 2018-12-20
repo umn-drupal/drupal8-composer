@@ -1,24 +1,24 @@
 {
     "patches": {
         "drupal/nice_menus": {
-            "include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
+            "2867879: include core/drupal dependency": "https://www.drupal.org/files/issues/nice_menus-js_dependency-2867879-2.patch"
         },
         "drupal/entity_embed": {
-            "allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch",
-            "Persist classes onto the rendered entity": "https://www.drupal.org/files/issues/persist_the_classes-2628712-8.patch"
+            "2511404: allow links on embedded images": "https://www.drupal.org/files/issues/entity_embed_links-2511404-31.patch",
+            "2628712: Persist classes onto the rendered entity": "https://www.drupal.org/files/issues/persist_the_classes-2628712-8.patch"
         },
         "drupal/menu_block": {
-            "Follow active parent": "https://www.drupal.org/files/issues/2018-05-04/menu_block-follow-2756675-46.patch"
+            "2756675: Follow active parent": "https://www.drupal.org/files/issues/2018-05-04/menu_block-follow-2756675-46.patch"
         },
         "drupal/radix_layouts": {
-            "Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
+            "2990981: Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
         },
         "drupal/rules": {
-            "ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
+            "2695149: ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
         },
         "drupal/core": {
-            "Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
-            "Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch"
+            "2941092: Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
+            "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch"
         }
     }
 }
