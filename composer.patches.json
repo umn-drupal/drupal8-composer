@@ -9,7 +9,8 @@
             "3021505: Use array for class attribute": "https://www.drupal.org/files/issues/2018-12-19/entity-embed-3021505-4.patch"
         },
         "drupal/menu_block": {
-            "2756675: Follow active parent": "https://www.drupal.org/files/issues/2018-05-04/menu_block-follow-2756675-46.patch"
+            "2756675: Follow active parent": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch",
+            "2950943: Add links to menu parent block title": "https://www.drupal.org/files/issues/2018-10-26/menu_block-title_as_link-2950943-11.patch"
         },
         "drupal/radix_layouts": {
             "2990981: Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
@@ -17,9 +18,16 @@
         "drupal/rules": {
             "2695149: ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
         },
+        "drupal/video_embed_field": {
+            "2913598: Provide title attribute in iframe tag for accessibility": "https://www.drupal.org/files/issues/2018-05-14/video_embed_field-title_attribute-2913598-21-8.x-2.x.patch"
+        },
+        "drupal/paragraphs": {
+            "2948778: Call to a member function id() on null": "https://www.drupal.org/files/issues/2018-04-27/2948778-call-to-a-member-function-id-in-null.patch"
+        },
         "drupal/core": {
             "2941092: Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
-            "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch"
+            "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch",
+            "2904550: handle theme provided plugins": "https://www.drupal.org/files/issues/2018-10-25/2904550-plugin_dependency-63.patch"
         }
     }
 }
