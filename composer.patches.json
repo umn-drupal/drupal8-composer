@@ -10,6 +10,7 @@
         },
         "drupal/menu_block": {
             "2756675: Follow active parent": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch",
+            "2809699: Menu parent as block title": "https://www.drupal.org/files/issues/2018-10-26/menu_block-label_configuration-2809699-82.patch",
             "2950943: Add links to menu parent block title": "https://www.drupal.org/files/issues/2018-10-26/menu_block-title_as_link-2950943-11.patch"
         },
         "drupal/radix_layouts": {
