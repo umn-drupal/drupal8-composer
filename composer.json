@@ -36,6 +36,7 @@
     "umn/umn_search": "dev-master",
     "umn/crmform": "dev-d8",
     "umn/dors_migrate": "v2.1.4",
+    "umn/emergency_notification": "dev-master",
     "symfony/intl": "^3.2",
     "drupal/mathjax": "^2.6",
     "drupal/redirect": "^1.0@alpha",
@@ -138,6 +139,10 @@
     "umn-features": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/d8-features.git"
+    },
+    "emergency_management": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalmodules/emergency_notification.git"
     },
     "lightning_umn": {
       "type": "git",

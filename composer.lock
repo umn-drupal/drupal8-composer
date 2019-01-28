@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "172d06c41feeefdd13079567f93108b1",
+    "content-hash": "c4467953c192c359843705e38fd5ed31",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -329,7 +329,7 @@
             "version": "v2.3.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fengyuanchen/cropper.git",
+                "url": "git@github.com:fengyuanchen/cropper.git",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "dist": {
@@ -421,7 +421,7 @@
             "version": "v1.8.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kenwheeler/slick.git",
+                "url": "git@github.com:kenwheeler/slick.git",
                 "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "dist": {
@@ -4454,7 +4454,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
-                    "datestamp": "1539272580",
+                    "datestamp": "1539272769",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -5631,6 +5631,10 @@
                 {
                     "name": "kristiaanvandeneynde",
                     "homepage": "https://www.drupal.org/user/1345130"
+                },
+                {
+                    "name": "ronaldtebrake",
+                    "homepage": "https://www.drupal.org/user/2314038"
                 }
             ],
             "description": "This module allows you to group users, content and other entities",
@@ -16945,6 +16949,24 @@
             "time": "2018-10-11T15:45:38+00:00"
         },
         {
+            "name": "umn/emergency_notification",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.umn.edu:drupalmodules/emergency_notification.git",
+                "reference": "4a96abb386759b5a8a3a517f06b35ae23abc05f1"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "John Starr",
+                    "email": "starr027@umn.edu"
+                }
+            ],
+            "description": "Drupal 8 module that will post emergency messages on a page and clear the drupal and varnish cache",
+            "time": "2019-01-28T18:57:34+00:00"
+        },
+        {
             "name": "umn/folwell_components",
             "version": "dev-develop",
             "source": {
@@ -17822,6 +17844,7 @@
         "umn/bootstrap_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
+        "umn/emergency_notification": 20,
         "drupal/redirect": 15,
         "drupal/nice_menus": 10,
         "drupal/fast_404": 15,
