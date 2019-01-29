@@ -14,7 +14,7 @@
     "drupal-composer/drupal-scaffold": "^2.0.0",
     "cweagans/composer-patches": "^1.6.4",
     "acquia/acquia-sdk-php": "^0.10.8",
-    "acquia/lightning": "~3.2.2",
+    "acquia/lightning": "~3.2.4",
     "drupal/paragraphs": "^1.0",
     "drupal/simplesamlphp_auth": "^3.0",
     "drupal/rules": "^3.0@alpha",
@@ -31,11 +31,12 @@
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
     "umn/lightning_umn": "dev-master",
-    "umn/cog_umn": "dev-develop",
+    "umn/cog_umn": "dev-dist#final",
     "umn/bootstrap_umn": "dev-master",
     "umn/umn_search": "dev-master",
     "umn/crmform": "dev-d8",
     "umn/dors_migrate": "v2.1.4",
+    "umn/emergency_notification": "dev-master",
     "symfony/intl": "^3.2",
     "drupal/mathjax": "^2.6",
     "drupal/redirect": "^1.0@alpha",
@@ -122,7 +123,9 @@
     "drupal/recaptcha": "2.3",
     "drupal/group": "^1.0@RC",
     "ckeditor/fakeobjects": "^4.10",
-    "ckeditor/anchor_link": "^4.10"
+    "ckeditor/anchor_link": "^4.10",
+    "drupal/neato": "^1.8",
+    "umn/folwell_components": "dev-develop"
   },
   "repositories": {
     "drupal-packagist": {
@@ -136,6 +139,10 @@
     "umn-features": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/d8-features.git"
+    },
+    "emergency_management": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalmodules/emergency_notification.git"
     },
     "lightning_umn": {
       "type": "git",
@@ -164,6 +171,10 @@
     "umn-superfish": {
       "type": "git",
       "url": "git@github.umn.edu:dtadege/superfish.git"
+    },
+    "umn_folwell_components": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalmodules/folwell_components.git"
     },
     "blazy": {
       "type": "package",
