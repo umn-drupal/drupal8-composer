@@ -4454,7 +4454,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
-                    "datestamp": "1539272769",
+                    "datestamp": "1539272580",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -5631,10 +5631,6 @@
                 {
                     "name": "kristiaanvandeneynde",
                     "homepage": "https://www.drupal.org/user/1345130"
-                },
-                {
-                    "name": "ronaldtebrake",
-                    "homepage": "https://www.drupal.org/user/2314038"
                 }
             ],
             "description": "This module allows you to group users, content and other entities",
@@ -16990,7 +16986,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "0151a4c5bacfbfcd34d4806f44ca6d8927a2bc70"
+                "reference": "74b3f32dab1d11d5be63a57ef33e925a356824fc"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -16999,7 +16995,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-02-01T22:15:41+00:00"
+            "time": "2019-02-05T18:41:33+00:00"
         },
         {
             "name": "umn/umn_features",
