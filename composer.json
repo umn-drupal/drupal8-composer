@@ -8,7 +8,7 @@
   "require-dev": {
     "drush/drush": "~8.1.16",
     "drupal/media_entity_generic": "^1.0"
-},
+  },
   "require": {
     "composer/installers": "^1.0",
     "drupal-composer/drupal-scaffold": "^2.0.0",
@@ -280,7 +280,8 @@
       "excludes": [
         "robots.txt",
         "sites/default/default.services.yml",
-        "sites/default/default.settings.php"]
+        "sites/default/default.settings.php"
+      ]
     },
     "patches-file": "composer.patches.json",
     "enable-patching": true,
