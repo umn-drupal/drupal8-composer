@@ -8,18 +8,18 @@
   "require-dev": {
     "drush/drush": "~8.1.16",
     "drupal/media_entity_generic": "^1.0"
-},
+  },
   "require": {
     "composer/installers": "^1.0",
     "drupal-composer/drupal-scaffold": "^2.0.0",
     "cweagans/composer-patches": "^1.6.4",
     "acquia/acquia-sdk-php": "^0.10.8",
-    "acquia/lightning": "~3.2.4",
+    "acquia/lightning": "~3.2.5",
     "drupal/paragraphs": "^1.0",
     "drupal/simplesamlphp_auth": "^3.0",
     "drupal/rules": "^3.0@alpha",
     "drupal/google_analytics": "^2.1",
-    "drupal/devel": "^1.0@RC",
+    "drupal/devel": "^2.0",
     "drupal/radix_layouts": "^4.0",
     "drupal/back_to_top": "^1.0@beta",
     "drupal/restui": "^1.13",
@@ -280,7 +280,8 @@
       "excludes": [
         "robots.txt",
         "sites/default/default.services.yml",
-        "sites/default/default.settings.php"]
+        "sites/default/default.settings.php"
+      ]
     },
     "patches-file": "composer.patches.json",
     "enable-patching": true,
