@@ -335,8 +335,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fengyuanchen/cropper/zipball/30c58b29ee21010e17e58ebab165fbd84285c685",
-                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685",
-                "shasum": null
+                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "type": "bower-asset",
             "license": [
@@ -354,8 +353,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/enyo/dropzone/zipball/08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "shasum": null
+                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9"
             },
             "type": "bower-asset"
         },
@@ -370,8 +368,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
-                "reference": "49731688380a91be07653ee2491ab48ece7952b5",
-                "shasum": null
+                "reference": "49731688380a91be07653ee2491ab48ece7952b5"
             },
             "type": "bower-asset"
         },
@@ -386,8 +383,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
-                "shasum": null
+                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
             },
             "type": "bower-asset",
             "license": [
@@ -405,8 +401,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball/8fa929ef37de5007c5d32e9588280d07d5feb359",
-                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359",
-                "shasum": null
+                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.0"
@@ -427,8 +422,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "shasum": null
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -552,9 +546,7 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip"
             },
             "type": "library"
         },
@@ -563,9 +555,7 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip"
             },
             "type": "drupal-library"
         },
@@ -3468,16 +3458,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.9",
+            "version": "8.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d"
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
                 "shasum": ""
             },
             "require": {
@@ -3713,7 +3703,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-08T12:21:40+00:00"
+            "time": "2019-02-20T18:35:01+00:00"
         },
         {
             "name": "drupal/crop",
@@ -5262,17 +5252,17 @@
         },
         {
             "name": "drupal/fontawesome",
-            "version": "2.9.0",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/fontawesome",
-                "reference": "8.x-2.9"
+                "reference": "8.x-2.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.9.zip",
-                "reference": "8.x-2.9",
-                "shasum": "f536ef94ff4f27ff2c5589f1b6c994bfc9baeae7"
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.12.zip",
+                "reference": "8.x-2.12",
+                "shasum": "ed8ea9c5354201db2f0eac2bf8f3a4c46403f307"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -5283,8 +5273,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.9",
-                    "datestamp": "1541188681",
+                    "version": "8.x-2.12",
+                    "datestamp": "1550692543",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5308,14 +5298,6 @@
                 {
                     "name": "RobLoach",
                     "homepage": "https://www.drupal.org/user/61114"
-                },
-                {
-                    "name": "cosmicdreams",
-                    "homepage": "https://www.drupal.org/user/42579"
-                },
-                {
-                    "name": "geerlingguy",
-                    "homepage": "https://www.drupal.org/user/389011"
                 },
                 {
                     "name": "inders",
@@ -5959,20 +5941,20 @@
         },
         {
             "name": "drupal/jsonapi",
-            "version": "2.1.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/jsonapi",
-                "reference": "8.x-2.1"
+                "reference": "8.x-2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonapi-8.x-2.1.zip",
-                "reference": "8.x-2.1",
-                "shasum": "8173e0f44cd86752b055f069ce55c5bf7632e719"
+                "url": "https://ftp.drupal.org/files/projects/jsonapi-8.x-2.3.zip",
+                "reference": "8.x-2.3",
+                "shasum": "b5a6e263eb1c238de869b28483e411b1167a8432"
             },
             "require": {
-                "drupal/core": "^8.5.4"
+                "drupal/core": "^8.5.11"
             },
             "require-dev": {
                 "drupal/schemata": "1.x-dev#8325d172e1d6880aa24073f8f751ef089282cf9a",
@@ -5985,8 +5967,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.1",
-                    "datestamp": "1548087544",
+                    "version": "8.x-2.3",
+                    "datestamp": "1550692492",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7266,17 +7248,17 @@
         },
         {
             "name": "drupal/metatag",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/metatag",
-                "reference": "8.x-1.7"
+                "reference": "8.x-1.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "93decaefd053c524918ceae5b5ef05dd77de0857"
+                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.8.zip",
+                "reference": "8.x-1.8",
+                "shasum": "fb5d31aa08c8c2e175f096f9917e9741db152ea8"
             },
             "require": {
                 "drupal/core": "*",
@@ -7298,8 +7280,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1535726393",
+                    "version": "8.x-1.8",
+                    "datestamp": "1550692511",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8382,17 +8364,17 @@
         },
         {
             "name": "drupal/paragraphs",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/paragraphs",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "85ba97dd1c602d33fc5904b6e1df5973312afa94"
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "cd93e244f3a78dabdcf362adc31e59aad25b3fae"
             },
             "require": {
                 "drupal/core": "~8",
@@ -8420,8 +8402,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1541009695",
+                    "version": "8.x-1.6",
+                    "datestamp": "1550692525",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13554,9 +13536,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz"
             },
             "type": "npm-asset",
             "license": [
