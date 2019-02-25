@@ -335,7 +335,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fengyuanchen/cropper/zipball/30c58b29ee21010e17e58ebab165fbd84285c685",
-                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
+                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -353,7 +354,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/enyo/dropzone/zipball/08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9"
+                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -368,7 +370,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
-                "reference": "49731688380a91be07653ee2491ab48ece7952b5"
+                "reference": "49731688380a91be07653ee2491ab48ece7952b5",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -383,7 +386,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
+                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -401,7 +405,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball/8fa929ef37de5007c5d32e9588280d07d5feb359",
-                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359"
+                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.0"
@@ -422,7 +427,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -546,7 +552,9 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip"
+                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library"
         },
@@ -555,7 +563,9 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip"
+                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -5968,7 +5978,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1550692492",
+                    "datestamp": "1550761645",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13536,7 +13546,9 @@
             "version": "4.7.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz"
+                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -16951,7 +16963,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/emergency_notification.git",
-                "reference": "c33c5377990b78a4abf0df6cae16fcef70f590e5"
+                "reference": "783b34b4cbbfba377dfa590ff8b7ecfba93a4a01"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -16961,7 +16973,7 @@
                 }
             ],
             "description": "Drupal 8 module that will post emergency messages on a page and clear the drupal and varnish cache",
-            "time": "2019-02-04T14:49:25+00:00"
+            "time": "2019-02-22T20:29:40+00:00"
         },
         {
             "name": "umn/folwell_components",
