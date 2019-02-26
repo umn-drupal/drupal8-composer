@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef7f9edbc9636b83b96cf29f79166840",
+    "content-hash": "fe4ef66218c896a6c98618e40eaa51a7",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -335,8 +335,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fengyuanchen/cropper/zipball/30c58b29ee21010e17e58ebab165fbd84285c685",
-                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685",
-                "shasum": null
+                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "type": "bower-asset",
             "license": [
@@ -354,8 +353,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/enyo/dropzone/zipball/08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "shasum": null
+                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9"
             },
             "type": "bower-asset"
         },
@@ -370,8 +368,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
-                "reference": "49731688380a91be07653ee2491ab48ece7952b5",
-                "shasum": null
+                "reference": "49731688380a91be07653ee2491ab48ece7952b5"
             },
             "type": "bower-asset"
         },
@@ -380,14 +377,13 @@
             "version": "3.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
-                "shasum": null
+                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
             },
             "type": "bower-asset",
             "license": [
@@ -405,8 +401,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball/8fa929ef37de5007c5d32e9588280d07d5feb359",
-                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359",
-                "shasum": null
+                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.0"
@@ -427,8 +422,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "shasum": null
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -552,9 +546,7 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip"
             },
             "type": "library"
         },
@@ -563,9 +555,7 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip"
             },
             "type": "drupal-library"
         },
@@ -5978,7 +5968,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1550761645",
+                    "datestamp": "1550692492",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13546,9 +13536,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -16878,7 +16866,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/bootstrap-umn.git",
-                "reference": "4c08b74e48959f63f074681bb7debb1e4ce7a9c6"
+                "reference": "47ffab7af3f965d0b7ad68e4fee1cfb2bf2bfa7d"
             },
             "require": {
                 "cweagans/composer-patches": "^1.6",
@@ -16898,7 +16886,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-02-08T16:33:21+00:00"
+            "time": "2019-02-26T17:00:41+00:00"
         },
         {
             "name": "umn/cog_umn",
@@ -16906,7 +16894,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/cog-umn.git",
-                "reference": "058abf373207200f022360875e6779ccf63741c0"
+                "reference": "0a03a2a7e825c48eb40289320bbde2b4b61fdd3c"
             },
             "require": {
                 "drupal/cog": "^1.3"
@@ -16919,7 +16907,7 @@
                 }
             ],
             "description": "UMN Starter theme for Drupal 8",
-            "time": "2018-12-07T16:18:38+00:00"
+            "time": "2019-02-26T17:15:10+00:00"
         },
         {
             "name": "umn/crmform",
