@@ -125,7 +125,8 @@
     "ckeditor/fakeobjects": "^4.10",
     "ckeditor/anchor_link": "^4.10",
     "drupal/neato": "^1.8",
-    "umn/folwell_components": "dev-develop"
+    "umn/folwell_components": "dev-develop",
+    "umn/umn_superfish": "dev-master"
   },
   "repositories": {
     "drupal-packagist": {
@@ -175,6 +176,10 @@
     "umn_folwell_components": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/folwell_components.git"
+    },
+    "umn_superfish": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalmodules/umn_superfish.git"
     },
     "blazy": {
       "type": "package",

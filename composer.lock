@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe4ef66218c896a6c98618e40eaa51a7",
+    "content-hash": "bc2d0636d1aa9bbf8939ca86491da320",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -377,7 +377,7 @@
             "version": "3.3.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
             },
             "dist": {
@@ -17035,6 +17035,24 @@
             "time": "2018-12-11T22:19:57+00:00"
         },
         {
+            "name": "umn/umn_superfish",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.umn.edu:drupalmodules/umn_superfish.git",
+                "reference": "974f77e0620a45b85d10d4557c1f4ba113f49f9b"
+            },
+            "type": "drupal-module-custom",
+            "authors": [
+                {
+                    "name": "Jim Hart",
+                    "email": "hart0554@umn.edu"
+                }
+            ],
+            "description": "UMN Accessibility tweaks for Superfish",
+            "time": "2019-02-28T22:04:51+00:00"
+        },
+        {
             "name": "vardot/blazy",
             "version": "1.8.2.1",
             "source": {
@@ -17877,7 +17895,8 @@
         "drupal/fpa": 20,
         "drupal/roleassign": 15,
         "drupal/group": 5,
-        "umn/folwell_components": 20
+        "umn/folwell_components": 20,
+        "umn/umn_superfish": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
