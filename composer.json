@@ -82,7 +82,6 @@
     "drupal/responsive_menu": "^2.5",
     "bower-asset/jquery.mmenu": "^6.1",
     "drupal/migrate_source_csv": "^2.0",
-    "dtadege/superfish": "dev-master",
     "drupal/entity_print": "2.x",
     "tecnickcom/tcpdf": "~6",
     "mikehaertl/phpwkhtmltopdf": "~2.1",
@@ -168,10 +167,6 @@
     "dors_migrate": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/dors_migrate.git"
-    },
-    "umn-superfish": {
-      "type": "git",
-      "url": "git@github.umn.edu:dtadege/superfish.git"
     },
     "umn_folwell_components": {
       "type": "git",

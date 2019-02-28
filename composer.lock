@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc2d0636d1aa9bbf8939ca86491da320",
+    "content-hash": "b0c9b1421a474704f6a20829ffd06c45",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -17885,7 +17885,6 @@
         "onlyextart/colorbox": 20,
         "drupal/domain_301_redirect": 20,
         "drutiny/plugin-drupal-8": 20,
-        "dtadege/superfish": 20,
         "drupal/scheduled_updates": 15,
         "drupal/better_exposed_filters": 15,
         "drupal/page_manager": 10,
