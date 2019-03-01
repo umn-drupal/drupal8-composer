@@ -125,7 +125,8 @@
     "umn/folwell_components": "dev-develop",
     "umn/umn_superfish": "dev-master",
     "drupal/superfish": "^1.3",
-    "mehrpadin/superfish": "2.x-dev"
+    "mehrpadin/superfish": "2.x-dev",
+    "umn/folwell": "1.0.1"
   },
   "repositories": {
     "drupal-packagist": {
@@ -167,6 +168,10 @@
     "dors_migrate": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/dors_migrate.git"
+    },
+    "folwell": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalthemes/folwell.git"
     },
     "umn_folwell_components": {
       "type": "git",
