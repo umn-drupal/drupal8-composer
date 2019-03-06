@@ -12,9 +12,6 @@
       "2809699: Menu parent as block title": "https://www.drupal.org/files/issues/2018-10-26/menu_block-label_configuration-2809699-82.patch",
       "2950943: Add links to menu parent block title": "https://www.drupal.org/files/issues/2018-10-26/menu_block-title_as_link-2950943-11.patch"
     },
-    "drupal/radix_layouts": {
-      "2990981: Compatibility with Layout Builder": "https://www.drupal.org/files/issues/2018-08-06/2990981-radix_layouts_layout_builder-2.patch"
-    },
     "drupal/rules": {
       "2695149: ContextDefinition Error": "https://www.drupal.org/files/issues/2018-04-09/2695149-11.patch"
     },
@@ -27,7 +24,7 @@
     "drupal/core": {
       "2941092: Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
       "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch",
-      "2904550: handle theme provided plugins": "https://www.drupal.org/files/issues/2018-10-25/2904550-plugin_dependency-63.patch"
+      "2904550: handle theme provided plugins": "https://www.drupal.org/files/issues/2019-02-25/2904550-plugin_dependency-75.patch"
     }
   }
 }
