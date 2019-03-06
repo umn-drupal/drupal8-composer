@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6ae63bc702d0e26bc75f0857e521467",
+    "content-hash": "79b3875c618a0c28e271615d8b8b16c8",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -16972,11 +16972,11 @@
         },
         {
             "name": "umn/folwell",
-            "version": "1.0.2",
+            "version": "dev-dist",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/folwell.git",
-                "reference": "dc62e683db2d413bfb7bc087eefcafc215fc6704"
+                "reference": "ae331afdb5f2230dfb668f4c3c818bbb1670d7d6"
             },
             "require": {
                 "drupal/neato": "^1.8"
@@ -16989,7 +16989,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-03-05T19:18:52+00:00"
+            "time": "2019-03-06T21:28:35+00:00"
         },
         {
             "name": "umn/folwell_components",
@@ -16997,7 +16997,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "9d8f752f3eaad9a675d71b4fd9bd5ab93aed6fd2"
+                "reference": "d5254d9d4e19718e331239644fd00362dba77961"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -17007,7 +17007,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-03-05T19:21:25+00:00"
+            "time": "2019-03-06T21:21:38+00:00"
         },
         {
             "name": "umn/lightning_umn",
@@ -17924,7 +17924,8 @@
         "drupal/group": 5,
         "umn/folwell_components": 20,
         "umn/umn_superfish": 20,
-        "mehrpadin/superfish": 20
+        "mehrpadin/superfish": 20,
+        "umn/folwell": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
