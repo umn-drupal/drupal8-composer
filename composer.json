@@ -126,7 +126,8 @@
     "umn/umn_superfish": "dev-master",
     "drupal/superfish": "^1.3",
     "mehrpadin/superfish": "2.x-dev",
-    "umn/folwell": "dist-dev"
+    "umn/folwell": "dist-dev",
+    "drupal/h5p": "^1.0@RC"
   },
   "repositories": {
     "drupal-packagist": {
