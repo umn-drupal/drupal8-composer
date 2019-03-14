@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fa93147281aa7f0fc59a4ca04cc8501",
+    "content-hash": "415990783d373e526806c9d7ba30985f",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -12020,6 +12020,21 @@
                 "unicode"
             ],
             "time": "2018-11-13T22:06:07+00:00"
+        },
+        {
+            "name": "google/charts",
+            "version": "45",
+            "dist": {
+                "type": "file",
+                "url": "https://www.gstatic.com/charts/loader.js"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "google_charts"
+            }
         },
         {
             "name": "guzzle/cache",
