@@ -128,7 +128,8 @@
     "mehrpadin/superfish": "2.x-dev",
     "umn/folwell": "1.0.3",
     "drupal/h5p": "^1.0@RC",
-    "google/charts": "45"
+    "google/charts": "45",
+    "drupal/ctools": "3.0"
   },
   "repositories": {
     "drupal-packagist": {
