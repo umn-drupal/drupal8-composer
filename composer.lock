@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9f14bdf45b39426335fc51a301718cb",
+    "content-hash": "b512bf3868222fe960be42de68b18a30",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -16113,7 +16113,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -17268,7 +17268,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "d5254d9d4e19718e331239644fd00362dba77961"
+                "reference": "f680bc4e42ec93806e60f72e9313457a3849fdf9"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -17278,7 +17278,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-03-06T21:21:38+00:00"
+            "time": "2019-03-28T19:53:11+00:00"
         },
         {
             "name": "umn/lightning_umn",
