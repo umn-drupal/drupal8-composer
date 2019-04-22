@@ -129,7 +129,8 @@
     "drupal/h5p": "^1.0@RC",
     "google/charts": "45",
     "drupal/ctools": "3.0",
-    "drush/drush": "~8.2.0"
+    "drush/drush": "~8.2.0",
+    "drupal/google_tag": "^1.1"
   },
   "repositories": {
     "drupal-packagist": {
