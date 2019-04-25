@@ -130,7 +130,9 @@
     "google/charts": "45",
     "drupal/ctools": "3.0",
     "drush/drush": "~8.2.0",
-    "drupal/google_tag": "^1.1"
+    "drupal/google_tag": "^1.1",
+    "drupal/umn_dm_migrate": "^1.0",
+    "drupal/umn_dm_storage": "^1.0"
   },
   "repositories": {
     "drupal-packagist": {
@@ -184,6 +186,14 @@
     "umn_superfish": {
       "type": "git",
       "url": "git@github.umn.edu:drupalmodules/umn_superfish.git"
+    },
+    "umn_dm_migrate": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalmodules/umn_dm_migrate.git"
+    },
+    "umn_dm_storage": {
+      "type": "git",
+      "url": "git@github.umn.edu:drupalmodules/umn_dm_storage.git"
     },
     "blazy": {
       "type": "package",
