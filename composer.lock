@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5960e79ae8deee1fa9a10585f6e54626",
+    "content-hash": "8b7630b7eab0634814f1f826eeeb2a14",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -4526,8 +4526,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/digitalmeasures_migrate",
                 "issues": "https://www.drupal.org/project/issues/digitalmeasures_migrate"
-            },
-            "time": "2019-01-11T20:09:12+00:00"
+            }
         },
         {
             "name": "drupal/domain_301_redirect",
@@ -18289,11 +18288,11 @@
         },
         {
             "name": "umn/folwell",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/folwell.git",
-                "reference": "60a7f85c78b87b3f82983f7f45e96fc30f0b022c"
+                "reference": "795c4c07f8ec9b50eef2f087a3aa9a5ef6174213"
             },
             "require": {
                 "drupal/neato": "^1.8"
@@ -18306,7 +18305,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-03-13T13:56:53+00:00"
+            "time": "2019-04-26T16:44:41+00:00"
         },
         {
             "name": "umn/folwell_components",
