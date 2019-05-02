@@ -3802,9 +3802,6 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "3038668 - Fix tests following a change in Drupal 8.7.0: #2976035": "https://www.drupal.org/files/issues/2019-03-10/3038668-25.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -18592,7 +18589,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "c0c9ea32ff43ae9a61d911e371455c82b806394c"
+                "reference": "249ebbbb6e7fce90c780d1a87c108d7efd88b15f"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18601,7 +18598,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-05-02T20:02:18+00:00"
+            "time": "2019-05-02T20:48:05+00:00"
         },
         {
             "name": "umn/umn_features",
