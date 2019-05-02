@@ -128,8 +128,8 @@
     "umn/folwell": "~1.1.0",
     "drupal/h5p": "^1.0@RC",
     "google/charts": "45",
-    "drupal/ctools": "3.0",
     "drush/drush": "~8.2.0",
+    "drupal/layout_builder_modal": "1.x-dev",
     "drupal/google_tag": "^1.1",
     "drupal/umn_dm_migrate": "^1.0",
     "drupal/umn_dm_storage": "^1.0"
