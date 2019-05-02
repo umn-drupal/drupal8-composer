@@ -29,7 +29,11 @@
     "drupal/robotstxt": "^1.0",
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
+<<<<<<< Updated upstream
     "umn/lightning_umn": "~1.1.1",
+=======
+    "umn/lightning_umn": "dev-develop",
+>>>>>>> Stashed changes
     "umn/cog_umn": "dev-dist#final-fix404",
     "umn/bootstrap_umn": "dev-master",
     "umn/umn_search": "dev-master",
