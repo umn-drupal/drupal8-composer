@@ -26,8 +26,7 @@
     },
     "drupal/core": {
       "2941092: Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
-      "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch",
-      "2904550: handle theme provided plugins": "https://www.drupal.org/files/issues/2019-04-23/2904550-plugin_dependency-90.patch"
+      "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch"
     },
     "drupal/digitalmeasures_migrate": {
       "3050793: Digital Measures API url has changed": "https://www.drupal.org/files/issues/2019-04-25/digitalmeasures_migrate-new-api-url-3050793-1-D8_0.patch"
