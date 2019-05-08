@@ -471,7 +471,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fengyuanchen/cropper/zipball/30c58b29ee21010e17e58ebab165fbd84285c685",
-                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
+                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -489,7 +490,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/enyo/dropzone/zipball/08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9"
+                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -504,7 +506,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
-                "reference": "49731688380a91be07653ee2491ab48ece7952b5"
+                "reference": "49731688380a91be07653ee2491ab48ece7952b5",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -513,13 +516,14 @@
             "version": "3.4.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "180c5c33e477463ed93a9d5f7ac7cad7c9809f1c"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/180c5c33e477463ed93a9d5f7ac7cad7c9809f1c",
-                "reference": "180c5c33e477463ed93a9d5f7ac7cad7c9809f1c"
+                "reference": "180c5c33e477463ed93a9d5f7ac7cad7c9809f1c",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -537,7 +541,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball/8fa929ef37de5007c5d32e9588280d07d5feb359",
-                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359"
+                "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.0"
@@ -558,7 +563,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -718,7 +724,9 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip"
+                "url": "https://download.ckeditor.com/link/releases/link_4.10.1.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library"
         },
@@ -727,7 +735,9 @@
             "version": "4.10.1",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip"
+                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.10.1.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -2442,7 +2452,7 @@
             "description": "Allows Drupal websites to connect with Acquia.",
             "homepage": "https://www.drupal.org/project/acquia_connector",
             "support": {
-                "source": "https://git.drupalcode.org/project/acquia_connector"
+                "source": "http://cgit.drupalcode.org/acquia_connector"
             }
         },
         {
@@ -2498,7 +2508,7 @@
             "description": "Top-notch cache invalidation on Acquia Cloud!",
             "homepage": "https://www.drupal.org/project/acquia_purge",
             "support": {
-                "source": "https://git.drupalcode.org/project/acquia_purge"
+                "source": "http://cgit.drupalcode.org/acquia_purge"
             }
         },
         {
@@ -2592,7 +2602,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.26",
-                    "datestamp": "1549559402",
+                    "datestamp": "1549218480",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2697,7 +2707,7 @@
             "description": "This plugin module adds the better link dialog and anchor related features to CKEditor in Drupal 8",
             "homepage": "https://www.drupal.org/project/anchor_link",
             "support": {
-                "source": "https://git.drupalcode.org/project/anchor_link"
+                "source": "http://cgit.drupalcode.org/anchor_link"
             }
         },
         {
@@ -2717,8 +2727,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.1-beta1+15-dev",
-                    "datestamp": "1536175980",
+                    "version": "8.x-2.1-beta1+14-dev",
+                    "datestamp": "1532858581",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -2743,10 +2753,6 @@
                     "homepage": "https://www.drupal.org/user/216396"
                 },
                 {
-                    "name": "diqidoq",
-                    "homepage": "https://www.drupal.org/user/1001934"
-                },
-                {
                     "name": "purushotam.rai",
                     "homepage": "https://www.drupal.org/user/3193859"
                 }
@@ -2754,7 +2760,7 @@
             "description": "Allows hiding of entity label fields and automatic label creation.",
             "homepage": "https://www.drupal.org/project/auto_entitylabel",
             "support": {
-                "source": "https://git.drupalcode.org/project/auto_entitylabel",
+                "source": "http://cgit.drupalcode.org/auto_entitylabel",
                 "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
             },
             "time": "2018-09-05T19:29:54+00:00"
@@ -2815,7 +2821,7 @@
             "description": "Back To Top adds a button that hovers in the bottom of your screen and allow users to smoothly scroll up the page using jQuery.",
             "homepage": "https://www.drupal.org/project/back_to_top",
             "support": {
-                "source": "https://git.drupalcode.org/project/back_to_top"
+                "source": "http://cgit.drupalcode.org/back_to_top"
             }
         },
         {
@@ -2855,10 +2861,6 @@
             ],
             "authors": [
                 {
-                    "name": "Etroid",
-                    "homepage": "https://www.drupal.org/user/3048985"
-                },
-                {
                     "name": "chr.fritsch",
                     "homepage": "https://www.drupal.org/user/2103716"
                 },
@@ -2871,6 +2873,10 @@
                     "homepage": "https://www.drupal.org/user/192273"
                 },
                 {
+                    "name": "mortona2k",
+                    "homepage": "https://www.drupal.org/user/1029484"
+                },
+                {
                     "name": "rlhawk",
                     "homepage": "https://www.drupal.org/user/352283"
                 }
@@ -2878,7 +2884,7 @@
             "description": "Provides advanced options (such as links, checkboxes, or jQueryUI widgets) for exposed Views elements.",
             "homepage": "https://www.drupal.org/project/better_exposed_filters",
             "support": {
-                "source": "https://git.drupalcode.org/project/better_exposed_filters"
+                "source": "http://cgit.drupalcode.org/better_exposed_filters"
             }
         },
         {
@@ -2908,7 +2914,7 @@
                     "datestamp": "1545235980",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -3097,6 +3103,10 @@
                     "name": "Fabiano Sant'Ana (wundo)",
                     "homepage": "https://www.drupal.org/u/wundo",
                     "role": "Co-maintainer"
+                },
+                {
+                    "name": "wundo",
+                    "homepage": "https://www.drupal.org/user/25523"
                 }
             ],
             "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
@@ -3172,7 +3182,7 @@
             "description": "The CAPTCHA module provides this feature to virtually any user facing web form on a Drupal site.",
             "homepage": "https://www.drupal.org/project/captcha",
             "support": {
-                "source": "https://git.drupalcode.org/project/captcha"
+                "source": "http://cgit.drupalcode.org/captcha"
             }
         },
         {
@@ -3466,7 +3476,7 @@
             "description": "Provides basic revert and update functionality for other modules",
             "homepage": "https://www.drupal.org/project/config_update",
             "support": {
-                "source": "https://git.drupalcode.org/project/config_update"
+                "source": "http://cgit.drupalcode.org/config_update"
             }
         },
         {
@@ -3769,7 +3779,7 @@
             "description": "Declare all the consumers of your API",
             "homepage": "https://www.drupal.org/project/consumers",
             "support": {
-                "source": "https://git.drupalcode.org/project/consumers"
+                "source": "http://cgit.drupalcode.org/consumers"
             }
         },
         {
@@ -3797,7 +3807,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta9",
-                    "datestamp": "1556703480",
+                    "datestamp": "1497478742",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4145,7 +4155,7 @@
             "description": "Provides storage and API for image crops.",
             "homepage": "https://www.drupal.org/project/crop",
             "support": {
-                "source": "https://git.drupalcode.org/project/crop",
+                "source": "http://cgit.drupalcode.org/crop",
                 "issues": "https://www.drupal.org/project/issues/crop"
             }
         },
@@ -4173,7 +4183,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1549603381",
+                    "datestamp": "1493401742",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4256,7 +4266,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1549603381",
+                    "datestamp": "1493401742",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4316,7 +4326,7 @@
             "description": "Provides improvements to blocks that will one day be added to Drupal core.",
             "homepage": "https://www.drupal.org/project/ctools",
             "support": {
-                "source": "https://git.drupalcode.org/project/ctools"
+                "source": "http://cgit.drupalcode.org/ctools"
             }
         },
         {
@@ -4593,7 +4603,7 @@
             "description": "Allows you to 301 redirect any domain to the main domain associated with a site.",
             "homepage": "https://www.drupal.org/project/domain_301_redirect",
             "support": {
-                "source": "https://git.drupalcode.org/project/domain_301_redirect"
+                "source": "http://cgit.drupalcode.org/domain_301_redirect"
             },
             "time": "2017-06-14T15:45:44+00:00"
         },
@@ -4627,7 +4637,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-alpha3",
-                    "datestamp": "1555407785",
+                    "datestamp": "1513265285",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4729,14 +4739,6 @@
                     "homepage": "https://www.drupal.org/user/3326031"
                 },
                 {
-                    "name": "diamondsea",
-                    "homepage": "https://www.drupal.org/user/430714"
-                },
-                {
-                    "name": "hmartens",
-                    "homepage": "https://www.drupal.org/user/622826"
-                },
-                {
                     "name": "loopduplicate",
                     "homepage": "https://www.drupal.org/user/717290"
                 },
@@ -4756,7 +4758,7 @@
             "description": "Adds configuration to the system breadcrumbs.",
             "homepage": "https://www.drupal.org/project/easy_breadcrumb",
             "support": {
-                "source": "https://git.drupalcode.org/project/easy_breadcrumb"
+                "source": "http://cgit.drupalcode.org/easy_breadcrumb"
             }
         },
         {
@@ -4803,7 +4805,7 @@
             "description": "Add title, target etc. attributes to Text Editor's link dialog if the text format allows them.",
             "homepage": "https://www.drupal.org/project/editor_advanced_link",
             "support": {
-                "source": "https://git.drupalcode.org/project/editor_advanced_link"
+                "source": "http://cgit.drupalcode.org/editor_advanced_link"
             }
         },
         {
@@ -4866,7 +4868,7 @@
             "description": "Provide a framework for various different types of embeds in WYSIWYG editors, common functionality, interfaces, and standards.",
             "homepage": "https://www.drupal.org/project/embed",
             "support": {
-                "source": "https://git.drupalcode.org/project/embed",
+                "source": "http://cgit.drupalcode.org/embed",
                 "issues": "https://www.drupal.org/project/issues/embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
             }
@@ -4990,7 +4992,7 @@
             "description": "Let site administrators place content entities as blocks.",
             "homepage": "https://www.drupal.org/project/entity_block",
             "support": {
-                "source": "https://git.drupalcode.org/project/entity_block"
+                "source": "http://cgit.drupalcode.org/entity_block"
             }
         },
         {
@@ -5164,7 +5166,7 @@
             "description": "Allows any entity to be embedded within a text area using a WYSIWYG editor.",
             "homepage": "https://www.drupal.org/project/entity_embed",
             "support": {
-                "source": "https://git.drupalcode.org/project/entity_embed",
+                "source": "http://cgit.drupalcode.org/entity_embed",
                 "issues": "https://www.drupal.org/project/issues/entity_embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
             }
@@ -5227,7 +5229,7 @@
                 "web"
             ],
             "support": {
-                "source": "https://git.drupalcode.org/project/entity_print"
+                "source": "http://cgit.drupalcode.org/entity_print"
             }
         },
         {
@@ -5285,7 +5287,7 @@
             "description": "Adds a Entity Reference field type with revision support.",
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
-                "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+                "source": "http://cgit.drupalcode.org/entity_reference_revisions"
             }
         },
         {
@@ -5398,7 +5400,7 @@
             "description": "Helper module to authenticate users using an external site / service and storing identification details",
             "homepage": "https://www.drupal.org/project/externalauth",
             "support": {
-                "source": "https://git.drupalcode.org/project/externalauth"
+                "source": "http://cgit.drupalcode.org/externalauth"
             }
         },
         {
@@ -5512,7 +5514,7 @@
             ],
             "homepage": "https://www.drupal.org/project/fast_404",
             "support": {
-                "source": "https://git.drupalcode.org/project/fast_404"
+                "source": "http://cgit.drupalcode.org/fast_404"
             }
         },
         {
@@ -5574,10 +5576,6 @@
                     "homepage": "https://www.drupal.org/user/31731"
                 },
                 {
-                    "name": "joseph.olstad",
-                    "homepage": "https://www.drupal.org/user/1321830"
-                },
-                {
                     "name": "mpotter",
                     "homepage": "https://www.drupal.org/user/616192"
                 },
@@ -5593,7 +5591,7 @@
             "description": "Enables administrators to package configuration into modules",
             "homepage": "https://www.drupal.org/project/features",
             "support": {
-                "source": "https://git.drupalcode.org/project/features"
+                "source": "http://cgit.drupalcode.org/features"
             }
         },
         {
@@ -5640,7 +5638,7 @@
             "description": "Adds and overwrites default field values on existing content.",
             "homepage": "https://www.drupal.org/project/field_defaults",
             "support": {
-                "source": "https://git.drupalcode.org/project/field_defaults"
+                "source": "http://cgit.drupalcode.org/field_defaults"
             }
         },
         {
@@ -5703,7 +5701,7 @@
             "description": "Provides the field_group module.",
             "homepage": "https://www.drupal.org/project/field_group",
             "support": {
-                "source": "https://git.drupalcode.org/project/field_group"
+                "source": "http://cgit.drupalcode.org/field_group"
             }
         },
         {
@@ -5767,7 +5765,7 @@
             "description": "The web's most popular icon set and toolkit.",
             "homepage": "https://www.drupal.org/project/fontawesome",
             "support": {
-                "source": "https://git.drupalcode.org/project/fontawesome"
+                "source": "http://cgit.drupalcode.org/fontawesome"
             }
         },
         {
@@ -5875,7 +5873,7 @@
             "description": "Fast filtering on permissions administration form.",
             "homepage": "https://www.drupal.org/project/fpa",
             "support": {
-                "source": "https://git.drupalcode.org/project/fpa"
+                "source": "http://cgit.drupalcode.org/fpa"
             },
             "time": "2016-03-25T17:22:53+00:00"
         },
@@ -5977,7 +5975,7 @@
             "description": "Helps with making a site GDPR-compliant.",
             "homepage": "https://www.drupal.org/project/gdpr",
             "support": {
-                "source": "https://git.drupalcode.org/project/gdpr"
+                "source": "http://cgit.drupalcode.org/gdpr"
             }
         },
         {
@@ -6131,7 +6129,7 @@
             "description": "This module allows you to group users, content and other entities",
             "homepage": "https://www.drupal.org/project/group",
             "support": {
-                "source": "https://git.drupalcode.org/project/group"
+                "source": "http://cgit.drupalcode.org/group"
             }
         },
         {
@@ -6196,7 +6194,7 @@
             "description": "Drupal H5P Module.",
             "homepage": "http://drupal.org/project/h5p",
             "support": {
-                "source": "https://git.drupalcode.org/project/h5p"
+                "source": "http://cgit.drupalcode.org/h5p"
             }
         },
         {
@@ -6310,7 +6308,7 @@
             "description": "Defines a simple iframe field type.",
             "homepage": "https://www.drupal.org/project/iframe",
             "support": {
-                "source": "https://git.drupalcode.org/project/iframe"
+                "source": "http://cgit.drupalcode.org/iframe"
             }
         },
         {
@@ -6426,12 +6424,20 @@
             ],
             "authors": [
                 {
+                    "name": "Karel Bemelmans",
+                    "homepage": "https://www.drupal.org/user/1205344"
+                },
+                {
                     "name": "aspilicious",
                     "homepage": "https://www.drupal.org/user/172527"
                 },
                 {
                     "name": "bceyssens",
                     "homepage": "https://www.drupal.org/user/2743951"
+                },
+                {
+                    "name": "kristofvanroy",
+                    "homepage": "https://www.drupal.org/user/382101"
                 },
                 {
                     "name": "stijndm",
@@ -6441,7 +6447,7 @@
             "description": "Imagick toolkit for image manipulation within Drupal",
             "homepage": "https://www.drupal.org/project/imagick",
             "support": {
-                "source": "https://git.drupalcode.org/project/imagick"
+                "source": "http://cgit.drupalcode.org/imagick"
             }
         },
         {
@@ -6492,14 +6498,6 @@
                     "homepage": "https://www.drupal.org/user/99340"
                 },
                 {
-                    "name": "joachim",
-                    "homepage": "https://www.drupal.org/user/107701"
-                },
-                {
-                    "name": "kaythay",
-                    "homepage": "https://www.drupal.org/user/2182186"
-                },
-                {
                     "name": "rszrama",
                     "homepage": "https://www.drupal.org/user/49344"
                 },
@@ -6515,7 +6513,7 @@
             "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities.",
             "homepage": "https://www.drupal.org/project/inline_entity_form",
             "support": {
-                "source": "https://git.drupalcode.org/project/inline_entity_form"
+                "source": "http://cgit.drupalcode.org/inline_entity_form"
             }
         },
         {
@@ -6668,10 +6666,6 @@
                 {
                     "name": "Pol",
                     "homepage": "https://www.drupal.org/user/47194"
-                },
-                {
-                    "name": "joseph.olstad",
-                    "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
                     "name": "rjacobs",
@@ -7224,7 +7218,7 @@
             "description": "Slick media handling for Lightning. So cool you'll make the A/C jealous.",
             "homepage": "https://www.drupal.org/project/lightning_media",
             "support": {
-                "source": "https://git.drupalcode.org/project/lightning_media"
+                "source": "http://cgit.drupalcode.org/lightning_media"
             }
         },
         {
@@ -7445,7 +7439,7 @@
             "description": "Javascript-based LaTeX rendering solution for your Drupal website.",
             "homepage": "https://www.drupal.org/project/mathjax",
             "support": {
-                "source": "https://git.drupalcode.org/project/mathjax"
+                "source": "http://cgit.drupalcode.org/mathjax"
             }
         },
         {
@@ -7508,7 +7502,7 @@
             "description": "Media entity Instagram provider.",
             "homepage": "https://www.drupal.org/project/media_entity_instagram",
             "support": {
-                "source": "https://git.drupalcode.org/project/media_entity_instagram"
+                "source": "http://cgit.drupalcode.org/media_entity_instagram"
             }
         },
         {
@@ -7536,7 +7530,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0-alpha2",
-                    "datestamp": "1552577885",
+                    "datestamp": "1507907344",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -7568,7 +7562,7 @@
             "description": "Media entity Twitter provider.",
             "homepage": "https://www.drupal.org/project/media_entity_twitter",
             "support": {
-                "source": "https://git.drupalcode.org/project/media_entity_twitter"
+                "source": "http://cgit.drupalcode.org/media_entity_twitter"
             }
         },
         {
@@ -7639,7 +7633,7 @@
             "description": "High performance integration with memcache.",
             "homepage": "http://drupal.org/project/memcache",
             "support": {
-                "source": "https://git.drupalcode.org/project/memcache",
+                "source": "http://cgit.drupalcode.org/memcache",
                 "issues": "https://www.drupal.org/project/issues/memcache"
             }
         },
@@ -7691,7 +7685,7 @@
             "description": "Allows to give roles per menu admin permissions without giving them full administer menu permission.",
             "homepage": "https://www.drupal.org/project/menu_admin_per_menu",
             "support": {
-                "source": "https://git.drupalcode.org/project/menu_admin_per_menu"
+                "source": "http://cgit.drupalcode.org/menu_admin_per_menu"
             }
         },
         {
@@ -7711,8 +7705,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.5+6-dev",
-                    "datestamp": "1544215380",
+                    "version": "8.x-1.5+5-dev",
+                    "datestamp": "1543953180",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7753,7 +7747,7 @@
             "description": "Provides configurable blocks of menu links.",
             "homepage": "https://www.drupal.org/project/menu_block",
             "support": {
-                "source": "https://git.drupalcode.org/project/menu_block"
+                "source": "http://cgit.drupalcode.org/menu_block"
             },
             "time": "2018-12-07T20:38:31+00:00"
         },
@@ -7821,7 +7815,7 @@
             "description": "Message",
             "homepage": "https://www.drupal.org/project/message",
             "support": {
-                "source": "https://git.drupalcode.org/project/message"
+                "source": "http://cgit.drupalcode.org/message"
             }
         },
         {
@@ -8489,7 +8483,7 @@
             "description": "Provides a per-user dashboard for moderation.",
             "homepage": "https://www.drupal.org/project/moderation_dashboard",
             "support": {
-                "source": "https://git.drupalcode.org/project/moderation_dashboard"
+                "source": "http://cgit.drupalcode.org/moderation_dashboard"
             }
         },
         {
@@ -8529,10 +8523,6 @@
             ],
             "authors": [
                 {
-                    "name": "joelpittet",
-                    "homepage": "https://www.drupal.org/user/160302"
-                },
-                {
                     "name": "samuel.mortenson",
                     "homepage": "https://www.drupal.org/user/2582268"
                 }
@@ -8540,7 +8530,7 @@
             "description": "Provides a frontend sidebar for Content Moderation",
             "homepage": "https://www.drupal.org/project/moderation_sidebar",
             "support": {
-                "source": "https://git.drupalcode.org/project/moderation_sidebar"
+                "source": "http://cgit.drupalcode.org/moderation_sidebar"
             }
         },
         {
@@ -8595,7 +8585,7 @@
             "description": "Filter the modules list.",
             "homepage": "https://www.drupal.org/project/module_filter",
             "support": {
-                "source": "https://git.drupalcode.org/project/module_filter"
+                "source": "http://cgit.drupalcode.org/module_filter"
             }
         },
         {
@@ -8822,7 +8812,7 @@
                     "datestamp": "1532303581",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -8839,7 +8829,7 @@
             "description": "Provides plugin system for OpenAPI/Swagger Interface libraries.",
             "homepage": "https://www.drupal.org/project/openapi_ui",
             "support": {
-                "source": "https://git.drupalcode.org/project/openapi_ui"
+                "source": "http://cgit.drupalcode.org/openapi_ui"
             }
         },
         {
@@ -8870,7 +8860,7 @@
                     "datestamp": "1538143680",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -8887,7 +8877,7 @@
             "description": "Provides display of OpenAPI docs using the ReDoc library.",
             "homepage": "https://www.drupal.org/project/openapi_ui_redoc",
             "support": {
-                "source": "https://git.drupalcode.org/project/openapi_ui_redoc"
+                "source": "http://cgit.drupalcode.org/openapi_ui_redoc"
             }
         },
         {
@@ -8919,7 +8909,7 @@
                     "datestamp": "1545018184",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -8994,8 +8984,8 @@
                     "homepage": "https://www.drupal.org/user/45640"
                 },
                 {
-                    "name": "manuel.adan",
-                    "homepage": "https://www.drupal.org/user/516420"
+                    "name": "tim.plunkett",
+                    "homepage": "https://www.drupal.org/user/241634"
                 }
             ],
             "description": "Provides a way to place blocks on a custom page.",
@@ -9250,7 +9240,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.3",
-                    "datestamp": "1553565784",
+                    "datestamp": "1523670784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9279,10 +9269,6 @@
                     "homepage": "https://www.drupal.org/user/45640"
                 },
                 {
-                    "name": "joelpittet",
-                    "homepage": "https://www.drupal.org/user/160302"
-                },
-                {
                     "name": "merlinofchaos",
                     "homepage": "https://www.drupal.org/user/26979"
                 },
@@ -9295,6 +9281,10 @@
                     "homepage": "https://www.drupal.org/user/2582268"
                 },
                 {
+                    "name": "sdboyer",
+                    "homepage": "https://www.drupal.org/user/146719"
+                },
+                {
                     "name": "tim.plunkett",
                     "homepage": "https://www.drupal.org/user/241634"
                 }
@@ -9302,7 +9292,7 @@
             "description": "Panels In-place editor.",
             "homepage": "https://www.drupal.org/project/panels",
             "support": {
-                "source": "https://git.drupalcode.org/project/panels"
+                "source": "http://cgit.drupalcode.org/panels"
             }
         },
         {
@@ -9554,7 +9544,7 @@
             "description": "Provides a generic external cache invalidation API and queue service.",
             "homepage": "https://www.drupal.org/project/purge",
             "support": {
-                "source": "https://git.drupalcode.org/project/purge"
+                "source": "http://cgit.drupalcode.org/purge"
             }
         },
         {
@@ -9599,7 +9589,7 @@
             "description": "Administrative Drush commands for Purge.",
             "homepage": "https://www.drupal.org/project/purge",
             "support": {
-                "source": "https://git.drupalcode.org/project/purge"
+                "source": "http://cgit.drupalcode.org/purge"
             }
         },
         {
@@ -9644,7 +9634,7 @@
             "description": "Processes the queue every time cron runs, recommended for most configurations.",
             "homepage": "https://www.drupal.org/project/purge",
             "support": {
-                "source": "https://git.drupalcode.org/project/purge"
+                "source": "http://cgit.drupalcode.org/purge"
             }
         },
         {
@@ -9689,7 +9679,7 @@
             "description": "Process the queue on every request, this is only recommended on high latency configurations.",
             "homepage": "https://www.drupal.org/project/purge",
             "support": {
-                "source": "https://git.drupalcode.org/project/purge"
+                "source": "http://cgit.drupalcode.org/purge"
             }
         },
         {
@@ -9734,7 +9724,7 @@
             "description": "Queues every tag that Drupal invalidates internally.",
             "homepage": "https://www.drupal.org/project/purge",
             "support": {
-                "source": "https://git.drupalcode.org/project/purge"
+                "source": "http://cgit.drupalcode.org/purge"
             }
         },
         {
@@ -9785,7 +9775,7 @@
             "description": "Responsive layouts built on the Bootstrap 3 grid system.",
             "homepage": "https://www.drupal.org/project/radix_layouts",
             "support": {
-                "source": "https://git.drupalcode.org/project/radix_layouts"
+                "source": "http://cgit.drupalcode.org/radix_layouts"
             }
         },
         {
@@ -9813,7 +9803,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1548967980",
+                    "datestamp": "1521320880",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9905,7 +9895,7 @@
             "description": "Allows users to redirect from old URLs to new URLs.",
             "homepage": "https://www.drupal.org/project/redirect",
             "support": {
-                "source": "https://git.drupalcode.org/project/redirect"
+                "source": "http://cgit.drupalcode.org/redirect"
             }
         },
         {
@@ -10013,7 +10003,7 @@
             "description": "Provides a user interface to manage REST resources",
             "homepage": "https://www.drupal.org/project/restui",
             "support": {
-                "source": "https://git.drupalcode.org/project/restui"
+                "source": "http://cgit.drupalcode.org/restui"
             }
         },
         {
@@ -10116,7 +10106,7 @@
             "description": "Allows site administrators to further delegate the task of managing user's roles.",
             "homepage": "https://www.drupal.org/project/roleassign",
             "support": {
-                "source": "https://git.drupalcode.org/project/roleassign"
+                "source": "http://cgit.drupalcode.org/roleassign"
             }
         },
         {
@@ -10180,7 +10170,7 @@
             "description": "React on events and conditionally evaluate actions.",
             "homepage": "https://www.drupal.org/project/rules",
             "support": {
-                "source": "https://git.drupalcode.org/project/rules"
+                "source": "http://cgit.drupalcode.org/rules"
             }
         },
         {
@@ -10228,7 +10218,7 @@
             "description": "Create scheduled updates to field values on entities such content, users, and terms.",
             "homepage": "https://www.drupal.org/project/scheduled_updates",
             "support": {
-                "source": "https://git.drupalcode.org/project/scheduled_updates"
+                "source": "http://cgit.drupalcode.org/scheduled_updates"
             }
         },
         {
@@ -10507,7 +10497,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1549962207",
+                    "datestamp": "1529312013",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10589,10 +10579,6 @@
             ],
             "authors": [
                 {
-                    "name": "Vlad Bo",
-                    "homepage": "https://www.drupal.org/user/2696261"
-                },
-                {
                     "name": "danielb",
                     "homepage": "https://www.drupal.org/user/134005"
                 },
@@ -10603,12 +10589,16 @@
                 {
                     "name": "legolasbo",
                     "homepage": "https://www.drupal.org/user/2480548"
+                },
+                {
+                    "name": "vlaad.bo",
+                    "homepage": "https://www.drupal.org/user/2696261"
                 }
             ],
             "description": "Provides a select box form element with additional option 'Other' to give a textfield.",
             "homepage": "https://www.drupal.org/project/select_or_other",
             "support": {
-                "source": "https://git.drupalcode.org/project/select_or_other"
+                "source": "http://cgit.drupalcode.org/select_or_other"
             }
         },
         {
@@ -10648,6 +10638,10 @@
             ],
             "authors": [
                 {
+                    "name": "Anonymous",
+                    "homepage": "https://www.drupal.org/user/0"
+                },
+                {
                     "name": "Scyther",
                     "homepage": "https://www.drupal.org/user/613694"
                 },
@@ -10663,7 +10657,7 @@
             "description": "Views plugins for UI management of output markup",
             "homepage": "https://www.drupal.org/project/semanticviews",
             "support": {
-                "source": "https://git.drupalcode.org/project/semanticviews"
+                "source": "http://cgit.drupalcode.org/semanticviews"
             }
         },
         {
@@ -10730,7 +10724,7 @@
             "description": "Creates a general shield for the site.",
             "homepage": "https://www.drupal.org/project/shield",
             "support": {
-                "source": "https://git.drupalcode.org/project/shield"
+                "source": "http://cgit.drupalcode.org/shield"
             }
         },
         {
@@ -10781,7 +10775,7 @@
             "description": "Provides a Google Maps link/map formatter for simple Text fields.",
             "homepage": "https://www.drupal.org/project/simple_gmap",
             "support": {
-                "source": "https://git.drupalcode.org/project/simple_gmap"
+                "source": "http://cgit.drupalcode.org/simple_gmap"
             }
         },
         {
@@ -10918,10 +10912,6 @@
             ],
             "authors": [
                 {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
                     "name": "colan",
                     "homepage": "https://www.drupal.org/user/58704"
                 },
@@ -10945,7 +10935,7 @@
             "description": "Allows users to authenticate to a remote SAML identity provider (IdP) via a locally configured SimpleSAMLphp service point (SP).",
             "homepage": "https://www.drupal.org/project/simplesamlphp_auth",
             "support": {
-                "source": "https://git.drupalcode.org/project/simplesamlphp_auth"
+                "source": "http://cgit.drupalcode.org/simplesamlphp_auth"
             }
         },
         {
@@ -11055,10 +11045,6 @@
                 {
                     "name": "gausarts",
                     "homepage": "https://www.drupal.org/user/159062"
-                },
-                {
-                    "name": "thalles",
-                    "homepage": "https://www.drupal.org/user/3589086"
                 }
             ],
             "description": "Slick carousel, the last carousel you'll ever need.",
@@ -11179,7 +11165,7 @@
             "description": "Provides Slick carousel extras.",
             "homepage": "https://www.drupal.org/project/slick_extras",
             "support": {
-                "source": "https://git.drupalcode.org/project/slick_extras"
+                "source": "http://cgit.drupalcode.org/slick_extras"
             }
         },
         {
@@ -11235,7 +11221,7 @@
             "description": "Provides Slick carousel integration with Media entity.",
             "homepage": "https://www.drupal.org/project/slick_media",
             "support": {
-                "source": "https://git.drupalcode.org/project/slick_media"
+                "source": "http://cgit.drupalcode.org/slick_media"
             }
         },
         {
@@ -11267,7 +11253,7 @@
                     "datestamp": "1485195184",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -11284,7 +11270,7 @@
             "description": "Provides Slick integration with Paragraphs.",
             "homepage": "https://www.drupal.org/project/slick_paragraphs",
             "support": {
-                "source": "https://git.drupalcode.org/project/slick_paragraphs"
+                "source": "http://cgit.drupalcode.org/slick_paragraphs"
             }
         },
         {
@@ -11333,7 +11319,7 @@
             "description": "Provides Slick carousel integration with Video Embed Field.",
             "homepage": "https://www.drupal.org/project/slick_video",
             "support": {
-                "source": "https://git.drupalcode.org/project/slick_video"
+                "source": "http://cgit.drupalcode.org/slick_video"
             }
         },
         {
@@ -11381,7 +11367,7 @@
             "description": "Provides Slick carousel integration with Views.",
             "homepage": "https://www.drupal.org/project/slick_views",
             "support": {
-                "source": "https://git.drupalcode.org/project/slick_views"
+                "source": "http://cgit.drupalcode.org/slick_views"
             }
         },
         {
@@ -11639,7 +11625,7 @@
             "description": "Provides a user interface for the Token API and some missing core tokens.",
             "homepage": "https://www.drupal.org/project/token",
             "support": {
-                "source": "https://git.drupalcode.org/project/token"
+                "source": "http://cgit.drupalcode.org/token"
             }
         },
         {
@@ -11846,7 +11832,7 @@
             "description": "A pluggable field type for storing videos from external video hosts such as Vimeo and YouTube.",
             "homepage": "https://www.drupal.org/project/video_embed_field",
             "support": {
-                "source": "https://git.drupalcode.org/project/video_embed_field"
+                "source": "http://cgit.drupalcode.org/video_embed_field"
             }
         },
         {
@@ -11907,7 +11893,7 @@
             "description": "Provide a new field formatter: 'View' for each field types and allows you to select a View and to use its result instead of the original field value.",
             "homepage": "https://drupal.org/project/views_field_formatter",
             "support": {
-                "source": "https://git.drupalcode.org/project/views_field_formatter"
+                "source": "http://cgit.drupalcode.org/views_field_formatter"
             }
         },
         {
@@ -11947,18 +11933,18 @@
             ],
             "authors": [
                 {
-                    "name": "Bobík",
-                    "homepage": "https://www.drupal.org/user/123612"
-                },
-                {
                     "name": "Remon",
                     "homepage": "https://www.drupal.org/user/143827"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
                 }
             ],
             "description": "A pager which allows an infinite scroll effect for views.",
             "homepage": "https://www.drupal.org/project/views_infinite_scroll",
             "support": {
-                "source": "https://git.drupalcode.org/project/views_infinite_scroll"
+                "source": "http://cgit.drupalcode.org/views_infinite_scroll"
             }
         },
         {
@@ -12009,7 +11995,7 @@
             "description": "The module provides the Views plugin for Contextual filter with Taxonomy Term Name Depth.",
             "homepage": "https://www.drupal.org/project/views_taxonomy_term_name_depth",
             "support": {
-                "source": "https://git.drupalcode.org/project/views_taxonomy_term_name_depth"
+                "source": "http://cgit.drupalcode.org/views_taxonomy_term_name_depth"
             }
         },
         {
@@ -12052,12 +12038,12 @@
             ],
             "authors": [
                 {
-                    "name": "joekers",
-                    "homepage": "https://www.drupal.org/user/2229066"
+                    "name": "New Zeal",
+                    "homepage": "https://www.drupal.org/user/93571"
                 },
                 {
-                    "name": "kent@passingphase.nz",
-                    "homepage": "https://www.drupal.org/user/93571"
+                    "name": "joekers",
+                    "homepage": "https://www.drupal.org/user/2229066"
                 },
                 {
                     "name": "seanB",
@@ -12243,7 +12229,7 @@
             "description": "Hierarchical access control for content.",
             "homepage": "https://www.drupal.org/project/workbench_access",
             "support": {
-                "source": "https://git.drupalcode.org/project/workbench_access"
+                "source": "http://cgit.drupalcode.org/workbench_access"
             }
         },
         {
@@ -13063,7 +13049,9 @@
             "version": "45",
             "dist": {
                 "type": "file",
-                "url": "https://www.gstatic.com/charts/loader.js"
+                "url": "https://www.gstatic.com/charts/loader.js",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -14218,7 +14206,7 @@
                 {
                     "name": "Luís Otávio Cobucci Oblonczyk",
                     "email": "lcobucci@gmail.com",
-                    "role": "Developer"
+                    "role": "developer"
                 }
             ],
             "description": "A simple library to work with JSON Web Token and JSON Web Signature",
@@ -14829,7 +14817,9 @@
             "version": "4.7.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz"
+                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-4.7.2.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -17419,7 +17409,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -18575,7 +18565,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "dac8d95d7c96b23a5d551633bf135b9f9841c985"
+                "reference": "c8329dfd449531a2f81d59a10a76e32ff6134b9f"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18585,7 +18575,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-05-06T17:15:45+00:00"
+            "time": "2019-05-07T21:37:08+00:00"
         },
         {
             "name": "umn/lightning_umn",
