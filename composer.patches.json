@@ -22,12 +22,13 @@
       "2913598: Provide title attribute in iframe tag for accessibility": "https://www.drupal.org/files/issues/2018-05-14/video_embed_field-title_attribute-2913598-21-8.x-2.x.patch"
     },
     "drupal/paragraphs": {
-      "2948778: Call to a member function id() on null": "https://www.drupal.org/files/issues/2018-04-27/2948778-call-to-a-member-function-id-in-null.patch"
+      "2948778: Call to a member function id() on null": "https://www.drupal.org/files/issues/2018-04-27/2948778-call-to-a-member-function-id-in-null.patch",
+      "2901390: Integrity constraint violation": "https://www.drupal.org/files/issues/2019-03-22/2901390-n24.patch"
     },
     "drupal/core": {
       "2941092: Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
       "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch",
-      "2904550: handle theme provided plugins": "https://www.drupal.org/files/issues/2019-04-23/2904550-plugin_dependency-90.patch"
+      "2924549: Invoke hook after a site install is complete": "https://www.drupal.org/files/issues/2019-04-04/2924549_26.patch"
     },
     "drupal/digitalmeasures_migrate": {
       "3050793: Digital Measures API url has changed": "https://www.drupal.org/files/issues/2019-04-25/digitalmeasures_migrate-new-api-url-3050793-1-D8_0.patch"
