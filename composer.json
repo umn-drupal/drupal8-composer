@@ -139,7 +139,8 @@
     "highcharts/export-data": "6.1.0",
     "highcharts/accessibility": "6.1.0",
     "highcharts/3d": "6.1.0",
-    "umn/bootstrap_umn": "dev-master"
+    "umn/bootstrap_umn": "dev-master",
+    "drupal/environment_indicator": "^3.6"
   },
   "repositories": {
     "drupal-packagist": {
