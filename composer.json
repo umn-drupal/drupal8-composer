@@ -29,7 +29,7 @@
     "drupal/robotstxt": "^1.0",
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
-    "umn/lightning_umn": "~1.2.0",
+    "umn/lightning_umn": "dev-develop",
     "umn/cog_umn": "dev-dist#final-fix404",
     "umn/umn_search": "dev-master",
     "umn/crmform": "dev-d8",
@@ -278,14 +278,14 @@
         "type": "drupal-library",
         "extra": {
           "installer-name": "highcharts"
-         },
-         "dist": {
-           "url": "https://code.highcharts.com/6.1.0/highcharts.js",
-           "type": "file"
-         },
-         "require": {
-           "composer/installers": "~1.0"
-         }
+        },
+        "dist": {
+          "url": "https://code.highcharts.com/6.1.0/highcharts.js",
+          "type": "file"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
       }
     },
     "highcharts_more": {
@@ -311,17 +311,17 @@
       "package": {
         "name": "highcharts/exporting",
         "version": "6.1.0",
-          "type": "drupal-library",
-          "extra": {
-            "installer-name": "highcharts_exporting"
-          },
-          "dist": {
-            "url": "https://code.highcharts.com/6.1.0/modules/exporting.js",
-            "type": "file"
-          },
-          "require": {
-            "composer/installers": "~1.0"
-          }
+        "type": "drupal-library",
+        "extra": {
+          "installer-name": "highcharts_exporting"
+        },
+        "dist": {
+          "url": "https://code.highcharts.com/6.1.0/modules/exporting.js",
+          "type": "file"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
       }
     },
     "highcharts_export-data": {
@@ -337,7 +337,7 @@
           "url": "https://code.highcharts.com/6.1.0/modules/export-data.js",
           "type": "file"
         },
-          "require": {
+        "require": {
           "composer/installers": "~1.0"
         }
       }

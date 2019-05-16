@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60a8943767b6ec664b9ed13d322a8e3e",
+    "content-hash": "38373415e690bc8704bd427b30ba8fea",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -18744,11 +18744,11 @@
         },
         {
             "name": "umn/lightning_umn",
-            "version": "1.2.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "3ed8ff0275bfc951164f5ff848337a89b3bc7c3c"
+                "reference": "68d22719cec291b1ae28777b133b56e230e4ce61"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18757,7 +18757,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-05-14T18:27:47+00:00"
+            "time": "2019-05-16T18:00:09+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -19300,6 +19300,7 @@
         "drupal/rules": 15,
         "drupal/back_to_top": 10,
         "drupal/address": 5,
+        "umn/lightning_umn": 20,
         "umn/cog_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
