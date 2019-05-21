@@ -4078,6 +4078,7 @@
                     "2941092: Errors on non-translatable properties on image field": "https://www.drupal.org/files/issues/2018-05-23/image-dimensions-block-changing-translations-2941092-3.patch",
                     "1810148: Grouped exposed taxonomy term filters do not work": "https://www.drupal.org/files/issues/1810148-58.patch",
                     "2924549: Invoke hook after a site install is complete": "https://www.drupal.org/files/issues/2019-04-04/2924549_26.patch",
+                    "3044211: Remove broken tempstore section storage": "https://www.drupal.org/files/issues/2019-03-28/3044211-remove-broken-tempstore-section-storage-2.patch",
                     "2985199: Extensions in Multisite Directories Not Registered When Rebuilding Cache": "https://www.drupal.org/files/issues/2019-02-04/2985199-20.drupal.Extensions-in-Multisite-Directories-Not-Registered-When-Rebuilding-Cache.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
@@ -18748,7 +18749,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "68d22719cec291b1ae28777b133b56e230e4ce61"
+                "reference": "3018b2e4390fe7cbd94dfdaacd4270b7a98d63eb"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18757,7 +18758,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-05-16T18:00:09+00:00"
+            "time": "2019-05-21T15:56:10+00:00"
         },
         {
             "name": "umn/umn_features",
