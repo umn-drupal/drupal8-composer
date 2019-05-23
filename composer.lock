@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22a4b6f2604a4086fdb33c67191c4de4",
+    "content-hash": "a975acd8c2de382e6886a8446cd03a9c",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -18797,11 +18797,11 @@
         },
         {
             "name": "umn/folwell_components",
-            "version": "1.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "f35c69d7a5096228cd9082c033ffd4fbd89e72c3"
+                "reference": "9dbd8a3c29fd2b90ad017f1d8419bf364fc2a49c"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18811,7 +18811,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-05-13T20:32:03+00:00"
+            "time": "2019-05-17T15:08:03+00:00"
         },
         {
             "name": "umn/lightning_umn",
@@ -18819,7 +18819,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "3018b2e4390fe7cbd94dfdaacd4270b7a98d63eb"
+                "reference": "1392a50cd681d5c08bde46e988d8ad3c8a80be9a"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18828,7 +18828,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-05-21T15:56:10+00:00"
+            "time": "2019-05-23T20:52:49+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -19409,6 +19409,7 @@
         "drupal/fpa": 20,
         "drupal/roleassign": 15,
         "drupal/group": 5,
+        "umn/folwell_components": 20,
         "umn/umn_superfish": 20,
         "mehrpadin/superfish": 20,
         "drupal/h5p": 5,
