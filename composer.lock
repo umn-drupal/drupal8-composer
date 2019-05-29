@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a975acd8c2de382e6886a8446cd03a9c",
+    "content-hash": "3b857248ca019fba3f0a98ca8a959e22",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -18797,7 +18797,7 @@
         },
         {
             "name": "umn/folwell_components",
-            "version": "dev-develop",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
@@ -18815,7 +18815,7 @@
         },
         {
             "name": "umn/lightning_umn",
-            "version": "dev-develop",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
@@ -19371,7 +19371,6 @@
         "drupal/rules": 15,
         "drupal/back_to_top": 10,
         "drupal/address": 5,
-        "umn/lightning_umn": 20,
         "umn/cog_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
@@ -19409,7 +19408,6 @@
         "drupal/fpa": 20,
         "drupal/roleassign": 15,
         "drupal/group": 5,
-        "umn/folwell_components": 20,
         "umn/umn_superfish": 20,
         "mehrpadin/superfish": 20,
         "drupal/h5p": 5,
