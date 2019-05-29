@@ -124,7 +124,7 @@
     "umn/umn_superfish": "dev-master",
     "drupal/superfish": "^1.3",
     "mehrpadin/superfish": "2.x-dev",
-    "umn/folwell": "~1.1.2",
+    "umn/folwell": "dev-dist",
     "drupal/h5p": "^1.0@RC",
     "google/charts": "45",
     "drush/drush": "~8.2.0",
