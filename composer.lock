@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8e3781d69373874983067de4d67c64b",
+    "content-hash": "f8ed84ea16ed3d9d6c4457354806e845",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -18642,7 +18642,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/folwell.git",
-                "reference": "3d3976240bb6413b20c5a3403c6ec052f240df34"
+                "reference": "6284dae7065653d43ec2b1e64694d70126a4b48e"
             },
             "require": {
                 "drupal/neato": "^1.8"
@@ -18655,7 +18655,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-05-15T13:43:04+00:00"
+            "time": "2019-05-30T17:09:55+00:00"
         },
         {
             "name": "umn/folwell_components",
@@ -18663,7 +18663,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "0a79e6286adc0612f1742ce0ecfe002f83d79b73"
+                "reference": "d978d3b375e7ba835e3d3bb726dbdabbbec70726"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18673,15 +18673,15 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-05-29T17:40:34+00:00"
+            "time": "2019-05-30T18:15:59+00:00"
         },
         {
             "name": "umn/lightning_umn",
-            "version": "1.2.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "1392a50cd681d5c08bde46e988d8ad3c8a80be9a"
+                "reference": "6192b9b692ac054521a53728be97684bf648ff72"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18690,7 +18690,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-05-23T20:52:49+00:00"
+            "time": "2019-05-30T20:54:01+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -19368,6 +19368,7 @@
         "drupal/rules": 15,
         "drupal/back_to_top": 10,
         "drupal/address": 5,
+        "umn/lightning_umn": 20,
         "umn/cog_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
