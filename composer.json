@@ -141,7 +141,8 @@
     "highcharts/3d": "6.1.0",
     "umn/bootstrap_umn": "dev-master",
     "drupal/environment_indicator": "^3.6",
-    "drupal/views_bulk_operations": "^3.0"
+    "drupal/views_bulk_operations": "^3.0",
+    "drupal/http_response_headers": "^2.0@alpha"
   },
   "repositories": {
     "drupal-packagist": {
