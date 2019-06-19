@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b857248ca019fba3f0a98ca8a959e22",
+    "content-hash": "063b38add64c30cefcc7b2b3d45e9c55",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -2465,25 +2465,22 @@
         },
         {
             "name": "drupal/acquia_purge",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acquia_purge.git",
-                "reference": "8.x-1.0-beta3"
+                "reference": "8.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acquia_purge-8.x-1.0-beta3.zip",
-                "reference": "8.x-1.0-beta3",
-                "shasum": "989ec4a2168eb62340b65d1313fe4245ad781a2f"
+                "url": "https://ftp.drupal.org/files/projects/acquia_purge-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "9c4b9c5afa8d8bc7c3b7e49ce77cd5756aed800e"
             },
             "require": {
-                "drupal/core": "*",
+                "drupal/core": "~8.0",
                 "drupal/purge": "*",
-                "drupal/purge_drush": "*",
-                "drupal/purge_processor_cron": "*",
-                "drupal/purge_processor_lateruntime": "*",
-                "drupal/purge_queuer_coretags": "*"
+                "drupal/purge_drush": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -2491,11 +2488,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta3",
-                    "datestamp": "1504537744",
+                    "version": "8.x-1.0",
+                    "datestamp": "1559138877",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -6338,6 +6335,60 @@
             }
         },
         {
+            "name": "drupal/http_response_headers",
+            "version": "2.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/http_response_headers.git",
+                "reference": "8.x-2.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/http_response_headers-8.x-2.0-alpha1.zip",
+                "reference": "8.x-2.0-alpha1",
+                "shasum": "2d4188bd04467a27afddb33fffdd5eb5f8abaf04"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-alpha1",
+                    "datestamp": "1501159742",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "patches_applied": {
+                    "2909459: Logging of header modificaton should be switched off": "https://www.drupal.org/files/issues/remove-logging-2909459-4.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL 2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "minnur",
+                    "homepage": "https://www.drupal.org/user/702026"
+                },
+                {
+                    "name": "vijaycs85",
+                    "homepage": "https://www.drupal.org/user/93488"
+                }
+            ],
+            "description": "Allows addition, removal and modification of http headers.",
+            "homepage": "https://www.drupal.org/project/http_response_headers",
+            "support": {
+                "source": "https://git.drupalcode.org/project/http_response_headers"
+            }
+        },
+        {
             "name": "drupal/iframe",
             "version": "1.9.0",
             "source": {
@@ -6595,10 +6646,10 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_builder_modal.git",
-                "reference": "2ee84aca519f5b10a594cee0d1dfcdfc13cad686"
+                "reference": "04843cbde8576ea9c97a09c68616d2c5725a47f6"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8.7.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -6606,8 +6657,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1554139981",
+                    "version": "8.x-1.0-alpha1+3-dev",
+                    "datestamp": "1559584088",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -6644,21 +6695,21 @@
                 "source": "http://cgit.drupalcode.org/layout_builder_modal",
                 "issues": "https://www.drupal.org/project/issues/layout_builder_modal"
             },
-            "time": "2019-04-15T11:23:18+00:00"
+            "time": "2019-06-03T17:54:35+00:00"
         },
         {
             "name": "drupal/layout_builder_restrictions",
-            "version": "1.5.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_builder_restrictions.git",
-                "reference": "8.x-1.5"
+                "reference": "8.x-2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_builder_restrictions-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "adce3039434d7b33af58a10a6eb524b2ce59411f"
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_restrictions-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "ad35bb41b90133c05e06f5eabb4e0795b1e9bbf8"
             },
             "require": {
                 "drupal/core": "^8.5.0-rc1"
@@ -6669,11 +6720,11 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.x": "1.x-dev"
+                    "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1553098084",
+                    "version": "8.x-2.0",
+                    "datestamp": "1560184085",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6692,6 +6743,10 @@
                 {
                     "name": "mark_fullmer",
                     "homepage": "https://www.drupal.org/user/2612816"
+                },
+                {
+                    "name": "twfahey",
+                    "homepage": "https://www.drupal.org/user/3403722"
                 }
             ],
             "description": "Manage which fields & layouts are available in Layout Builder",
@@ -9674,141 +9729,6 @@
             }
         },
         {
-            "name": "drupal/purge_processor_cron",
-            "version": "3.0.0-beta8",
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/purge": "self.version"
-            },
-            "type": "metapackage",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.x": "3.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-3.0-beta8",
-                    "datestamp": "1502719311",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "SqyD",
-                    "homepage": "https://www.drupal.org/user/106525"
-                },
-                {
-                    "name": "djbobbydrake",
-                    "homepage": "https://www.drupal.org/user/336378"
-                },
-                {
-                    "name": "nielsvm",
-                    "homepage": "https://www.drupal.org/user/163285"
-                }
-            ],
-            "description": "Processes the queue every time cron runs, recommended for most configurations.",
-            "homepage": "https://www.drupal.org/project/purge",
-            "support": {
-                "source": "https://git.drupalcode.org/project/purge"
-            }
-        },
-        {
-            "name": "drupal/purge_processor_lateruntime",
-            "version": "3.0.0-beta8",
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/purge": "self.version"
-            },
-            "type": "metapackage",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.x": "3.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-3.0-beta8",
-                    "datestamp": "1502719311",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "SqyD",
-                    "homepage": "https://www.drupal.org/user/106525"
-                },
-                {
-                    "name": "djbobbydrake",
-                    "homepage": "https://www.drupal.org/user/336378"
-                },
-                {
-                    "name": "nielsvm",
-                    "homepage": "https://www.drupal.org/user/163285"
-                }
-            ],
-            "description": "Process the queue on every request, this is only recommended on high latency configurations.",
-            "homepage": "https://www.drupal.org/project/purge",
-            "support": {
-                "source": "https://git.drupalcode.org/project/purge"
-            }
-        },
-        {
-            "name": "drupal/purge_queuer_coretags",
-            "version": "3.0.0-beta8",
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/purge": "self.version"
-            },
-            "type": "metapackage",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.x": "3.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-3.0-beta8",
-                    "datestamp": "1502719311",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "SqyD",
-                    "homepage": "https://www.drupal.org/user/106525"
-                },
-                {
-                    "name": "djbobbydrake",
-                    "homepage": "https://www.drupal.org/user/336378"
-                },
-                {
-                    "name": "nielsvm",
-                    "homepage": "https://www.drupal.org/user/163285"
-                }
-            ],
-            "description": "Queues every tag that Drupal invalidates internally.",
-            "homepage": "https://www.drupal.org/project/purge",
-            "support": {
-                "source": "https://git.drupalcode.org/project/purge"
-            }
-        },
-        {
             "name": "drupal/radix_layouts",
             "version": "4.1.0",
             "source": {
@@ -11943,7 +11863,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1557927186",
+                    "datestamp": "1558602785",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -18776,11 +18696,11 @@
         },
         {
             "name": "umn/folwell",
-            "version": "1.1.2",
+            "version": "dev-dist",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/folwell.git",
-                "reference": "3d3976240bb6413b20c5a3403c6ec052f240df34"
+                "reference": "9600d874bd55ab7d3807c73ceeeae4ffd5c8ca98"
             },
             "require": {
                 "drupal/neato": "^1.8"
@@ -18793,15 +18713,15 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-05-15T13:43:04+00:00"
+            "time": "2019-06-19T14:26:43+00:00"
         },
         {
             "name": "umn/folwell_components",
-            "version": "1.1.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "c252c9017f1433978edb63d5337a48f2b447bf8f"
+                "reference": "1ebff5648761a61c285e0fa5d1376180e6509c88"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18811,15 +18731,15 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-05-24T18:17:28+00:00"
+            "time": "2019-06-17T18:49:53+00:00"
         },
         {
             "name": "umn/lightning_umn",
-            "version": "1.2.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "1392a50cd681d5c08bde46e988d8ad3c8a80be9a"
+                "reference": "da6c290ca9841b3529db82ce5655df717977e44f"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18828,7 +18748,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-05-23T20:52:49+00:00"
+            "time": "2019-06-18T16:49:44+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -19363,6 +19283,141 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/media_entity_generic"
             }
+        },
+        {
+            "name": "drupal/purge_processor_cron",
+            "version": "3.0.0-beta8",
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/purge": "self.version"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta8",
+                    "datestamp": "1502719311",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SqyD",
+                    "homepage": "https://www.drupal.org/user/106525"
+                },
+                {
+                    "name": "djbobbydrake",
+                    "homepage": "https://www.drupal.org/user/336378"
+                },
+                {
+                    "name": "nielsvm",
+                    "homepage": "https://www.drupal.org/user/163285"
+                }
+            ],
+            "description": "Processes the queue every time cron runs, recommended for most configurations.",
+            "homepage": "https://www.drupal.org/project/purge",
+            "support": {
+                "source": "https://git.drupalcode.org/project/purge"
+            }
+        },
+        {
+            "name": "drupal/purge_processor_lateruntime",
+            "version": "3.0.0-beta8",
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/purge": "self.version"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta8",
+                    "datestamp": "1502719311",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SqyD",
+                    "homepage": "https://www.drupal.org/user/106525"
+                },
+                {
+                    "name": "djbobbydrake",
+                    "homepage": "https://www.drupal.org/user/336378"
+                },
+                {
+                    "name": "nielsvm",
+                    "homepage": "https://www.drupal.org/user/163285"
+                }
+            ],
+            "description": "Process the queue on every request, this is only recommended on high latency configurations.",
+            "homepage": "https://www.drupal.org/project/purge",
+            "support": {
+                "source": "https://git.drupalcode.org/project/purge"
+            }
+        },
+        {
+            "name": "drupal/purge_queuer_coretags",
+            "version": "3.0.0-beta8",
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/purge": "self.version"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta8",
+                    "datestamp": "1502719311",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SqyD",
+                    "homepage": "https://www.drupal.org/user/106525"
+                },
+                {
+                    "name": "djbobbydrake",
+                    "homepage": "https://www.drupal.org/user/336378"
+                },
+                {
+                    "name": "nielsvm",
+                    "homepage": "https://www.drupal.org/user/163285"
+                }
+            ],
+            "description": "Queues every tag that Drupal invalidates internally.",
+            "homepage": "https://www.drupal.org/project/purge",
+            "support": {
+                "source": "https://git.drupalcode.org/project/purge"
+            }
         }
     ],
     "aliases": [],
@@ -19371,6 +19426,7 @@
         "drupal/rules": 15,
         "drupal/back_to_top": 10,
         "drupal/address": 5,
+        "umn/lightning_umn": 20,
         "umn/cog_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
@@ -19408,11 +19464,14 @@
         "drupal/fpa": 20,
         "drupal/roleassign": 15,
         "drupal/group": 5,
+        "umn/folwell_components": 20,
         "umn/umn_superfish": 20,
         "mehrpadin/superfish": 20,
+        "umn/folwell": 20,
         "drupal/h5p": 5,
         "drupal/layout_builder_modal": 20,
-        "umn/bootstrap_umn": 20
+        "umn/bootstrap_umn": 20,
+        "drupal/http_response_headers": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
