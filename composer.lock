@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "063b38add64c30cefcc7b2b3d45e9c55",
+    "content-hash": "c467c3d3cb483b1048b2a6c80d224bdc",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -3809,7 +3809,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta9",
-                    "datestamp": "1497478742",
+                    "datestamp": "1556703480",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -5287,10 +5287,6 @@
             ],
             "authors": [
                 {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
                     "name": "Frans",
                     "homepage": "https://www.drupal.org/user/514222"
                 },
@@ -6618,6 +6614,14 @@
                     "homepage": "https://www.drupal.org/user/99340"
                 },
                 {
+                    "name": "joachim",
+                    "homepage": "https://www.drupal.org/user/107701"
+                },
+                {
+                    "name": "kaythay",
+                    "homepage": "https://www.drupal.org/user/2182186"
+                },
+                {
                     "name": "rszrama",
                     "homepage": "https://www.drupal.org/user/49344"
                 },
@@ -6720,7 +6724,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.0",
-                    "datestamp": "1560794285",
+                    "datestamp": "1560184085",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9114,6 +9118,10 @@
                 {
                     "name": "japerry",
                     "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "manuel.adan",
+                    "homepage": "https://www.drupal.org/user/516420"
                 }
             ],
             "description": "Provides a way to place blocks on a custom page.",
@@ -10793,7 +10801,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.15",
-                    "datestamp": "1558127887",
+                    "datestamp": "1556659981",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10835,7 +10843,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.15",
-                    "datestamp": "1558127887",
+                    "datestamp": "1556659981",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10900,6 +10908,10 @@
                 "GPL-2.0+"
             ],
             "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
                 {
                     "name": "colan",
                     "homepage": "https://www.drupal.org/user/58704"
@@ -11793,7 +11805,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.1",
-                    "datestamp": "1557726644",
+                    "datestamp": "1557724385",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -18648,11 +18660,11 @@
         },
         {
             "name": "umn/dors_migrate",
-            "version": "v2.1.4",
+            "version": "v2.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/dors_migrate.git",
-                "reference": "c91f5b2c43af4aa36780b35ef2324397c1214739"
+                "reference": "d53b374a04c405b9af86e3715e8e16cf7b924ae9"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18662,7 +18674,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2018-10-11T15:45:38+00:00"
+            "time": "2019-06-20T12:21:47+00:00"
         },
         {
             "name": "umn/emergency_notification",
