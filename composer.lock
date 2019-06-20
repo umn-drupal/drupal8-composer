@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "063b38add64c30cefcc7b2b3d45e9c55",
+    "content-hash": "c467c3d3cb483b1048b2a6c80d224bdc",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -18660,11 +18660,11 @@
         },
         {
             "name": "umn/dors_migrate",
-            "version": "v2.1.4",
+            "version": "v2.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/dors_migrate.git",
-                "reference": "c91f5b2c43af4aa36780b35ef2324397c1214739"
+                "reference": "d53b374a04c405b9af86e3715e8e16cf7b924ae9"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18674,7 +18674,7 @@
                 }
             ],
             "description": "Drupal 8 module to import courses from DORS",
-            "time": "2018-10-11T15:45:38+00:00"
+            "time": "2019-06-20T12:21:47+00:00"
         },
         {
             "name": "umn/emergency_notification",
@@ -18739,7 +18739,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "da6c290ca9841b3529db82ce5655df717977e44f"
+                "reference": "7575ccc7e03e4d38283a8a051c72ea33e1d5efc4"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18748,7 +18748,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-06-18T16:49:44+00:00"
+            "time": "2019-06-19T21:17:35+00:00"
         },
         {
             "name": "umn/umn_features",
