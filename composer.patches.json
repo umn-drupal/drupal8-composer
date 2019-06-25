@@ -40,6 +40,9 @@
     },
     "drupal/http_response_headers": {
       "2909459: Logging of header modificaton should be switched off": "https://www.drupal.org/files/issues/remove-logging-2909459-4.patch"
+    },
+    "drupal/select_or_other": {
+      "3052563: Breaks with strict validation": "https://www.drupal.org/files/issues/2019-05-03/set_type-3052563-1.patch"
     }
   }
 }
