@@ -2489,7 +2489,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0",
-                    "datestamp": "1559138877",
+                    "datestamp": "1559137685",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10572,6 +10572,9 @@
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "3052563: Breaks with strict validation": "https://www.drupal.org/files/issues/2019-05-03/set_type-3052563-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -11863,7 +11866,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1558602785",
+                    "datestamp": "1557927186",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -18721,7 +18724,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "1ebff5648761a61c285e0fa5d1376180e6509c88"
+                "reference": "ce53ee80d91a5ee4cf0e2379ca7e2a35c971e4f8"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18731,7 +18734,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-06-17T18:49:53+00:00"
+            "time": "2019-06-25T16:02:54+00:00"
         },
         {
             "name": "umn/lightning_umn",
@@ -18739,7 +18742,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "7575ccc7e03e4d38283a8a051c72ea33e1d5efc4"
+                "reference": "c51aca03d2925cc76754100ec6eba7652a11b949"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18748,7 +18751,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-06-19T21:17:35+00:00"
+            "time": "2019-06-21T16:33:27+00:00"
         },
         {
             "name": "umn/umn_features",
