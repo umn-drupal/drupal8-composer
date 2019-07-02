@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fae547db4e9af14a7254163cc43491f",
+    "content-hash": "c467c3d3cb483b1048b2a6c80d224bdc",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -549,12 +549,12 @@
             "version": "v6.1.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FrDH/jQuery.mmenu.git",
+                "url": "https://github.com/FrDH/mmenu-js.git",
                 "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball/8fa929ef37de5007c5d32e9588280d07d5feb359",
+                "url": "https://api.github.com/repos/FrDH/mmenu-js/zipball/8fa929ef37de5007c5d32e9588280d07d5feb359",
                 "reference": "8fa929ef37de5007c5d32e9588280d07d5feb359"
             },
             "require": {
@@ -18699,7 +18699,7 @@
         },
         {
             "name": "umn/folwell",
-            "version": "1.1.3",
+            "version": "dev-dist",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/folwell.git",
@@ -18720,7 +18720,7 @@
         },
         {
             "name": "umn/folwell_components",
-            "version": "1.1.2",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
@@ -18734,15 +18734,15 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-06-24T21:07:44+00:00"
+            "time": "2019-06-26T14:31:22+00:00"
         },
         {
             "name": "umn/lightning_umn",
-            "version": "1.2.2",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "c51aca03d2925cc76754100ec6eba7652a11b949"
+                "reference": "e21e4b3c1315fc2d9632894086f04c9b9c4bb0bc"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -18751,7 +18751,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-06-21T16:33:27+00:00"
+            "time": "2019-07-01T20:38:51+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -18777,7 +18777,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/umn-search.git",
-                "reference": "67421addea4f318442a5b912a046ced39cd3a0a6"
+                "reference": "4be2c7370485818bc4a20a4c00787c6a9049292e"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -18787,7 +18787,7 @@
                 }
             ],
             "description": "UMN Search configuration module for Drupal 8",
-            "time": "2019-03-08T18:58:32+00:00"
+            "time": "2019-07-02T15:00:39+00:00"
         },
         {
             "name": "umn/umn_superfish",
@@ -19429,6 +19429,7 @@
         "drupal/rules": 15,
         "drupal/back_to_top": 10,
         "drupal/address": 5,
+        "umn/lightning_umn": 20,
         "umn/cog_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
@@ -19466,8 +19467,10 @@
         "drupal/fpa": 20,
         "drupal/roleassign": 15,
         "drupal/group": 5,
+        "umn/folwell_components": 20,
         "umn/umn_superfish": 20,
         "mehrpadin/superfish": 20,
+        "umn/folwell": 20,
         "drupal/h5p": 5,
         "drupal/layout_builder_modal": 20,
         "umn/bootstrap_umn": 20,
