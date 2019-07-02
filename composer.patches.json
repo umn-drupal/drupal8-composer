@@ -43,6 +43,9 @@
     },
     "drupal/select_or_other": {
       "3052563: Breaks with strict validation": "https://www.drupal.org/files/issues/2019-05-03/set_type-3052563-1.patch"
+    },
+    "drupal/a11y_paragraphs_tabs": {
+      "3062815: Attach libraries when paragraph is used rather than globally": "https://www.drupal.org/files/issues/2019-06-19/attach_libraries_paragraph-3062815-2.patch"
     }
   }
 }
