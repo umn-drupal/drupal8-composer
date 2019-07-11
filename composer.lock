@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fae547db4e9af14a7254163cc43491f",
+    "content-hash": "559fd70edfc23ef8e44b0ec0b2f335ae",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -2489,7 +2489,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0",
-                    "datestamp": "1559137685",
+                    "datestamp": "1559138877",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3188,6 +3188,73 @@
             }
         },
         {
+            "name": "drupal/charts",
+            "version": "3.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/charts.git",
+                "reference": "8.x-3.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/charts-8.x-3.0-beta3.zip",
+                "reference": "8.x-3.0-beta3",
+                "shasum": "a803f85257463108c5aace4d41272ce9a5cf14d3"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-beta3",
+                    "datestamp": "1553289780",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre.Vriens",
+                    "homepage": "https://www.drupal.org/user/1689304"
+                },
+                {
+                    "name": "andileco",
+                    "homepage": "https://www.drupal.org/user/2054544"
+                },
+                {
+                    "name": "brmassa",
+                    "homepage": "https://www.drupal.org/user/67164"
+                },
+                {
+                    "name": "kenorb",
+                    "homepage": "https://www.drupal.org/user/191974"
+                },
+                {
+                    "name": "quicksketch",
+                    "homepage": "https://www.drupal.org/user/35821"
+                },
+                {
+                    "name": "rashad612",
+                    "homepage": "https://www.drupal.org/user/319686"
+                }
+            ],
+            "description": "A charting API for Drupal that provides chart elements and integration with Views.",
+            "homepage": "https://www.drupal.org/project/charts",
+            "support": {
+                "source": "https://git.drupalcode.org/project/charts"
+            }
+        },
+        {
             "name": "drupal/checklistapi",
             "version": "1.10.0",
             "source": {
@@ -3809,7 +3876,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta9",
-                    "datestamp": "1556703480",
+                    "datestamp": "1497478742",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -5287,6 +5354,10 @@
             ],
             "authors": [
                 {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
                     "name": "Frans",
                     "homepage": "https://www.drupal.org/user/514222"
                 },
@@ -6612,14 +6683,6 @@
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "joachim",
-                    "homepage": "https://www.drupal.org/user/107701"
-                },
-                {
-                    "name": "kaythay",
-                    "homepage": "https://www.drupal.org/user/2182186"
                 },
                 {
                     "name": "rszrama",
@@ -9118,10 +9181,6 @@
                 {
                     "name": "japerry",
                     "homepage": "https://www.drupal.org/user/45640"
-                },
-                {
-                    "name": "manuel.adan",
-                    "homepage": "https://www.drupal.org/user/516420"
                 }
             ],
             "description": "Provides a way to place blocks on a custom page.",
@@ -10804,7 +10863,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.15",
-                    "datestamp": "1556659981",
+                    "datestamp": "1558127887",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10846,7 +10905,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.15",
-                    "datestamp": "1556659981",
+                    "datestamp": "1558127887",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10911,10 +10970,6 @@
                 "GPL-2.0+"
             ],
             "authors": [
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
                 {
                     "name": "colan",
                     "homepage": "https://www.drupal.org/user/58704"
@@ -11808,7 +11863,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.1",
-                    "datestamp": "1557724385",
+                    "datestamp": "1557726644",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -11866,7 +11921,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1557927186",
+                    "datestamp": "1558602785",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13973,6 +14028,7 @@
                 "translation",
                 "twig"
             ],
+            "abandoned": "simplesamlphp/twig-configurable-i18n",
             "time": "2018-10-10T09:12:46+00:00"
         },
         {
@@ -19471,7 +19527,8 @@
         "drupal/h5p": 5,
         "drupal/layout_builder_modal": 20,
         "umn/bootstrap_umn": 20,
-        "drupal/http_response_headers": 15
+        "drupal/http_response_headers": 15,
+        "drupal/charts": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
