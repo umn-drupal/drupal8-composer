@@ -78,7 +78,7 @@
     "bower-asset/hammerjs": "^2.0",
     "drupal/responsive_menu": "^2.5",
     "bower-asset/jquery.mmenu": "^6.1",
-    "drupal/migrate_source_csv": "^2.0",
+    "drupal/migrate_source_csv": "~3.0.0",
     "drupal/entity_print": "2.x",
     "tecnickcom/tcpdf": "~6",
     "mikehaertl/phpwkhtmltopdf": "~2.1",
@@ -142,7 +142,9 @@
     "umn/bootstrap_umn": "dev-master",
     "drupal/environment_indicator": "^3.6",
     "drupal/views_bulk_operations": "^3.0",
-    "drupal/http_response_headers": "^2.0@alpha"
+    "drupal/http_response_headers": "^2.0@alpha",
+    "drupal/charts": "^3.0@beta",
+    "drupal/views_data_export": "^1.0@beta"
   },
   "repositories": {
     "drupal-packagist": {
