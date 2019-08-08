@@ -30,7 +30,7 @@
     "drupal/robotstxt": "^1.0",
     "drupal/simple_gmap": "^1.2",
     "umn/umn_features": "8.1.2",
-    "umn/lightning_umn": "dev-develop",
+    "umn/lightning_umn": "^1.2.2",
     "umn/cog_umn": "dev-dist#final-fix404",
     "umn/umn_search": "dev-master",
     "umn/crmform": "dev-d8",
@@ -79,7 +79,7 @@
     "bower-asset/hammerjs": "^2.0",
     "drupal/responsive_menu": "^2.5",
     "bower-asset/jquery.mmenu": "^6.1",
-    "drupal/migrate_source_csv": "^2.0",
+    "drupal/migrate_source_csv": "~3.0.0",
     "drupal/entity_print": "2.x",
     "tecnickcom/tcpdf": "~6",
     "mikehaertl/phpwkhtmltopdf": "~2.1",
@@ -125,7 +125,7 @@
     "umn/umn_superfish": "dev-master",
     "drupal/superfish": "^1.3",
     "mehrpadin/superfish": "2.x-dev",
-    "umn/folwell": "dev-dist",
+    "umn/folwell": "^1.1.3",
     "drupal/h5p": "^1.0@RC",
     "google/charts": "45",
     "drush/drush": "~8.2.0",
@@ -146,7 +146,9 @@
     "drupal/http_response_headers": "^2.0@alpha",
     "drupal/a11y_paragraphs_tabs": "^1.7",
     "npm-asset/a11y-accordion-tabs": "^0.5.0",
-    "drupal/views_timelinejs": "^3.1"
+    "drupal/views_timelinejs": "^3.1",
+    "drupal/charts": "^3.0@beta",
+    "drupal/views_data_export": "^1.0@beta"
   },
   "repositories": {
     "drupal-packagist": {
