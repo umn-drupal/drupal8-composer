@@ -9,6 +9,7 @@
     "drupal/media_entity_generic": "^1.0"
   },
   "require": {
+    "drupal/core": "8.7.5",
     "composer/installers": "^1.6",
     "drupal-composer/drupal-scaffold": "^2.0.0",
     "cweagans/composer-patches": "^1.6.4",
@@ -120,7 +121,7 @@
     "drupal/group": "^1.0@RC",
     "ckeditor/fakeobjects": "^4.10",
     "ckeditor/anchor_link": "^4.10",
-    "umn/folwell_components": "^1.1.2",
+    "umn/folwell_components": "dev-tabs",
     "umn/umn_superfish": "dev-master",
     "drupal/superfish": "^1.3",
     "mehrpadin/superfish": "2.x-dev",
@@ -143,6 +144,9 @@
     "drupal/environment_indicator": "^3.6",
     "drupal/views_bulk_operations": "^3.0",
     "drupal/http_response_headers": "^2.0@alpha",
+    "drupal/a11y_paragraphs_tabs": "^1.7",
+    "npm-asset/a11y-accordion-tabs": "^0.5.0",
+    "drupal/views_timelinejs": "^3.1",
     "drupal/charts": "^3.0@beta",
     "drupal/views_data_export": "^1.0@beta"
   },
