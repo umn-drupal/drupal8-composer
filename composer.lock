@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5195cf0e4371e9d539d26abc29698eb3",
+    "content-hash": "d3fb01dd7ac83fbc9da67bb86a54fc17",
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -14723,9 +14723,9 @@
             "authors": [
                 {
                     "name": "Ignace Nyamagana Butera",
+                    "role": "Developer",
                     "email": "nyamsprod@gmail.com",
-                    "homepage": "https://github.com/nyamsprod/",
-                    "role": "Developer"
+                    "homepage": "https://github.com/nyamsprod/"
                 }
             ],
             "description": "Csv data manipulation made easy in PHP",
@@ -19075,11 +19075,11 @@
         },
         {
             "name": "umn/folwell",
-            "version": "1.1.3",
+            "version": "dev-dist",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalthemes/folwell.git",
-                "reference": "163541013cb373108ee54d3358ffaf84245d7159"
+                "reference": "8033921cf01819cb32f7af49811240ca09f962c0"
             },
             "require": {
                 "drupal/neato": "^1.8"
@@ -19092,15 +19092,15 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-07-08T13:30:26+00:00"
+            "time": "2019-08-07T20:43:59+00:00"
         },
         {
             "name": "umn/folwell_components",
-            "version": "dev-tabs",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
-                "reference": "d517d5413b68aaf82fe3bcb33a33e13ec45a5e9c"
+                "reference": "20018748da13e7d79b1abb7c876be90079a0cc5b"
             },
             "type": "drupal-module-custom",
             "authors": [
@@ -19110,15 +19110,15 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-            "time": "2019-08-07T14:24:59+00:00"
+            "time": "2019-08-09T17:24:43+00:00"
         },
         {
             "name": "umn/lightning_umn",
-            "version": "1.2.2",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalprofiles/lightning_umn.git",
-                "reference": "8e96f5c7e8ac0a19fa464c80fc083c4f06f09bf2"
+                "reference": "b0ea21a78161517ecebd1fe0ca536a549e6a9d80"
             },
             "type": "drupal-profile-custom",
             "authors": [
@@ -19127,7 +19127,7 @@
                     "email": "HART0554@UMN.EDU"
                 }
             ],
-            "time": "2019-08-07T16:03:05+00:00"
+            "time": "2019-08-09T17:19:01+00:00"
         },
         {
             "name": "umn/umn_features",
@@ -19805,6 +19805,7 @@
         "drupal/rules": 15,
         "drupal/back_to_top": 10,
         "drupal/address": 5,
+        "umn/lightning_umn": 20,
         "umn/cog_umn": 20,
         "umn/umn_search": 20,
         "umn/crmform": 20,
@@ -19842,8 +19843,10 @@
         "drupal/fpa": 20,
         "drupal/roleassign": 15,
         "drupal/group": 5,
+        "umn/folwell_components": 20,
         "umn/umn_superfish": 20,
         "mehrpadin/superfish": 20,
+        "umn/folwell": 20,
         "drupal/h5p": 5,
         "drupal/layout_builder_modal": 20,
         "umn/bootstrap_umn": 20,
