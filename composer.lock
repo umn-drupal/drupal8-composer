@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
     "content-hash": "5195cf0e4371e9d539d26abc29698eb3",
-=======
-    "content-hash": "55bdc7c35c49808f6b17aa1c44feb022",
->>>>>>> dev
     "packages": [
         {
             "name": "acquia/acquia-sdk-php",
@@ -19100,11 +19096,7 @@
         },
         {
             "name": "umn/folwell_components",
-<<<<<<< HEAD
             "version": "dev-tabs",
-=======
-            "version": "1.1.2",
->>>>>>> dev
             "source": {
                 "type": "git",
                 "url": "git@github.umn.edu:drupalmodules/folwell_components.git",
@@ -19118,11 +19110,7 @@
                 }
             ],
             "description": "Modular components for using Folwell theme in sites",
-<<<<<<< HEAD
             "time": "2019-08-07T14:24:59+00:00"
-=======
-            "time": "2019-06-24T21:07:44+00:00"
->>>>>>> dev
         },
         {
             "name": "umn/lightning_umn",
